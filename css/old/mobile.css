@@ -1,0 +1,975 @@
+@media only screen and (max-width: 750px) {
+	
+	html {
+		overflow-x: hidden;
+		width: 750px;
+	}
+	
+	body {
+		overflow-x: hidden;
+		position: relative;
+		width: 100%;
+	}
+		
+	#mobile-logo{
+		width: 300px; 
+		display:block;
+		float:left;
+		}
+	
+	#mobile-logo h1 {
+		display: block;
+		height: 64px;
+		width: 300px; 
+		}
+	
+	#mobile-logo h1 a {
+		background: url('../images/logo-ltc-mobile.png') no-repeat top left;
+		display: block;
+		height: 64px;
+		width: 300px; 
+		text-indent: -9999em;
+		z-index: 2; 
+		margin-top: 10px;
+		margin-left: 30px;
+		}
+
+	.es #mobile-logo h1 a {
+		background: url('../images/logo-ltc-mobile-es.png') no-repeat top left;
+		display: block;
+		height: 64px;
+		width: 300px; 
+		text-indent: -9999em;
+		z-index: 2; 
+		margin-top: 10px;
+		margin-left: 30px;
+		}
+
+	li.primary {
+		background:#fff;
+		height: 90px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		}
+		
+	li.primary img{
+		background:#fff;
+		width: 30px;
+		float: left;
+		margin-left: 30px;
+		margin-right: 20px;
+		}
+	a.primary {
+		font-family:'Frutiger Bold Cond';
+		font-size:30px;
+		line-height: 30px;
+		text-decoration: none;
+		}
+		
+	li.secondary{
+		padding-left: 80px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: #f0f1f1;
+		}
+		
+	a.secondary {
+		display: block;
+		font-family:'Frutiger Bold Cond';
+		font-size: 28px;
+		text-decoration: none;
+	
+		}
+	/* ------ Mobile Nav ------ */
+	
+	.slicknav_menu {
+		display:block;
+		z-index: 0;
+		}
+	
+	#mobile-nav {
+		display: block;
+		
+		}
+		
+	#desktop{
+		display:none;
+		}
+		
+	/* ------ Mobile Nav ------ */	
+	
+	.slicknav_menu {
+		*zoom: 1; 
+		font-size: 30px;
+		background: #fff;
+		z-index: 0;
+		}
+	
+	
+	.slicknav_btn {
+		float: left;
+		cursor: pointer; 
+		height: 32px;
+		width: 50px;
+		margin-top: 20px;
+		margin-bottom: 25px;
+		margin-left:  350px;
+		background: url('../images/menu-mobile.png') no-repeat top left;
+		}
+	
+	.slicknav_btn.active {
+		-ms-transform: rotate(-90deg); /* IE 9 */
+    	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-90deg);
+		}
+	
+	.slicknav_menu .slicknav_icon-bar {
+		display: block;
+		}
+	
+	.slicknav_menu:before {
+		content: " ";
+		display: table; }
+	
+	.slicknav_menu:after {
+		content: " ";
+		display: table;
+		clear: both; }
+		
+	.slicknav_nav {
+		clear: both; }
+	
+	.slicknav_nav ul {
+		display: block;
+		}
+	
+	.slicknav_nav li {
+		display: block; 
+		border-top: 1px solid #d6d6d7;
+		}
+		
+	.slicknav_nav .slicknav_item {
+		cursor: pointer; 
+		}
+		
+	.slicknav_nav .slicknav_item a {
+		display: inline; 
+		}
+		
+	.slicknav_nav .slicknav_row {
+		display: block; 
+		}
+		
+	.slicknav_nav a {
+		display: block; 
+		}
+		
+	.slicknav_nav .slicknav_parent-link a {
+		display: inline; 
+		}
+		
+	.slicknav_brand {
+		float: left; 
+		}
+		
+	.slicknav_menu * {
+		box-sizing: border-box; 
+		}		
+		
+			
+	.slicknav_nav {
+		margin: 0;
+		padding: 0px;
+		font-size: 0.875em;
+		list-style: none;
+		overflow: hidden; 
+		}
+		
+	.slicknav_nav ul {
+		list-style: none;
+		overflow: hidden;
+		padding: 0;
+		margin: 0 0 0 0px; 
+		}
+	
+	.slicknav_nav .slicknav_row:hover {
+		color: #fff; 
+		}
+		
+	.slicknav_nav a {
+		text-decoration: none;
+		color: #1d8292; 
+		}
+		
+	.slicknav_nav a:hover {
+		color: #196773; 
+		}
+		
+	.slicknav_nav .slicknav_txtnode {
+		margin-left: 15px; 
+		}
+	
+
+	/* ------ Global ------ */	
+
+	#wrapper {
+		background: #fff;
+		border-left: none;
+		border-right: none;
+		margin: 0 auto;
+		padding-top: 0px;
+		width: 750px;
+		}
+
+	#content h2 {
+		font-family:'Frutiger Light';
+		font-size: 45px;
+		letter-spacing:-1px;
+		margin-bottom: 20px;
+		padding-left: 25px;
+		max-width: 690px;
+		}
+		
+	#content h3 {
+		font-family:'Frutiger Bold Cond';
+		font-size:30px;
+		line-height: 40px;
+		max-width: 690px;
+		}
+	
+	#content p {
+		font-family:'Frutiger Light';
+		font-size:30px;
+		line-height: 43px;
+		letter-spacing: -1px;
+		margin-bottom: 20px;
+		padding-left: 25px;
+		padding-right: 25px;
+		max-width: 690px;
+		}
+	
+	#content a{
+		font-size: 30px;
+		}
+		
+	#content .arrow{
+		margin-left: 50px;
+		padding-bottom: 20px;
+		}
+		
+	#content .arrow a{
+		background: url('../images/nav-arrow-mobile.png') no-repeat center left;
+		font-size: 30px;
+		margin-left: -50px;
+    	padding-left: 50px;
+		}
+
+	
+	
+	#content .arrow-external a{
+		background: url('../images/external-link-mobile.png') no-repeat top right;
+		color: #1d8292;
+		font-family:'Frutiger Bold Cond';
+		font-size: 30px;
+		text-decoration: none;
+		margin-left: 0px;
+		padding-right: 50px;
+		}
+	
+	#content li{
+		background: url('../images/list-arrow-mobile.png') no-repeat top left;
+		font-family:'Frutiger Light Cond';
+		font-size:30px;
+		line-height: 40px;
+		padding-left:50px;
+		margin-bottom: 15px;
+		}
+	
+	#content ul.sublist-bullet ul {
+		padding-left: 0px;
+		
+		}
+	
+	#content ul.sublist-bullet li{
+		background: url('../images/list-bullet-mobile.png') no-repeat top left;
+		padding-left:20px;
+		width: 575px;
+		}
+		
+	#content ul.sublist-bullet li ul li{
+		background: url('../images/list-bullet-small-mobile.png') no-repeat top left;
+		}
+	
+	#content .infograph{
+		width: 690px;
+		padding-bottom: 0px;
+		margin-left: 15px;		}
+	
+	#content .infograph-desktop{
+		display:none;
+		}
+
+	#content .infograph-mobile{
+		display:block;
+		margin-left: 25px;
+		}
+	
+	#content .infograph-mobile img{
+		margin-bottom: 45px;
+		}
+	
+	#content .infograph-mobile img.last-image{
+		margin-bottom: 0px;
+		}
+	
+	#content .infograph-mobile p {
+		padding-left: 0px;
+		}
+	
+	#content .infograph-mobile p a{
+		font-size: 22px;
+		margin-top: 15px;
+		}
+	
+	#content .infograph-resources{
+		background: #eff7f6;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		margin-top: -5px;
+		width: 690px;
+		}
+	
+	#content .infograph-resources p{
+		font-size: 22px;
+		line-height: 34px;
+		font-family:'Frutiger Condensed'; 
+		width: 600px;
+		margin-left:15px;
+		}
+	
+	#content .infograph-resources a{
+		font-size: 22px;
+		font-family:'Frutiger Condensed'; 
+		text-decoration: underline;
+		}
+		
+	#content .download-box{
+		background: #eff7f6;
+		max-width: 620px;
+		padding: 20px 30px;
+		margin-bottom: 35px;
+		margin-left: 25px;
+		}
+	
+	#content .download-box p{
+		font-family:"Frutiger Light Cond";
+		margin: 0px;
+		margin-top: 6px;
+		padding:0px;
+		margin-left: 60px;
+		}
+		
+	#content .download-box a{
+		background: url('../images/nav-arrow-mobile.png') no-repeat center left;
+		color: #148494;
+		font-family:'Frutiger Bold Cond';
+		font-size: 30px;
+		text-decoration: none;
+		margin-left: -60px;
+		padding-left: 60px;
+		}	
+	#content .file-size{
+		font-family:"Frutiger Condensed";
+		font-size: 20px;
+		}	
+	
+	#content .button{
+		width: 500px;
+		margin: 0 auto;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+	
+	#content.understand .button{
+		width:320px;
+		margin-left:230px;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+	
+	.es #content.understand .button{
+		width:365px;
+		margin: 0 auto;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+
+	#content.costs .button{
+		width:285px;
+		margin-left:240px;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+	
+	.es #content.costs .button{
+		width:350px;
+		margin-left:220px;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+	
+	#content.plan .button{
+		width:265px;
+		margin-left:250px;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+	
+	#content.profiles .button{
+		width:265px;
+		margin-left:250px;
+		padding-bottom:40px;
+		padding-top: 50px;
+		}
+	
+	
+	#content .button a{
+		background: #1d8292;
+		color: #fff;
+		font-family:'Frutiger Bold Cond';
+		font-size: 24px;
+		text-align:center;
+		text-decoration:none;
+		padding: 20px 35px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		}
+		
+	/* ------ Home ------ */
+
+	#home-video{
+		background: url('../images/home-video-bg.jpg') no-repeat top left;
+		width:750px;
+		height: 423px;
+		margin: 0 auto;
+		}
+	
+	.es #home-video{
+		background: url('../images/home-spanish-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 425px;
+		margin: 0 auto;
+		position: relative;
+		text-indent: -9999em;
+		}
+		
+	#home-video-content{
+		background: url('../images/home-video-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 423px;
+		margin: 0 auto;
+		}
+		
+	#home-video h1{
+		color: #fff;
+		font-family:'Frutiger Light';
+		font-size: 50px;
+		line-height: 60px;
+		letter-spacing: 1px;
+		text-align:center;
+		padding-top: 110px;
+		}	
+	
+	#home-video .home-button{
+		width: 250px;
+		height: 48px;
+		margin: 0 auto;
+		padding-top: 50px;
+		}
+	
+	#home-video .home-button a{
+		color: #fff;
+		font-family:'Frutiger Bold Cond';
+		font-size: 24px;
+		text-decoration:none;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		padding: 15px 35px;
+		border: 1px solid #fff;
+		
+		}
+	
+	#home-video .home-button a:hover, #home-video .home-button a:focus{
+		background: #196773;
+		}
+
+	#home-left, #home-center, #home-right{
+		background: #eff7f6;
+		float: none;
+		width: 750px;
+		min-height: 700px;
+		margin-bottom: 30px;
+		}
+	
+	.es #home-left, .es #home-center, .es #home-right{
+		background: #eff7f6;
+		float: none;
+		width: 750px;
+		min-height: 700px;
+		margin-bottom: 30px;
+		}
+		
+	#home-boxes p {
+		font-size: 30px;
+		line-height: 40px;
+		padding: 0px;
+		}
+	
+	#home-boxes h3 {
+		font-family:'Frutiger Light';
+		font-size:40px;
+		padding-left: 0px;
+		margin-bottom: 25px;
+		}
+	
+	#home-left-content, #home-center-content, #home-right-content{
+		margin-left:30px;
+		margin-right: 30px;
+		}
+	
+	#home-left-image{
+		background: url('../images/home-left-icon-mobile.png') no-repeat top left;
+		width: 690px;
+		height: 220px;
+		margin-left: 40px;
+		margin-top:20px;
+		padding-bottom: 10px;
+		}
+	
+	#home-center-image{
+		background: url('../images/home-center-icon-mobile.png') no-repeat top left;
+		width: 690px;
+		height: 220px;
+		margin-left: 40px;
+		margin-top:20px;
+		padding-bottom: 10px;
+		}
+	
+	#home-right-image{
+		background: url('../images/home-right-icon-mobile.png') no-repeat top left;
+		width: 690px;
+		height: 220px;
+		margin-left: 40px;
+		margin-left: 0px;
+		padding-bottom: 10px;
+		}
+	
+	#home-left li, #home-center li, #home-right li{
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 25px;
+		}
+	
+	#home-left .arrow a, #home-center .arrow a, #home-right .arrow a{
+		font-size: 30px;
+		line-height: 40px;
+		}
+	
+	#home-right-content p{
+		font-size: 20px;
+		line-height: 20px;
+		font-family:'Frutiger Light Cond';
+		}
+	
+	#home-right .file-size{
+		padding-left: 50px;
+		font-size: 20px;
+		}
+	
+	#home-right .directions{
+		padding-left: 0px;
+		}
+	
+	#home-profiles{
+		padding-bottom: 50px;
+		}
+	
+	#home-profiles h3 {
+		font-family:'Frutiger Light';
+		font-size:40px;
+		margin-bottom: 20px;
+		margin-top: 50px;
+		}
+	
+	#profile-left, #profile-right{
+		float: none;
+		width: 750px;
+		}
+	
+	#home-profile-left-image{
+		background: url('../images/profile-julia-mobile.jpg') no-repeat center left;
+		width: 750px;
+		height: 425px;
+		}
+	
+	#home-profile-right-image{
+		background: url('../images/profile-jose-mobile.jpg') no-repeat center left;
+		width: 750px;
+		height: 425px;
+		margin-left: 0px;
+		}
+	
+	#profile-left .arrow, #profile-right .arrow{
+		padding-bototom:30px;
+		}
+	
+	#profile-left .arrow a, #profile-right .arrow a{
+		font-size: 30px;
+		line-height: 30px;
+		font-family:'Frutiger Bold Cond';
+		}
+		
+/* ------ Profile ------ */
+
+	#content #profile-one .profile-image{
+		background: url('../images/profile-david-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 425px;	
+		margin-left: 0px;
+		margin-bottom: 25px;
+		}
+	
+	#content #profile-two .profile-image{
+		background: url('../images/profile-starita-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 425px;	
+		margin-left: 0px;
+		margin-bottom: 25px;
+		}
+	
+	#content #profile-three .profile-image{
+		background: url('../images/profile-julia-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 425px;	
+		margin-left: 0px;
+		margin-bottom: 25px;
+		}
+	
+	#content #profile-four .profile-image{
+		background: url('../images/profile-jose-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 425px;	
+		margin-left: 0px;
+		margin-bottom: 25px;
+		}
+	
+	#content #profile-five .profile-image{
+		background: url('../images/profile-robbie-mobile.jpg') no-repeat top left;
+		width: 750px;
+		height: 425px;	
+		margin-left: 0px;
+		margin-bottom: 25px;
+		}	
+
+	#content .profile-copy {
+		float: left;
+		margin-top: 0px;
+		}
+	
+	#content .profile-copy h3 {
+		font-family:'Frutiger Light';
+		font-size: 40px;
+		margin:0px 0px 0px 0px;
+		padding-left: 10px;
+		}
+	
+	#content .profile-copy h4{
+		padding-left: 10px;
+		margin-bottom: 10px;
+		font-family:'Frutiger Bold Cond';
+		font-size: 30px;
+		line-height: 40px;
+		}	
+	
+	#content .profile-copy p{
+		font-family:'Frutiger Condensed';
+		font-size: 30px;
+		line-height: 40px;
+		max-width: 700px;
+		margin: 0px;
+		padding-left: 10px;
+		padding-bottom: 15px;
+		}
+	
+	#content .profile-copy p.profile-link{
+	margin-left: 60px;
+	}
+	
+	#content .profile-copy a{
+		background: url('../images/nav-arrow-mobile.png') no-repeat center left;
+		font-family:'Frutiger Bold Cond';
+		font-size: 30px;
+		max-width: 700px;
+		padding-left: 60px;
+		margin-left: -60px;
+		}
+	
+	#content .profile-about{
+		background: #fff;
+		width: 700px;
+		height: 260px;
+		margin-left: 30px;
+		opacity: 0.85;
+		}	
+		
+	#content .profile-expand h3{
+		font-family:'Frutiger Light';
+		font-size: 40px;
+		line-height: 40px;
+		margin-top: 20px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		padding-left: 25px;
+		}
+	
+	#content .profile-expand {
+		height: 0px;
+		overflow-y: hidden;
+		width: 1024px;
+		margin-left: -42px;
+		margin-bottom: 25px;
+		background: #eff7f6;
+		}
+	
+	#content .profile-expand ul{
+		padding-left: 25px;
+		}
+			
+	#content .profile-expand li{
+		font-size: 30px;
+		}
+	
+	#content .profile-priorities{
+		float:left;
+		width: 700px;
+		margin-left: 30px;
+		}
+	
+	
+	#content .profile-options{
+		float:none;
+		width: 700px;
+		margin-left: 30px;
+	}	
+/* ------ agent ------ */
+
+	.agent-left, .agent-center, .agent-right{
+		background: #eff7f6;
+		float: none;
+		width: 750px;
+		height: 400px;
+		margin-bottom: 30px;
+		padding-top: 25px;
+		}
+	
+	#content .agent-boxes a {
+		font-family:'Frutiger Bold Cond';
+		font-size: 30px;
+		}
+		
+	#content .agent-boxes p{
+		font-size: 30px;
+		line-height: 40px;
+		padding: 0px;
+		}
+	
+	#content .agent-boxes h3 {
+		font-family:'Frutiger Light';
+		font-size:40px;
+		padding-left: 0px;
+		margin-bottom: 25px;
+		
+		}
+	
+	.agent-left-content, .agent-center-content, .agent-right-content{
+		margin-left:30px;
+		margin-right: 30px;
+	}
+	
+	.agent-left-content textarea {
+		width: 635px;
+		height: 100px;
+		font-size: 20px;
+		}
+	
+/* ------ Shopping Tips ------ */
+
+	#content.shopping-tips ul{
+		width: 700px;
+		}
+	
+	#content ul.shopping-tips-list{
+		width: 600px; 
+		}
+	
+
+/* ------ Resources ------ */
+
+	#content.resources .resources-sublist ul{
+		padding-bottom: 2px;
+		}
+	
+	#content.resources ul.sublist-bullet {
+		padding-left: 0px;
+		}
+	
+	
+	#content.resources ul li{
+		font-size:28px;
+		width: 600px;
+		}
+	
+	#content.resources ul li ul li{
+		font-size:28px;
+		width: 575px;
+		}
+	
+	#content.resources ul li ul li ul li{
+		font-size:28px;
+		width: 450px;
+		}
+			
+/* ------ Footer ------ */	
+	#footer{
+		width:100%;
+		height: 625px;
+		background: #f0f1f1;
+		border-top: 1px solid #d6d6d7;
+		padding-top: 50px;
+		margin-top: 35px;
+		}
+		
+	.es #footer{
+		height: 650px;
+		padding-bottom: 25px;
+		}
+	
+	#footer #footer-nav ul{
+		height: 35px;
+		margin: 0 auto;	
+		}
+	
+	#footer #footer-nav ul.footer-upper-links{
+		width: 650px;
+		}
+	
+	.es #footer #footer-nav ul.footer-upper-links{
+		width: 750px;
+		}
+	
+	#footer #footer-nav ul.footer-upper-links li.space a{
+		margin-left: 50px;
+		}
+	#footer #footer-nav ul.footer-upper-links li.space-top a{
+		margin-left: 30px;
+		}
+		
+	.es #footer #footer-nav ul.footer-upper-links li.space a{
+		margin-left: 80px;
+		}
+	
+	
+	#footer #footer-nav ul.footer-middle-links li.space a{
+		margin-left: 40px;
+		}
+		
+	#footer #footer-nav ul.footer-middle-links{
+		width: 800px;
+		margin-top: 35px;
+		text-align: center;
+		}
+	
+	.es #footer #footer-nav ul.footer-middle-links li.space a{
+		margin-left: 105px;
+		}
+	
+	.es #footer #footer-nav ul.footer-middle-links{
+		width: 800px;
+		}	
+		
+	#footer #footer-nav ul.footer-middle-two-links{
+		width: 625px;
+		}
+	
+	#footer #footer-nav ul.footer-lower-links{
+		width: 500px;
+		margin-top: 35px;
+		text-align: center;
+		}
+	
+	.es #footer #footer-nav ul.footer-lower-links{
+		width: 650px;
+		margin-top: 35px;
+		text-align: center;
+		}
+	
+	#footer #footer-nav ul.footer-lower-links li.space a{
+		margin-left: 5px;
+		}
+	
+	.es #footer #footer-nav ul.footer-lower-links li.space a{
+		margin-left: 45px;
+		}
+		
+	#footer #footer-nav p {
+		font-family:'Frutiger';
+		color: #5a5b5e;
+		font-size: 20px;
+		text-align: center;
+		}
+	
+	#footer #footer-nav p img{
+		width:225px;
+		height: 73px;
+		margin-top: 50px;
+		margin-bottom: 35px;
+		}
+	
+	#footer #footer-nav #footer-logo{
+		background: url('../images/logo-hhsc.png') no-repeat center left;
+		width: 123px;
+		height: 40px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		}
+	
+	#footer #footer-nav li {
+		display: block;
+		float: left;
+		margin-bottom: 35px;
+		}
+	
+	#footer #footer-nav li a {
+		color: #1d8292;
+		display: block;
+		font-family:'Frutiger Bold Cond';
+		font-size: 24px;
+		line-height: 16px;
+		text-decoration: none;
+		border-right: 1px solid #5a5b5e;
+		padding-left: 28px;
+		padding-right: 28px;
+		}
+	
+	.es #footer #footer-nav li a {
+		
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+	
+	#footer #footer-nav li a.last-mobile{
+		border-right: none;
+		padding-right: 0px;
+		}
+	
+}
