@@ -38,14 +38,14 @@ $detect = new Mobile_Detect;
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <link rel="shortcut icon" type="image/x-icon" href="<?=$url;?>/images/favicon.ico" />
-<link rel="stylesheet" media="all" href="http://10.1.10.59:8888/ssg-2017/css/ui.css" />
+<link rel="stylesheet" media="all" href="http://localhost:8888/ssg-2017/css/ui.css" />
 
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-<script type="text/javascript" src="http://10.1.10.59:8888/ssg-2017/js/jquery.slicknav.js"></script>
+<script type="text/javascript" src="http://localhost:8888/ssg-2017/js/jquery.slicknav.js"></script>
 
-<script type="text/javascript" src="http://10.1.10.59:8888/ssg-2017/js/jquery.sticky.js "></script>
+<script type="text/javascript" src="http://localhost:8888/ssg-2017/js/jquery.sticky.js "></script>
 
    <script>
     $(window).load(function(){
@@ -90,20 +90,20 @@ $detect = new Mobile_Detect;
             
 				<ul id="nav-eto">
 				
-					<li id="nav-eto-logo"><a href="http://10.1.10.59:8888/ssg-2017/solutions/eto/index.php">ETO</a></li>
+					<li id="nav-eto-logo"><a href="http://localhost:8888/ssg-2017/solutions/eto/index.php">ETO</a></li>
 						
-					<li ><a href="http://10.1.10.59:8888/ssg-2017/solutions/eto/eto-impact.php">ETO Impact</a></li>
+					<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-impact.php">ETO Impact</a></li>
 					
-					<li ><a href="http://10.1.10.59:8888/ssg-2017/solutions/eto/eto-collaborate.php">ETO Collaborate</a></li>
+					<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-collaborate.php">ETO Collaborate</a></li>
 			
 				
-					<li id="nav-apricot-logo"><a href="http://10.1.10.59:8888/ssg-2017/solutions/apricot/">Apricot</a></li>
+					<li id="nav-apricot-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot/">Apricot</a></li>
 						
-					<li ><a href="http://10.1.10.59:8888/ssg-2017/solutions/apricot/apricot-core.php">Apricot Core</a></li>
+					<li ><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-core.php">Apricot Core</a></li>
 					
-					<li ><a href="http://10.1.10.59:8888/ssg-2017/solutions/apricot/apricot-essentials.php">Apricot Essentials</a></li>
+					<li ><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-essentials.php">Apricot Essentials</a></li>
 					
-					<li ><a href="http://10.1.10.59:8888/ssg-2017/solutions/apricot/apricot-plus.php">Apricot Plus</a></li>
+					<li ><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-plus.php">Apricot Plus</a></li>
 					
 				
            		</ul>

@@ -99,7 +99,7 @@
     	
     	<div id="copyright">    
 
-			<p><span class="copyright-space">Copyright &copy;<?=date("Y");?> Social Solutions  | <a href="legal/">Privacy Policy</a> </p>
+			<p><span class="copyright-space">Copyright &copy;<?=date("Y");?> Social Solutions&nbsp;&nbsp;&nbsp;&nbsp;| <a href="legal/">Privacy Policy</a> </p>
 
 	   </div>
 	   
