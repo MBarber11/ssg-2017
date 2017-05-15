@@ -1,5 +1,7 @@
 <div id="library-content">
-
+	
+	<h2>Resources</h2>
+	
 	<div class="library-summary">
 
 		<div class="blog">

@@ -1,198 +1,189 @@
 <?php
 
-$title = "Home";
-$name = "home";
-$section = "general";
+$title = "Solutions";
+$name = "solutions";
+$section = "solutions";
 
-include('includes/header.php');
+include('../includes/header.php');
 
 ?>
 
+<div id="breadcrumbs"></div>
 
-<div id="home-hero">
+<div id="solutions-hero">
 
-	<div id="hero-content">
+	<div id="solutions-hero-content">	
+
+		<h2>Spark Human Connection</h2>
+			
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat.  </p>
+	   
+	</div> 
+      
+</div>
+
+
+<div id="stats-section">
 	
-		<h2>We make it possible to measure and accelerate progress in the world.</h2>
+	<div id="stat-boxes">
+	
+		<div class="stat-box green">
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>
+			<p class="number">1,440</p>
+			
+			<p class="label">Hours Saved Per Year</p>
+	
+		</div>
 		
-		<div id="hero-learn-more-button"><a href="#">Learn More</a></div>
+		<div class="stat-box yellow">
 		
-		<div id="hero-scroll-button"></div>
-
-	</div>
+			<p class="number">4,000</p>
+			
+			<p class="label">Participants Served</p>
+	
+		</div>
+		
+		<div class="stat-box blue">
+		
+			<p class="number">12M</p>
+			
+			<p class="label">Lives Touched Daily</p>
+	
+		</div>
+		
+		<div class="stat-box orange">
+		
+			<p class="number">11,000</p>
+			
+			<p class="label">New Participants Added Daily</p>
+	
+		</div>
+		
+		<div class="stat-box red">
+		
+			<p class="number">238,000</p>
+			
+			<p class="label">Daily Services Provided</p>
+	
+		</div>
+		
+		<div class="stat-box green last">
+		
+			<p class="number">210,000</p>
+			
+			<p class="label">Active Users</p>
+	
+		</div>
+	
+	<div class="clear"></div>	
+	
+	</div>						
 
 </div>
 
-<div id="home-about">
 
-  <div id="home-about-content">
-  	
-	  <div class="headline">Social Solutions</div>
-	  
-	  <h2>We help people transform lives.</h2>
-	  
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. </p>
-	  
-	  <div id="home-about-icon">
-	  	
-	  	<div id="home-about-spark">
-		  	
-			<div id="home-about-spark-icon"></div>
-		  				
-			<p>Spark Human Connect</p>	
-		  	
-		</div>
-		  
-		<div id="home-about-data">
-	  
-	  		<div id="home-about-data-icon"></div>
-		  
-			<p>Make Data Better</p>	
-		  	
-		</div>
-		  
-		<div id="home-about-impact">
-		  
-			<div id="home-about-impact-icon"></div>
-		  
-			<p>Bring Your Impact to Life</p>	
-		  	
-		</div>
-		
-		<div class="clear"></div>
-	  
-	  </div>
-  	
-  </div>
+<div id="green-full-quote">
 
+	<div id="green-full-quote-content">	
+
+		<div id="green-full-quote-summary">
+			
+			<p class="quote">"Testimonial quote lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper id tellus non vestibulum."</p>	
+			
+			<p class="author">Lorem Ipsum</p>
+			
+			<p class="role">Dolor sit amet, Consectetur Adipiscing Elit</p>
+
+		</div>
+	   
+	</div> 
+	
 </div>
 
-<div id="home-featured-article">
 
-	<div id="article-image"></div>
-  
-  	<div id="article-summary">
-  	
-		<h3>Friends of the Children Discovered a Ripple Effect</h3>
- 		
-		<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
- 		
-		<div id="read-more-article-button"><a href="#">Read more</a></div>
-  		
-  	</div>
-   
-   <div class="clear"></div><!--clear-->
-   
-    
-</div>		
-        
-<div id="home-featured-library">
+<div id="solutions-one">
 
-	<div id="library-content">
-		
-		<div class="library-summary">
-
-			<div class="blog">
-
-				<div class="icon"></div>
-
-				<div class="category">Blog</div>
-
-				<div class="title">Your Brand Needs You: Why Brandraising Is</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-
-		<div class="library-summary">
-
-			<div class="webinar">
-
-				<div class="icon"></div>
-
-				<div class="category">Webinar</div>
-
-				<div class="title">Building Well-Being: Encourage Participation, Deepen Support, and
-	Raise Funds for Your Nonprofit</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-
-		<div class="library-summary">
-
-			<div class="brochure">
-
-				<div class="icon"></div>
-
-				<div class="category">Brochure</div>
-
-				<div class="title">Top 5 Reasons to Focus On Nonprofit Program Evaluation</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-
-		<div class="library-summary last">
-
-			<div class="event">
-
-				<div class="icon"></div>
-
-				<div class="category">Event</div>
-
-				<div class="title">The Performance Imperative</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-		
-	</div>	
-
-</div>  
-
-<div id="home-featured-services">
-
-	<div id="home-services-content">
+	<div id="solutions-one-content">
 	
-  		<div id="services-summary">
+  		<div id="solutions-one-summary">
   	
-			<h2>Services</h2>
+			<h2>ETO</h2>
  		
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
 
-			<div id="read-more-services-button"><a href="#">Read more</a></div>
+			<div id="solutions-one-button"><a href="eto/">Read more</a></div>
   		
 		</div>
 	   
-	   <div id="services-image"></div>
-
-	   <div class="clear"></div><!--clear-->
-   
+	   <div id="solutions-one-image"></div>   
 	
 	</div>
 
 </div>  
 
+<div class="clear"></div><!--clear-->
+
+<div id="solutions-two">      
+    
+    <div id="solutions-two-content">	
+		
+		<div id="solutions-two-image"><img src="../images/solutions-1.jpg"></div>
+		
+		<div id="solutions-two-summary">
+
+			<h2>Apricot</h2>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
+			
+			<div id="solutions-two-button"><a href="apricot/">Read more</a></div>
+
+		</div>
+
+	 <div class="clear"></div><!--clear-->
+   
+   		
+	</div>
+    
+      
+</div>
+
+<div id="blue-full-band">
+
+	<div id="blue-full-band-content">	
+
+		<div id="blue-full-band-image">
+			
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
+			
+		</div>
+			
+		<div id="blue-full-band-summary">
+
+			<h2>Bring Your Impact to Life</h2>
+			
+			<p>Donec id arcu ut odio elementum ornare eget quis velit. Aenean metus risus, aliquet nec ultrices in, elementum nec ex. Cras elementum id elit sit amet ultricies. Sed a libero urna. Pellente sque sodales porta pharetra. Sed eget neque vestibulum, sollicitudin orci eget, tincidunt orci. Nulla dignissim, neque finibus males.</p>	
+
+		</div>
+		
+	</div> 
+	
+</div> 	
+        
+<div id="solutions-suite">
+         
+	<div id="solutions-suite-content">
+	
+		<h2>Social Solutions Product Suite</h2>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>
+		
+		Solutions Comparison Chart
+	
+	</div>
+          
+</div>
+
            
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

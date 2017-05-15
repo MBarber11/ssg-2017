@@ -254,7 +254,7 @@ include('../../includes/header.php');
            
 <div class="clear"></div>
 
-<div id="who-we-serve">
+<div id="who-we-serve-icons">
 
 	<?php include('../../includes/who-we-serve-section.php'); ?>
 

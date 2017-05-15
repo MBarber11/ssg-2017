@@ -17,7 +17,7 @@ include('../includes/header.php');
 			
 		<h3>Bring Your Impact to Life</h3>
 		
-		<p>Our clients’ work touches countless lives every day. That’s why we strive to give them more than just tools to get the job done. We help them tell the story of their work, and the insights and evidence they gain from our software make those stories even more powerful.</p>
+		<p>Our clients’ work touches countless lives every day. That’s why we go beyond providing tools to get the job done. We help nonprofits get to the heart of their data to understand the full impact of their work. With the insights and evidence they gain from our software, our clients know how to maximize their efforts to do even more good.</p>
    
 	   
 	</div> 
@@ -33,7 +33,7 @@ include('../includes/header.php');
 		<div id="about-intro-summary">
 		
 			<p>
-				Nonprofits are an integral resource, providing services and programs that meet the societal demands that other sectors fail to tend to. Provided with the correct tools and resources, non profits can exceed their goals while effectively meeting the imperatives of their mission.
+				Nonprofits are an integral resource, providing services and programs that meet societal demands when other sectors. For over 15 years, our mission has centered on empowering these nonprofits with resources and tools that help them measure and accelerate the progress they bring to the world. 
 				
 			</p>
 
@@ -51,25 +51,25 @@ include('../includes/header.php');
 		
 		<div class="box orange">
 			
-			<h3>Lorem ipsum</h3>
+			<h3>Spark Human Connection</h3>
 
-			<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+			<p>We partner hand-in hand with our teams, clients, and communities to provide ever more powerful tools. </p>
 
 		</div>
 		
 		<div class="box yellow">
 			
-			<h3>Lorem ipsum</h3>
+			<h3>Make Data Matter</h3>
 
-			<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>	
+			<p>We pair hard work with insights to gain a deeper understanding of the impact of our work. </p>	
 			
 		</div>
 		
 		<div class="box blue">
 			
-			<h3>Lorem ipsum</h3>
+			<h3>Bring Your Impact to Life</h3>
 
-			<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>	
+			<p>We quantify what really matters, like the real lives being transformed every day. </p>	
 
 		</div>
 
@@ -99,7 +99,7 @@ include('../includes/header.php');
 
 			<h2>Global Reach</h2>
 			
-			<p>Since ETO and Apricot software became available, it has been adopted by thousands of human service organizations and government agencies throughout the U.S., Canada, Australia, the United Kingdom, and Latin America. Social Solutions Global (SSG) has worked with partner organizations in research and evaluation as well as in service delivery to build several dozen preconfigured models its client agencies can use to facilitate replicating promising programs with fidelity.</p>	
+			<p>Thousands of human service organizations and government agencies throughout the U.S., Canada, Australia, the United Kingdom, and Latin America have adopted software offerings from Social Solutions. We have worked with partner organizations in research and evaluation, as well as in service delivery, to build a host of pre-configured models client agencies can use to facilitate replicating promising programs with fidelity.</p>	
 
 		</div>
 		
@@ -288,7 +288,9 @@ include('../includes/header.php');
 		
 		<h2>History</h2>
 		
-		<p>In 2000, Social Solutions was launched by a small team of direct service workers who wanted to improve the effectiveness of social services. They asked themselves: How much effort does it take to produce desired outcomes for specific groups of clients? Efforts to Outcomes (ETO®) software was the result—a solution that would allow staff to record their efforts at the point of service delivery and relate those efforts to client outcomes down the road. In 2015, Social Solutions acquired CTK and began to sell Apricot Software, a secure and flexible nonprofit software solution that offers case management, client, donor and volunteer tracking as well as outcomes management.</p>
+		<p>Since 2000, Social Solutions has been bridging the gap between the hard work being done in the social services space and the technology to support those efforts.</p>
+
+		<p>Our journey started with the launch of Efforts to Outcomes (ETO®) software, grew in 2015 with the acquisition of CTK and the addition of Apricot Software, and continues to evolve through our commitment to ongoing innovation for the organizations who rely on our technology.</p>
 		
 	</div>
 	
@@ -322,15 +324,15 @@ include('../includes/header.php');
 
 </div>
            
-<div id="product-contact">
+<div id="culture">
          
-	<div id="product-contact-content">
+	<div id="culture-content">
 	
-		<h2>Careers</h2>
+		<h2>Working Here</h2>
 		
-		<p>Our customers get out of bed every day to change lives in a world of unlimited need, scarce resources and growing expectations. We get out of bed every day to help nonprofits serve more people with every hour, program and dollar. Serving more than 180,000 users in 18,000 organizations over the course of 15+ years, we believe powerful yet easy-to-use web-based software should be within everyone’s reach—empowering directors, staff and stakeholders to track what matters, collaborate with ease and prove every impact.</p>
+		<p>Our clients get out of bed every day to change lives in a world of unlimited need, scarce resources, and growing expectations. We get out of bed to help them on their journey, and we are looking for smart, mission-minded people to join us.    </p>
 	
-		<div id="demo-button"><a href="#">Contact us</a></div>
+		<div id="culture-button"><a href="working-here.php">See Why We Love Social Solutions</a></div>
 	
           
 </div>

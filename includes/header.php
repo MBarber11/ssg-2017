@@ -117,9 +117,9 @@ $detect = new Mobile_Detect;
             
             	<ul>
 				
-					<li><a href="our-clients/who-we-serve/index.php">Who We Serve</a></li>
+					<li><a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/index.php">Who We Serve</a></li>
 						
-					<li><a href="our-clients/client-su/index.php">Client Success</a></li>
+					<li><a href="http://localhost:8888/ssg-2017/our-clients/client-success/index.php">Client Success</a></li>
 					
 				
            		</ul>

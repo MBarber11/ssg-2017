@@ -17,7 +17,7 @@ include('includes/header.php');
 		
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>
 		
-		<div id="hero-learn-more-button"><a href="#">Learn More</a></div>
+		<div id="hero-learn-more-button"><a href="http://localhost:8888/ssg-2017/solutions/">Learn More</a></div>
 		
 		<div id="hero-scroll-button"></div>
 
@@ -112,7 +112,7 @@ include('includes/header.php');
  		
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
 
-			<div id="read-more-services-button"><a href="#">Read more</a></div>
+			<div id="read-more-services-button"><a href="http://localhost:8888/ssg-2017/services/">Read more</a></div>
   		
 		</div>
 	   

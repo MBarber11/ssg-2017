@@ -1,63 +1,276 @@
 <?php
 
-$title = "Home";
-$name = "home";
+$title = "Services";
+$name = "services";
 $section = "general";
 
-include('includes/header.php');
+include('../includes/header.php');
 
 ?>
 
 
-<div id="home-hero">
+<div id="services-hero">
 
-	<div id="hero-content">
-	
-		<h2>We make it possible to measure and accelerate progress in the world.</h2>
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>
-		
-		<div id="hero-learn-more-button"><a href="#">Learn More</a></div>
-		
-		<div id="hero-scroll-button"></div>
+	<div id="services-hero-content">	
 
-	</div>
-
+			<h2>Services for nonprofits from people who understand your needs.</h2>
+	   
+	</div> 
+      
 </div>
 
-<div id="home-about">
+<div id="implement-banner">
 
-  <div id="home-about-content">
-  	
-	  <div class="headline">Social Solutions</div>
+	<div id="implement-banner-content">
+
+		<h3>Implementation</h3>
+
+		<div id="implement-banner-summary">
+		
+			<p>When we say professional services, we mean it. This team consists of Project Managers, Implementation Consultants, and Solution Architects who can be deployed based on your specific implementation and project needs. With a healthy mix of project management, nonprofit and technical expertise, you get a wealth of knowledge to guide you through the implementation experience, and to support you for custom consulting if you need it.</p>
+
+		</div>
+		
+	</div>
+			
+</div>
+
+<div id="implement-about">
+
+	<div id="implement-about-content">
+
+		<div id="implement-about-boxes">
+		
+			<div class="box">
+			
+				<p class="title">Lorem Ipsum</p>
+				
+				<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+			
+			</div>
+			
+			<div class="box">
+			
+				<p class="title">Lorem Ipsum</p>
+				
+				<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+			
+			</div>
+			
+			<div class="box">
+			
+				<p class="title">Lorem Ipsum</p>
+				
+				<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+			
+			</div>
+		
+			
+		</div>
+		
+		<div class="clear"></div>
+
+		<div id="implement-about-image">
+
+			<img src="../images/services-support-1.jpg">
+
+		</div>
+
+		<div id="implement-about-summary">
+
+			<h4>Headline lorem ipsum</h4>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum et metus sit amet laoreet. Curabitur ut feugiat odio. Sed aliquet bibendum velit vel efficitur. Sed blandit eros eget nibh fringilla ornare. Praesent maximus commodo nulla. Vivamus vitae nunc non eros mattis porttitor.</p>	
+
+			<a href="">Learn more</a>
+
+		</div>
+		
+		<div class="clear"></div>
+
+	</div>
+			
+</div>
+
+<div id="gray-full-quote">
+
+	<div id="gray-full-quote-content">	
+
+		<div id="gray-full-quote-summary">
+			
+			<p class="quote">"I love the way that they have supported us through our implementation… The entire process has been so seamless, and the support that we have received from the staff has been excellent."</p>	
+			
+			<p class="author">Coyan Lewis</p>
+			
+			<p class="role">Human Capital Project Manager, The Executive Office of the Mayor of DC
+</p>
+
+		</div>
+	   
+	</div> 
+	
+</div>  
+
+<div id="training-banner">
+
+	<div id="training-banner-content">
+
+		<h3>Training</h3>
+
+		<div id="training-banner-summary">
+		
+			<p>Everyone learns differently, so we’ve taken a blended learning approach to training. Giving you a variety of options is how we ensure that your teams are enabled for success and continued growth. Access our training resources through on-demand tools, or in live classroom or custom training settings.</p>
+
+		</div>
+		
+	</div>
+			
+</div>
+
+<div id="training-quote">
+
+	<div id="training-quote-content">
+	
+		<div id="training-quote-image">
+
+			<img src="../images/services-support-2.jpg">
+
+		</div>
+
+		<div id="training-quote-summary">
+			
+			<p class="quote">"Testimonial quote lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper id tellus non vestibulum."</p>	
+			
+			<p class="author">Lorem Ipsum</p>
+			
+			<p class="role">Dolor sit amet, Consectetur Adipiscing Elit</p>
+
+		</div>
+		
+		<div class="clear"></div>
+
+	</div>
+			
+</div>
+
+<div id="training-about">
+
+	<div id="training-about-content">
+
+		<h4>Lorem Ipsum</h4>
+
+		<div id="training-about-summary">
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
+			
+			<p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
+			
+			<div class="clear"></div>
+
+		</div>
+		
+	</div>
+		
+</div>
+
+<div id="support-banner">
+
+	<div id="support-banner-content">
+
+		<h3>Support</h3>
+
+		<div id="support-banner-summary">
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
+
+		</div>
+		
+	</div>
+		
+</div>
+
+<div id="support-about-top">
+
+	<div id="support-about-top-content">	
+
+		<div id="support-about-top-summary">
+
+			<h4>Sub-headline lorem ipsum</h4>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim. Nam eleifend, nunc convallis imperdiet dignissim, turpis nulla fermentum odio, nec semper nunc metus et ipsum. Aliquam vel arcu eget leo faucibus varius. Donec blandit ex ut elit bibendum, id porttitor tellus scelerisque.</p>	
+
+
+		</div>
+
+		<div id="support-about-top-image">
+			
+			<img src="../images/services-support-3.jpg">
+			
+		</div>
+
+	   <!--clear-->
+	</div> 
+	
+</div>  
+
+<div class="clear"></div><!--clear-->
+ 
+<div id="support-about-bottom">      
+    
+    <div id="support-about-bottom-content">	
+		
+		<div id="support-about-bottom-image">
+			
+			<img src="../images/services-support-3.jpg">
+			
+		</div>
+		
+		<div id="support-about-bottom-summary">
+
+			<h4>Sub-headline lorem ipsum</h4>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim. Nam eleifend, nunc convallis imperdiet dignissim, turpis nulla fermentum odio, nec semper nunc metus et ipsum. Aliquam vel arcu eget leo faucibus varius. Donec blandit ex ut elit bibendum, id porttitor tellus scelerisque.</p>	
+
+
+		</div>
+   		
+	</div>
+         
+</div>
+
+<div class="clear"></div><!--clear-->
+
+<div id="services-feature">
+
+  <div id="services-feature-content">
+  		  
+	  <h4>Sub-headline lorem ipsum</h4>
 	  
-	  <h2>We help people transform lives.</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim.</p>
 	  
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. </p>
-	  
-	  <div id="home-about-icon">
+	  <div id="services-feature-icon">
 	  	
-	  	<div id="home-about-spark">
+	  	<div id="services-feature-spark">
 		  	
-			<div id="home-about-spark-icon"></div>
+			<div id="services-feature-spark-icon"></div>
 		  				
-			<p>Spark Human Connect</p>	
+			<p>Lorem ipsum</p>	
 		  	
 		</div>
 		  
-		<div id="home-about-data">
+		<div id="services-feature-data">
 	  
-	  		<div id="home-about-data-icon"></div>
+	  		<div id="services-feature-data-icon"></div>
 		  
-			<p>Make Data Better</p>	
+			<p>Lorem ipsum</p>	
 		  	
 		</div>
 		  
-		<div id="home-about-impact">
+		<div id="services-feature-impact">
 		  
-			<div id="home-about-impact-icon"></div>
+			<div id="services-feature-impact-icon"></div>
 		  
-			<p>Bring Your Impact to Life</p>	
+			<p>Lorem ipsum</p>	
 		  	
 		</div>
 		
@@ -69,130 +282,7 @@ include('includes/header.php');
 
 </div>
 
-<div id="home-featured-article">
-
-	<div id="article-image"></div>
-  
-  	<div id="article-summary">
-  	
-		<h3>Friends of the Children Discovered a Ripple Effect</h3>
- 		
-		<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
- 		
-		<div id="read-more-article-button"><a href="#">Read more</a></div>
-  		
-  	</div>
-   
-   <div class="clear"></div><!--clear-->
-   
-    
-</div>		
-        
-<div id="home-featured-library">
-
-	<div id="library-content">
-		
-		<div class="library-summary">
-
-			<div class="blog">
-
-				<div class="icon"></div>
-
-				<div class="category">Blog</div>
-
-				<div class="title">Your Brand Needs You: Why Brandraising Is</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-
-		<div class="library-summary">
-
-			<div class="webinar">
-
-				<div class="icon"></div>
-
-				<div class="category">Webinar</div>
-
-				<div class="title">Building Well-Being: Encourage Participation, Deepen Support, and
-	Raise Funds for Your Nonprofit</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-
-		<div class="library-summary">
-
-			<div class="brochure">
-
-				<div class="icon"></div>
-
-				<div class="category">Brochure</div>
-
-				<div class="title">Top 5 Reasons to Focus On Nonprofit Program Evaluation</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-
-		<div class="library-summary last">
-
-			<div class="event">
-
-				<div class="icon"></div>
-
-				<div class="category">Event</div>
-
-				<div class="title">The Performance Imperative</div>
-
-				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-			</div>
-
-		</div>
-		
-	</div>	
-
-</div>  
-
-<div id="home-featured-services">
-
-	<div id="home-services-content">
-	
-  		<div id="services-summary">
-  	
-			<h2>Services</h2>
- 		
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
-
-			<div id="read-more-services-button"><a href="#">Read more</a></div>
-  		
-		</div>
-	   
-	   <div id="services-image"></div>
-
-	   <div class="clear"></div><!--clear-->
-   
-	
-	</div>
-
-</div>  
-
            
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

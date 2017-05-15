@@ -23,7 +23,7 @@ include('../../includes/header.php');
 
 	<div id="product-intro-content">
 
-		<h2 class="green">Lorem ipsum dolor sit amet, consectetur adi.</h2>
+		<h2>Lorem ipsum dolor sit amet, consectetur adi.</h2>
 
 		<div id="product-intro-summary">
 		
