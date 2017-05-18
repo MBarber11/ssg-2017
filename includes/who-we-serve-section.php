@@ -5,7 +5,7 @@
 
 	<div class="who-we-serve-icons-column">
 
-		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/non-profits.php"><div id="nonprofits"><h3>Nonprofit</h3></div></a>
+		<a class="image-background" href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/non-profits.php"><div id="nonprofits"><h3>Nonprofit</h3></div></a>
 
 		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/health-and-wellness.php"><div id="health"><h3>Health & Wellness</h3></div></a>
 

@@ -87,29 +87,37 @@ $detect = new Mobile_Detect;
         <ul class="primary-nav">
             
             <li class="primary-nav"><a href="<?=$url;?>/solutions/" <?php if($name == "solutions") { ?> class="active"<? } ?> class="primary">Solutions</a>
-            
-				<ul id="nav-eto">
-				
-					<li id="nav-eto-logo"><a href="http://localhost:8888/ssg-2017/solutions/eto/index.php">ETO</a></li>
+          
+					<ul id="nav-double">
 						
-					<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-impact.php">ETO Impact</a></li>
-					
-					<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-collaborate.php">ETO Collaborate</a></li>
-			
-				
-					<li id="nav-apricot-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot/">Apricot</a></li>
+						<div id="nav-eto">
 						
-					<li ><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-core.php">Apricot Core</a></li>
-					
-					<li ><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-essentials.php">Apricot Essentials</a></li>
-					
-					<li ><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-plus.php">Apricot Plus</a></li>
-					
+							<ul>
+
+								<li id="nav-eto-logo"><a href="http://localhost:8888/ssg-2017/solutions/eto/index.php">ETO</a></li>
+
+								<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-impact.php">ETO Impact</a></li>
+
+								<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-collaborate.php">ETO Collaborate</a></li>
+
+							</ul>
+
+						</div>
+						
+						<div id="nav-apricot">
+
+							<li id="nav-apricot-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot/">Apricot</a></li>
+
+							<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-core.php">Apricot Core</a></li>
+
+							<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-essentials.php">Apricot Essentials</a></li>
+
+							<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-plus.php">Apricot Plus</a></li>
+	
+					</ul>	
 				
-           		</ul>
-            
-            
-            </li>
+           		
+             </li>
             
             <li class="primary-nav"><a href="<?=$url;?>/services/" <?php if($name == "services") { ?> class="active"<? } ?> class="primary ">Services</a></li>
             
@@ -132,7 +140,7 @@ $detect = new Mobile_Detect;
 				
 					<li><a href="resources/blog/index.php">Blog</a></li>
 						
-					<li><a href="resources/events/index.php">Events</a></li>
+					<!--<li><a href="resources/events/index.php">Events</a></li>-->
 					
 					<li><a href="resources/resource-library/index.php">Resource Library</a></li>
 					

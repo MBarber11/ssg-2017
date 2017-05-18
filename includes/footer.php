@@ -11,13 +11,15 @@
     
 		<ul id="footer-login-links">
 
-			<li class="footer-headline">Login</li>
+			<li class="footer-headline">Solutions</li>
 
-			<li><a href="<?=$url;?>#" target="_blank">ETO</a></li>
+			<li><a href="http://localhost:8888/ssg-2017/solutions/eto/index.php" target="_blank">ETO</a></li>
 
-			<li><a href="<?=$url;?>#" target="_blank">Apricot</a></li>
+			<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/index.php">Apricot</a></li>
 
-			<li><a href="<?=$url;?>#" target="_blank">Apricot Essentials</a></li>
+			<li><a href="<?=$url;?>#" target="_blank">Login</a></li>
+			
+			<li><a href="<?=$url;?>#" target="_blank">Request a Demo</a></li>
 
 		</ul>
 
@@ -25,11 +27,11 @@
 
 			<li class="footer-headline">Company</li>
 
-			<li><a href="<?=$url;?>/about-us/">About Us</a></li>
+			<li><a href="http://localhost:8888/ssg-2017/about-us/">About Us</a></li>
 
 			<li><a href="<?=$url;?>/about-us/">Jobs</a></li>
 
-			<li><a href="<?=$url;?>/about-us/">Become a Partner</a></li>
+			<li><a href="http://localhost:8888/ssg-2017/partners/index.php">Become a Partner</a></li>
 
 		   <li><a href="<?=$url;?>/about-us/press">Press</a></li>
 
@@ -99,7 +101,7 @@
     	
     	<div id="copyright">    
 
-			<p><span class="copyright-space">Copyright &copy;<?=date("Y");?> Social Solutions&nbsp;&nbsp;&nbsp;&nbsp;| <a href="legal/">Privacy Policy</a> </p>
+			<p><span class="copyright-space">Copyright &copy;<?=date("Y");?> Social Solutions&nbsp;&nbsp;&nbsp;&nbsp;| <a href="http://localhost:8888/ssg-2017/legal/">Legal Information</a> </p>
 
 	   </div>
 	   
