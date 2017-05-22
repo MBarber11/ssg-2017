@@ -13,13 +13,15 @@
 
 			<li class="footer-headline">Solutions</li>
 
-			<li><a href="http://localhost:8888/ssg-2017/solutions/eto/index.php" target="_blank">ETO</a></li>
 
-			<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/index.php">Apricot</a></li>
+			<li><a href="http://localhost:8888/ssg-2017/solutions/apricot-essentials.php">Apricot Essentials</a></li>
+			
+			<li><a href="http://localhost:8888/ssg-2017/solutions/apricot.php">Apricot</a></li>
+			
+			<li><a href="http://localhost:8888/ssg-2017/solutions/eto.php" target="_blank">ETO</a></li>
 
 			<li><a href="<?=$url;?>#" target="_blank">Login</a></li>
 			
-			<li><a href="<?=$url;?>#" target="_blank">Request a Demo</a></li>
 
 		</ul>
 

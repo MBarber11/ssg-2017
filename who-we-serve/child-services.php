@@ -1,10 +1,10 @@
 <?php
 
-$title = "Homelessness";
-$name = "homelessness";
-$section = "clients";
+$title = "Non Profits";
+$name = "non-profits";
+$section = "who-we-serve";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
@@ -15,7 +15,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Something About Homelessness</h2>
+			<h2>Managing Outcomes in Non-Profits</h2>
 	   
 	</div> 
       
@@ -29,19 +29,18 @@ include('../../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Pellentesque Molestie</h2>
+			<h2>Case Management Software</h2>
 			
-			<h3>Aliquam erat volutpat.</h3>
+			<h3>non-profit and social work</h3>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
-	
+			<p>Designed by direct service workers for direct service workers, ETO helps measure the incremental progress of your participants, understand the effectiveness of your programs, and demonstrate impact to key stakeholders both quickly and easily. Whether you provide case management, training, support groups, or other direct services, ETO can help you serve your clients more effectively.</p>	
 
 
 		</div>
 
 		<div id="serve-about-image">
 			
-			<img src="../../images/eto-impact-support-one.jpg">
+			<img src="../images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -122,7 +121,7 @@ include('../../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../../images/clients/featured-client-friends-of-children.jpg">
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -145,7 +144,7 @@ include('../../includes/header.php');
         
 <div id="featured-library">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 
 </div>
            
@@ -157,13 +156,13 @@ include('../../includes/header.php');
 
 		<div id="serve-download-image">
 			
-			<img src="../../images/resource-download.jpg">
+			<img src="../images/resource-download.jpg">
 			
 		</div>
 			
 		<div id="serve-download-summary">
 			
-			<div id="brochure"><img src="../../images/icon-brochure.png"></div>
+			<div id="brochure"><img src="../images/icon-brochure.png"></div>
 			
 			<p class="brochure-resource">Brochure</p>
 			
@@ -201,6 +200,6 @@ include('../../includes/header.php');
           
 </div>
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

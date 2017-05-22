@@ -1,10 +1,10 @@
 <?php
 
-$title = "Non Profits";
-$name = "non-profits";
-$section = "clients";
+$title = "Reentry";
+$name = "reentry";
+$section = "who-we-serve";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
@@ -15,7 +15,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Something Healty</h2>
+			<h2>Something About Reentry</h2>
 	   
 	</div> 
       
@@ -41,7 +41,7 @@ include('../../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img src="../../images/eto-impact-support-one.jpg">
+			<img src="../images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -122,7 +122,7 @@ include('../../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../../images/clients/featured-client-friends-of-children.jpg">
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -145,7 +145,7 @@ include('../../includes/header.php');
         
 <div id="featured-library">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 
 </div>
            
@@ -157,13 +157,13 @@ include('../../includes/header.php');
 
 		<div id="serve-download-image">
 			
-			<img src="../../images/resource-download.jpg">
+			<img src="../images/resource-download.jpg">
 			
 		</div>
 			
 		<div id="serve-download-summary">
 			
-			<div id="brochure"><img src="../../images/icon-brochure.png"></div>
+			<div id="brochure"><img src="../images/icon-brochure.png"></div>
 			
 			<p class="brochure-resource">Brochure</p>
 			
@@ -201,6 +201,6 @@ include('../../includes/header.php');
           
 </div>
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

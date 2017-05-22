@@ -2,9 +2,9 @@
 
 $title = "Who We Serve";
 $name = "who-we-serve";
-$section = "clients";
+$section = "who-we-serve";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
@@ -69,7 +69,7 @@ include('../../includes/header.php');
 
 <div id="who-we-serve-icons">
 
-	<?php include('../../includes/who-we-serve-section.php'); ?>
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
 </div>
 
@@ -80,7 +80,7 @@ include('../../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../../images/clients/featured-client-friends-of-children.jpg">
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -103,7 +103,7 @@ include('../../includes/header.php');
         
 <div id="featured-library">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 
 </div>
            
@@ -111,6 +111,6 @@ include('../../includes/header.php');
 
 
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

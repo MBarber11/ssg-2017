@@ -2,7 +2,7 @@
 
 $title = "Working Here";
 $name = "working-here";
-$section = "client";
+$section = "about";
 
 include('../includes/header.php');
 
@@ -15,7 +15,7 @@ include('../includes/header.php');
 
 			<h2>Working Here</h2>
 					
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum.</p>
+			<p>We believe in working hard and playing hard, while keeping our core values at the center of everything we do.</p>
 	   
 	   
 	</div> 
@@ -39,7 +39,7 @@ include('../includes/header.php');
 	
 		<div id="careers-about-summary">
 			
-			<h3>Join our team</h3>
+			<h3>Careers</h3>
 			
 			<p>
 			We are passionate, we are mission-minded, and we are hiring! Check out our open roles and apply if you see something that really sparks your interest.

@@ -1,10 +1,10 @@
 <?php
 
-$title = "Workforce";
-$name = "workforce";
-$section = "clients";
+$title = "Non Profits";
+$name = "non-profits";
+$section = "who-we-serve";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
@@ -15,7 +15,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Managing Outcomes for Workforce Organizations</h2>
+			<h2>Managing Outcomes in Non-Profits</h2>
 	   
 	</div> 
       
@@ -29,18 +29,18 @@ include('../../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Pellentesque Molestie</h2>
+			<h2>Case Management Software</h2>
 			
-			<h3>Aliquam erat volutpat</h3>
+			<h3>non-profit and social work</h3>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
+			<p>Designed by direct service workers for direct service workers, ETO helps measure the incremental progress of your participants, understand the effectiveness of your programs, and demonstrate impact to key stakeholders both quickly and easily. Whether you provide case management, training, support groups, or other direct services, ETO can help you serve your clients more effectively.</p>	
 
 
 		</div>
 
 		<div id="serve-about-image">
 			
-			<img src="../../images/eto-impact-support-one.jpg">
+			<img src="../images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -121,15 +121,15 @@ include('../../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../../images/clients/featured-client-friends-of-children.jpg">
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
 		<div id="client-summary">
 
-			<h3>JVS Boston Expanded Their Reach and Their Impact</h3>
+			<h3>Friends of the Children Discovered a Ripple Effect</h3>
 
-			<p>Founded prior to World War II to help Eastern European immigrants enter the American workforce, JVS Boston now provides educational and training programs to the broader Boston-area population. Today, they help more than 15,000 low-skill, low-income adults each year. With Social Solutions, they can see the clear impact of their work through higher wages and higher rates of placement, promotion, and retention among their participants...</p>	
+			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -144,7 +144,7 @@ include('../../includes/header.php');
         
 <div id="featured-library">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 
 </div>
            
@@ -156,13 +156,13 @@ include('../../includes/header.php');
 
 		<div id="serve-download-image">
 			
-			<img src="../../images/resource-download.jpg">
+			<img src="../images/resource-download.jpg">
 			
 		</div>
 			
 		<div id="serve-download-summary">
 			
-			<div id="brochure"><img src="../../images/icon-brochure.png"></div>
+			<div id="brochure"><img src="../images/icon-brochure.png"></div>
 			
 			<p class="brochure-resource">Brochure</p>
 			
@@ -200,6 +200,6 @@ include('../../includes/header.php');
           
 </div>
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

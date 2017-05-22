@@ -1,19 +1,19 @@
 <?php
 
-$title = "ETO";
-$name = "eto";
-$section = "general";
+$title = "Apricot Essentials";
+$name = "apricot-essentials";
+$section = "solutions";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
 
-<div id="eto-hero">
+<div id="essentials-hero">
 
-	<div id="eto-hero-content">	
+	<div id="essentials-hero-content">	
 
-			<h2>ETO</h2>
+			<h2>Apricot Essentials</h2>
 	   
 	</div> 
       
@@ -114,7 +114,7 @@ include('../../includes/header.php');
 
 		<div id="green-full-band-image">
 			
-			<img src="../../images/eto-impact-support-two.jpg">
+			<img src="../images/eto-impact-support-two.jpg">
 			
 		</div>
 
@@ -131,7 +131,7 @@ include('../../includes/header.php');
 
 		<div id="white-full-band-image">
 			
-			<img src="../../images/eto-impact-support-two.jpg">
+			<img src="../images/eto-impact-support-two.jpg">
 			
 		</div>
 			
@@ -164,7 +164,7 @@ include('../../includes/header.php');
 
 		<div id="red-full-band-image">
 			
-			<img src="../../images/eto-impact-support-two.jpg">
+			<img src="../images/eto-impact-support-two.jpg">
 			
 		</div>
 
@@ -179,7 +179,7 @@ include('../../includes/header.php');
 
 	<div id="library-content">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 		
 	</div>	
 
@@ -199,6 +199,6 @@ include('../../includes/header.php');
 </div>
 
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

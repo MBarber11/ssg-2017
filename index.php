@@ -13,9 +13,9 @@ include('includes/header.php');
 
 	<div id="hero-content">
 	
-		<h2>We make it possible to measure and accelerate progress in the world.</h2>
+		<h2>Your work changes lives. Our work gives you tools to make that job easier.</h2>
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>
+		<p>Social Solutions gives you easy-to-use tools to track data, manage cases, and measure outcomes. Whether you are small team just starting to track data or a large multi-service organization, our tools meet you where you are, and grow with you as your needs evolve. </p>
 		
 		<div id="hero-learn-more-button"><a href="http://localhost:8888/ssg-2017/solutions/">Learn More</a></div>
 		
@@ -33,7 +33,7 @@ include('includes/header.php');
 	  
 	  <h2>We help people transform lives.</h2>
 	  
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. </p>
+	  <p>Everything your social services organization needs to manage, measure, and accelerate your progress.</p>
 	  
 	  <div id="home-about-icon">
 	  	
@@ -77,9 +77,9 @@ include('includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Friends of the Children Discovered a Ripple Effect</h3>
+			<h3>Friends of the Children</h3>
 
-			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
+			<p>Friends of the Children helps students graduate high school, stay out of the juvenile justice system, and avoid early parenthood. Using our software, they proved success with at least 85% of participants and measured $7.20 returned to the community for every dollar invested in FOTC. Now that’s a powerful measure of success. </p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -110,9 +110,9 @@ include('includes/header.php');
   	
 			<h2>Services</h2>
  		
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
+			<p>We love helping nonprofits succeed. We have teams dedicated to working hand-in-hand with our clients so that getting started is hassle-free, your teams are trained, and you have support you can rely on. Get to know the teams that make it happen for our users.</p>	
 
-			<div id="read-more-services-button"><a href="http://localhost:8888/ssg-2017/services/">Read more</a></div>
+			<div id="read-more-services-button"><a href="http://localhost:8888/ssg-2017/services/">Learn more</a></div>
   		
 		</div>
 	   

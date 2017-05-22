@@ -3,30 +3,69 @@
 	<h2>Who We Serve</h2>
 
 
-	<div class="who-we-serve-icons-column">
+	<div class="who-we-serve-icons-row">
+		
+		<div class="who-we-serve-links">	
+					
+			<a class="image-background" href="http://localhost:8888/ssg-2017/who-we-serve/child-services.php"><div id="child"><h3>Child Services</h3></div></a>
+		
+		</div>
+		
+		<div class="who-we-serve-links">	
+		
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/collaboratives.php"><div id="collaboratives"><h3>Collboratives</h3></div></a>
+		
+		</div>
+		
+		<div class="who-we-serve-links">
+		
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/foundations.php"><div id="foundations"><h3>Foundations</h3></div></a>
 
-		<a class="image-background" href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/non-profits.php"><div id="nonprofits"><h3>Nonprofit</h3></div></a>
-
-		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/health-and-wellness.php"><div id="health"><h3>Health & Wellness</h3></div></a>
-
-	</div>
-
-	<div class="who-we-serve-icons-column">
-
-		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/workforce.php"><div id="workforce"><h3>Workforce</h3></div></a>
-
-		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/reentry.php"><div id="reentry"><h3>Reentry</h3></div></a>
-
-	</div>
-
-	<div class="who-we-serve-icons-column">
-
-		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/homelessness.php"><div id="homelessness"><h3>Homelessness</h3></div></a>
-
-		<a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/education.php"><div id="education"><h3>Education</h3></div></a>
+		</div>
 
 	</div>
+	
+	<div class="clear"></div>
 
+	<div class="who-we-serve-icons-row">
+		
+		<div class="who-we-serve-links">
+		
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/health-and-human-services.php"><div id="health"><h3>Health & Human Services</h3></div></a>
+		
+		</div>
+		
+		<div class="who-we-serve-links">
+		
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/homelessness.php"><div id="homelessness"><h3>Homelessness</h3></div></a>
+
+		</div>
+		
+		<div class="who-we-serve-links">
+
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/reentry.php"><div id="reentry"><h3>Reentry</h3></div></a>
+			
+		</div>	
+
+	</div>
+	
+	<div class="clear"></div>
+
+	<div class="who-we-serve-icons-row">
+		
+		<div class="who-we-serve-links">
+
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/victim-services.php"><div id="victim"><h3>Victim Services</h3></div></a>	
+	
+		</div>
+		
+		<div class="who-we-serve-links">
+		
+			<a href="http://localhost:8888/ssg-2017/who-we-serve/workforce.php"><div id="workforce"><h3>Workforce</h3></div></a>
+	
+		</div>
+
+	</div>
 
 	<div class="clear"></div>
 

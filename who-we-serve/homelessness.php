@@ -1,10 +1,10 @@
 <?php
 
-$title = "Education";
-$name = "education";
-$section = "clients";
+$title = "Homelessness";
+$name = "homelessness";
+$section = "who-we-serve";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
@@ -15,7 +15,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Something About Education</h2>
+			<h2>Something About Homelessness</h2>
 	   
 	</div> 
       
@@ -34,13 +34,14 @@ include('../../includes/header.php');
 			<h3>Aliquam erat volutpat.</h3>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
+	
 
 
 		</div>
 
 		<div id="serve-about-image">
 			
-			<img src="../../images/eto-impact-support-one.jpg">
+			<img src="../images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -121,7 +122,7 @@ include('../../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../../images/clients/featured-client-friends-of-children.jpg">
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -144,7 +145,7 @@ include('../../includes/header.php');
         
 <div id="featured-library">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 
 </div>
            
@@ -156,13 +157,13 @@ include('../../includes/header.php');
 
 		<div id="serve-download-image">
 			
-			<img src="../../images/resource-download.jpg">
+			<img src="../images/resource-download.jpg">
 			
 		</div>
 			
 		<div id="serve-download-summary">
 			
-			<div id="brochure"><img src="../../images/icon-brochure.png"></div>
+			<div id="brochure"><img src="../images/icon-brochure.png"></div>
 			
 			<p class="brochure-resource">Brochure</p>
 			
@@ -200,6 +201,6 @@ include('../../includes/header.php');
           
 </div>
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     

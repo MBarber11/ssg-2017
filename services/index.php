@@ -2,7 +2,7 @@
 
 $title = "Services";
 $name = "services";
-$section = "general";
+$section = "services";
 
 include('../includes/header.php');
 
@@ -13,7 +13,8 @@ include('../includes/header.php');
 
 	<div id="services-hero-content">	
 
-			<h2>Services for nonprofits from people who understand your needs.</h2>
+			<h2>Services for nonprofits from people who understand your needs. 
+</h2>
 	   
 	</div> 
       
@@ -23,11 +24,11 @@ include('../includes/header.php');
 
 	<div id="implement-banner-content">
 
-		<h3>Implementation</h3>
+		<h3>Professional Services</h3>
 
 		<div id="implement-banner-summary">
 		
-			<p>When we say professional services, we mean it. This team consists of Project Managers, Implementation Consultants, and Solution Architects who can be deployed based on your specific implementation and project needs. With a healthy mix of project management, nonprofit and technical expertise, you get a wealth of knowledge to guide you through the implementation experience, and to support you for custom consulting if you need it.</p>
+			<p>When we say professional services, we mean it. This team consists of Project Managers, Implementation Consultants, and Solution Architects who can be deployed based on your specific implementation and project needs. </p>
 
 		</div>
 		
@@ -43,25 +44,25 @@ include('../includes/header.php');
 		
 			<div class="box">
 			
-				<p class="title">Lorem Ipsum</p>
+				<p class="title">Experience</p>
 				
-				<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+				<p>Take advantage of our 15+ years of implementation experience to ensure success. </p>
 			
 			</div>
 			
 			<div class="box">
 			
-				<p class="title">Lorem Ipsum</p>
+				<p class="title">Outcomes</p>
 				
-				<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+				<p>Return measurable outcomes through industry best practices, process, and tools. </p>
 			
 			</div>
 			
 			<div class="box">
 			
-				<p class="title">Lorem Ipsum</p>
+				<p class="title">Guidance</p>
 				
-				<p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Donec feugiat neque in velit ornare. Cum sociis natoque.</p>
+				<p>Accelerate your team’s adoption with the guidance of a Social Solutions expert professional team. </p>
 			
 			</div>
 		
@@ -78,13 +79,15 @@ include('../includes/header.php');
 
 		<div id="implement-about-summary">
 
-			<h4>Headline lorem ipsum</h4>
+			<h4>Get the Most from Social Solutions</h4>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum et metus sit amet laoreet. Curabitur ut feugiat odio. Sed aliquet bibendum velit vel efficitur. Sed blandit eros eget nibh fringilla ornare. Praesent maximus commodo nulla. Vivamus vitae nunc non eros mattis porttitor.</p>	
+			<p>With a healthy mix of project management, nonprofit and technical expertise, you get a wealth of knowledge to guide you through the implementation experience, and to support you for custom consulting if you need it.</p>	
 
-			<a href="">Learn more</a>
+			
 
 		</div>
+		
+		
 		
 		<div class="clear"></div>
 
@@ -127,7 +130,7 @@ include('../includes/header.php');
 			
 </div>
 
-<div id="training-quote">
+<!--<div id="training-quote">
 
 	<div id="training-quote-content">
 	
@@ -151,7 +154,7 @@ include('../includes/header.php');
 
 	</div>
 			
-</div>
+</div>-->
 
 <div id="training-about">
 
@@ -177,11 +180,11 @@ include('../includes/header.php');
 
 	<div id="support-banner-content">
 
-		<h3>Support</h3>
+		<h3>Support Options</h3>
 
 		<div id="support-banner-summary">
 		
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
+			<p>With a 93% customer satisfaction rate, our fully-staffed team ensures there is a personal approach to every interaction. Basic support options are standard and included for all Social Solutions clients. Premium support packages are also available to allow you to choose the level of support that is right for your organization, from access to scheduled one-on-one time or even a dedicated go-to person. </p>
 
 		</div>
 		
@@ -227,7 +230,7 @@ include('../includes/header.php');
 		
 		<div id="support-about-bottom-summary">
 
-			<h4>Sub-headline lorem ipsum</h4>
+			<h4></h4>
 			
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim. Nam eleifend, nunc convallis imperdiet dignissim, turpis nulla fermentum odio, nec semper nunc metus et ipsum. Aliquam vel arcu eget leo faucibus varius. Donec blandit ex ut elit bibendum, id porttitor tellus scelerisque.</p>	
 
@@ -244,9 +247,9 @@ include('../includes/header.php');
 
   <div id="services-feature-content">
   		  
-	  <h4>Sub-headline lorem ipsum</h4>
+	  <h4>At your fingertips or a call away, we are here for you.</h4>
 	  
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim.</p>
+	  <p>We offer a variety of options for contacting the Social Solutions Support teams</p>
 	  
 	  <div id="services-feature-icon">
 	  	
@@ -254,7 +257,9 @@ include('../includes/header.php');
 		  	
 			<div id="services-feature-spark-icon"></div>
 		  				
-			<p>Lorem ipsum</p>	
+			<p>Email</p>
+	  	
+			<p>Email our technical support from within your system. Our detailed tracking system ensures you’ll get a quick and helpful response.</p>	
 		  	
 		</div>
 		  

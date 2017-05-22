@@ -2,7 +2,7 @@
 
 $title = "About us";
 $name = "about-us";
-$section = "general";
+$section = "about";
 
 include('../includes/header.php');
 
@@ -17,7 +17,7 @@ include('../includes/header.php');
 			
 		<h3>Bring Your Impact to Life</h3>
 		
-		<p>Our clients’ work touches countless lives every day. That’s why we go beyond providing tools to get the job done. We help nonprofits get to the heart of their data to understand the full impact of their work. With the insights and evidence they gain from our software, our clients know how to maximize their efforts to do even more good.</p>
+		<p>Our clients' work touches countless lives every day. That's why we go beyond providing tools to get the job done. We help nonprofits get to the heart of their data to understand the full impact of their work. With the insights and evidence they gain from our software, our clients know how to maximize their efforts to do even more good.</p>
    
 	   
 	</div> 
@@ -53,7 +53,7 @@ include('../includes/header.php');
 			
 			<h3>Spark Human Connection</h3>
 
-			<p>We partner hand-in hand with our teams, clients, and communities to provide ever more powerful tools. </p>
+			<p>We partner hand-in hand with our teams, clients, and communities to provide ever more powerful tools.</p>
 
 		</div>
 		
@@ -121,7 +121,7 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="/bios/kristin-nimsger.php">
+					<a href="kristin-nimsger.php">
 
 						<img alt="CEO Kristin Nimsger" src="../images/team/team-kristin-nimsger.png">
 
@@ -135,7 +135,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="/bios/jon-bahl.php">
+					<a href="jon-bahl.php">
 
 						<img alt="CRO John Bahl" src="../images/team/team-jon-bahl.png">
 
@@ -149,7 +149,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="/bios/joel-martins.php">
+					<a href="joel-martins.php">
 
 						<img alt="CTO Joel Martins" src="../images/team/team-joel-martins.png">
 
@@ -163,7 +163,7 @@ include('../includes/header.php');
 
 				<div class="team-member last">
 
-					<a href="/bios/tricia-benedrix.php">
+					<a href="tricia-benedrix.php">
 
 						<img alt="CFO Tricia Benedix" src="../images/team/team-tricia-benedix.png">
 
@@ -183,7 +183,7 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="/bios/kristin-nimsger.php">
+					<a href="kristin-nimsger.php">
 
 						<img alt="COO Nikhil Kumar" src="../images/team/team-nikhil-kumar.png">
 
@@ -197,7 +197,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="/bios/matt-van-itallie.php">
+					<a href="matt-van-itallie.php">
 
 						<img alt="VP of Customer Support and Customer Operations Matt van Itallie" src="../images/team/team-matt-van-itallie.png">
 
@@ -211,7 +211,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="/bios/joel-martins.php">
+					<a href="joel-martins.php">
 
 						<img alt="VP of Engineering Matt Kraft" src="../images/team/team-matt-kraft.png">
 
@@ -225,7 +225,7 @@ include('../includes/header.php');
 
 				<div class="team-member last">
 
-					<a href="/bios/tricia-benedrix.php">
+					<a href="tricia-benedrix.php">
 
 						<img alt="VP of Marketing Heather Smith" src="../images/team/team-heather-smith.png">
 
@@ -245,11 +245,11 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="/bios/ben-allen.php">
+					<a href="benjamin-allen.php">
 
-						<img alt="VP of Sales Ben Allen" src="../images/team/team-ben-allen.png">
+						<img alt="VP of Sales Ben Allen" src="../images/team/team-benjamin-allen.png">
 
-						<h4>Ben Allen</h4>
+						<h4>Benjamin Allen</h4>
 
 						<p class="title">VP of Sales</p>
 
@@ -259,7 +259,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="/bios/margaux-gillman.php">
+					<a href="margaux-gillman.php">
 
 						<img alt="VP of People Margaux Gillman" src="../images/team/team-margaux-gillman.png">
 

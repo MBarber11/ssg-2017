@@ -86,55 +86,51 @@ $detect = new Mobile_Detect;
         
         <ul class="primary-nav">
             
-            <li class="primary-nav"><a href="<?=$url;?>/solutions/" <?php if($name == "solutions") { ?> class="active"<? } ?> class="primary">Solutions</a>
+            <li class="primary-nav"><a href="<?=$url;?>/solutions/" <?php if($section == "solutions") { ?> class="active"<? } ?> class="primary-nav">Solutions</a>
           
-					<ul id="nav-double">
+					<ul class="no-float">
 						
-						<div id="nav-eto">
 						
-							<ul>
-
-								<li id="nav-eto-logo"><a href="http://localhost:8888/ssg-2017/solutions/eto/index.php">ETO</a></li>
-
-								<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-impact.php">ETO Impact</a></li>
-
-								<li ><a href="http://localhost:8888/ssg-2017/solutions/eto/eto-collaborate.php">ETO Collaborate</a></li>
-
-							</ul>
-
-						</div>
+						<li id="nav-essentials-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot-essentials.php">Apricot Essentials</a></li>
 						
-						<div id="nav-apricot">
-
-							<li id="nav-apricot-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot/">Apricot</a></li>
-
-							<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-core.php">Apricot Core</a></li>
-
-							<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-essentials.php">Apricot Essentials</a></li>
-
-							<li><a href="http://localhost:8888/ssg-2017/solutions/apricot/apricot-plus.php">Apricot Plus</a></li>
+						<li id="nav-apricot-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot.php">Apricot</a></li>
+						
+						<li id="nav-eto-logo"><a href="http://localhost:8888/ssg-2017/solutions/eto.php">ETO</a></li>
 	
 					</ul>	
 				
            		
-             </li>
+             </li> 
             
-            <li class="primary-nav"><a href="<?=$url;?>/services/" <?php if($name == "services") { ?> class="active"<? } ?> class="primary ">Services</a></li>
+            <li class="primary-nav"><a href="<?=$url;?>/services/" <?php if($section == "services") { ?> class="active"<? } ?> class="primary ">Services</a></li>
             
-            <li class="primary-nav"><a href="#" <?php if($name == "our-clients") { ?> class="active"<? } ?> class="primary">Our Clients</a>
+            <li class="primary-nav"><a href="<?=$url;?>/who-we-serve/" <?php if($section == "who-we-serve") { ?> class="active"<? } ?> class="primary">Who We Serve</a>
             
-            	<ul>
-				
-					<li><a href="http://localhost:8888/ssg-2017/our-clients/who-we-serve/index.php">Who We Serve</a></li>
+            	<!--<ul>
+									
+         		
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/child-services.php">Child Services</a></li>
+         			
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/collaboratives.php">Collaboratives</a></li>
+         			
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/health-and-human-services.php">Health &amp; Human Services</a></li>
+         			
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/homelessness.php">Homelessness</a></li>
+         			
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/foundations.php">Foundations</a></li>
+         			
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/reentry.php">Reentry</a></li>
+         			
+         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/victim-services.php">Victim Services</a></li>
 						
-					<li><a href="http://localhost:8888/ssg-2017/our-clients/client-success/index.php">Client Success</a></li>
-					
-				
-           		</ul>
+					<li><a href="http://localhost:8888/ssg-2017/who-we-serve/workforce.php">Workforce</a></li>
+         			
+          		
+           		</ul>-->
             
             </li>
             
-            <li class="primary-nav"><a href="#" <?php if($name == "resources") { ?> class="active"<? } ?> class="primary">Resources</a>
+            <li class="primary-nav"><a href="#" <?php if($section == "resources") { ?> class="active"<? } ?> class="primary">Resources</a>
             
             	<ul>
 				
@@ -150,7 +146,7 @@ $detect = new Mobile_Detect;
             
             </li>
             
-            <li class="primary-nav"><a href="<?=$url;?>/about-us/" <?php if($name == "about-us") { ?> class="active"<? } ?> class="primary">About Us</a></li>
+            <li class="primary-nav"><a href="<?=$url;?>/about-us/" <?php if($section == "about") { ?> class="active"<? } ?> class="primary">About Us</a></li>
                
             <li class="primary-nav"><a href="#">Search</a></li>   
                 

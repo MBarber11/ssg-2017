@@ -182,6 +182,12 @@ h1 a {
 	text-decoration: none;
 	}
 
+#primary li.primary-nav a.active {
+	color: #91ab3c;
+	}
+
+
+
 /* ------ Drop Down ------ */
 
 
@@ -208,8 +214,20 @@ h1 a {
     background: rgba(255, 255, 255, 0.9);
 	padding-top: 20px;
     padding-bottom: 40px;
-	max-height: 160px;
+	max-height: 180px;
 	}
+#primary  > ul > li > ul.no-float{
+	display:inline;
+	width: 900px;
+} 
+
+#primary  > ul > li > ul.no-float li {
+	float: left;
+}
+
+#primary  > ul > li > ul.no-float li a {
+	display: block;
+}
 
 #primary  > ul > li > ul li {
 	width: 200px;
@@ -233,45 +251,14 @@ h1 a {
 	color: #97af43;
 	}	
 
-#nav-double ul{
-	padding-top: 20px !important;
-	margin-top: 0px !important;
+li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
+	height: 35px;
 }
-
-ul#nav-double li{
-	position: relative;
-	float: left;
-	margin-left: 200px;
-	}
-
-#nav-eto, #nav-apricot{
-	float:left;
-	width: 200px;
-}
-
-#nav-apricot{
-	margin-top: -113px;
-}
-
-#nav-apricot li a, #nav-eto li a{
-	padding: 10px 0;
-	font-weight: 600;
-}
-
-#nav-eto li a:hover, #nav-eto li a:focus{
-	color: #93ad3c; !important;
-	}
-
-#nav-apricot li a:hover, #nav-apricot li a:focus{
-	color: #f47a35 !important;
-	}
-
 #nav-eto-logo a {
 	background: url('../images/nav-logo-eto.png') no-repeat top left;
 	display: block;
-	height: 35px;
+	height: 35px !important;
 	text-indent: -9999em;
-	margin-bottom: 10px;
 	}
 
 #nav-eto-logo a:hover, #nav-eto-logo a:focus {
@@ -281,13 +268,25 @@ ul#nav-double li{
 #nav-apricot-logo a {
 	background: url('../images/nav-logo-apricot.png') no-repeat top left;
 	display: block;
-	height: 50px;
+	height: 50px !important;
 	text-indent: -9999em;
 	margin-bottom: 10px;
 	}
 
 #nav-apricot-logo a:hover, #nav-apricot-logo a:focus {
 	background: url('../images/nav-logo-apricot-hover.png') no-repeat top left;
+	}
+
+#nav-essentials-logo a {
+	background: url('../images/nav-logo-essentials.png') no-repeat top left;
+	display: block;
+	height: 50px !important;
+	text-indent: -9999em;
+	margin-bottom: 10px;
+	}
+
+#nav-essentials-logo a:hover, #nav-essentials-logo a:focus {
+	background: url('../images/nav-logo-essentials-hover.png') no-repeat top left;
 	}
 
 /* ------ content ------ */
@@ -325,7 +324,7 @@ ul#nav-double li{
 	line-height: 64px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 620px;
+	max-width: 90%;
 	padding-bottom: 20px;
 	}
 
@@ -562,6 +561,7 @@ ul#nav-double li{
 	height: 400px;
 	padding: 80px 0px;
 	background-size: cover;
+	margin-bottom: 40px;
 	}
 
 #green-full-band-content {
@@ -571,22 +571,20 @@ ul#nav-double li{
 
 #green-full-band-summary{
 	float: left;
-	max-width: 43%;
-	margin-top: 80px;
-	margin-left: 160px;
+	max-width: 45%;
+	margin-top: 2%;
+	margin-left: 10%;
 	color: #ffffff;
 	}
 
 #green-full-band-summary h2{
 	font-size: 38px;
+	line-height: 54px;
 	font-weight: 600;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	letter-spacing: 0.02em;
 	}
 
-#green-full-band-summary p{
-	width: 82%;
-	}
 
 #green-full-band-image{
 	float: right;
@@ -605,14 +603,15 @@ ul#nav-double li{
 
 #white-full-band-summary{
 	float: left;
-	max-width: 40%;
-	margin-top: 80px;
+	max-width: 45%;
+	margin-top: 30px;
 	margin-left: 80px;
 	color: #6e6a62;
 	}
 
 #white-full-band-summary h2{
 	font-size: 38px;
+	line-height: 54px;
 	font-weight: 600;
 	margin-bottom: 40px;
 	letter-spacing: 0.02em;
@@ -690,9 +689,44 @@ ul#nav-double li{
 	}
 
 
-/* ------ ETO Main ------ */
+/* ------ Product Main ------ */
 
-#eto-hero {
+#apricot-hero {
+	background: url(../images/hero-eto.jpg); 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
+
+#apricot-hero-content{
+	max-width: 1175px; 
+	margin: 0 auto;
+	padding-top: 100px;
+	}
+
+#apricot-hero-content h2{
+	color: #ffffff;
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 75%;
+	padding-bottom: 20px;
+	}
+
+#apricot-hero-content p{
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+	}
+
+#essentials-hero {
 	background: url(../images/hero-eto.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -701,13 +735,13 @@ ul#nav-double li{
 	height:320px;
 	}
 
-#eto-hero-content{
+#essentials-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
 	padding-top: 120px;
 	}
 
-#eto-hero-content h2{
+#essentials-hero-content h2{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -718,6 +752,41 @@ ul#nav-double li{
 	padding-bottom: 20px;
 	}
 
+
+#eto-hero {
+	background: url(../images/hero-eto.jpg); 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
+
+#eto-hero-content{
+	max-width: 1175px; 
+	margin: 0 auto;
+	padding-top: 100px;
+	}
+
+#eto-hero-content h2{
+	color: #ffffff;
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 70%;
+	padding-bottom: 20px;
+	}
+
+#eto-hero-content p{
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+	}
 #product-intro{
 	width: 100%;
 	}
@@ -725,6 +794,7 @@ ul#nav-double li{
 #product-intro-content{
 	max-width: 1175px; 
 	margin: 0 auto;
+	margin-bottom: 40px;
 	}
 
 #product-intro-content h2{
@@ -737,17 +807,21 @@ ul#nav-double li{
 	margin-top: 80px;
 	}
 
+#product-intro-content.adjust h2{
+	margin-top: 0px;
+}
+
 #product-intro-summary {
 	float: left;
 	width: 40%;
 	margin-left: 80px;
 	padding-right: 50px;
-	border-right: 5px solid #97af43;
 }
 
 #product-intro-list {
 	float: left;
 	padding-left: 50px;
+	border-left: 5px solid #97af43;
 	width: 40%;
 }
 
@@ -755,12 +829,16 @@ ul#nav-double li{
 	padding-top: 25px;
 }
 
+#product-intro-list.adjust ul{
+	padding-top: 10px;
+}
+
 #product-intro-list li{
 	margin-bottom: 15px;
 	padding-left: 15px;
 	font-weight: 600;
+	line-height: 22px;
 }
-
 
 #product-intro-list li::before {
   content: "•";
@@ -784,7 +862,7 @@ ul#nav-double li{
 	color: #ffffff;
 	font-size: 38px;
 	font-weight: 600;
-	line-height: 64px;
+	line-height: 50px;
 	text-align: center;
 	margin: 0 auto;
 	max-width: 620px;
@@ -844,7 +922,7 @@ ul#nav-double li{
 	line-height: 24px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 80%;
+	max-width: 70%;
 	padding-bottom: 20px;
 	}
 
@@ -856,8 +934,8 @@ ul#nav-double li{
 
 #about-intro-summary p{
 	color: #6e6a62;
-	font-size: 38px;
-	line-height: 54px;
+	font-size: 28px;
+	line-height: 50px;
 	width: 92%;
 	text-align: center;
 	margin: 0 auto;
@@ -882,8 +960,8 @@ ul#nav-double li{
 
 .team-member{
 	float:left; 
-	width: 200px;
-	padding-right: 10%;
+	width: 220px;
+	padding-right: 8%;
 	padding-bottom: 80px;
 	}
 
@@ -1030,7 +1108,6 @@ ul#nav-double li{
 
 /* ------ Working Here ------ */
 
-
 #working-hero {
 	background: url(../images/hero-services.png); 
 	  -webkit-background-size: cover;
@@ -1063,7 +1140,7 @@ ul#nav-double li{
 	line-height: 24px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 80%;
+	max-width: 50%;
 	padding-bottom: 20px;
 	}
 
@@ -1135,11 +1212,19 @@ ul#nav-double li{
 #benefits-about-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding: 60px 0px;
+	padding: 40px 0px;
+	}
+
+#benefits-about-content h2{
+	font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+	text-align: center;
+	margin-bottom: 20px;
 	}
 
 #benefits-about-content h3{
-	font-size: 28px;
+	font-size: 24px;
     font-weight: 600;
     line-height: 48px;
 	}
@@ -1366,13 +1451,15 @@ ul#nav-double li{
 	}
 
 #trio-feature-boxes{
-	padding: 100px 0px;
+	padding: 60px 0px;
 	}
 
 #trio-feature-boxes-content {
 	max-width: 1190px; 
 	margin: 0 auto;
 	}
+
+
 
 #trio-feature-boxes h2 {
 	font-size: 38px;
@@ -1447,13 +1534,14 @@ ul#nav-double li{
 	}
 
 #product-features {
-	max-width: 940px; 
+	max-width: 1165px; 
 	margin: 0 auto;
-	padding: 80px 0px;
+	padding-bottom: 80px;
 }
 
 #product-features h2{
 	font-size: 38px;
+	line-height: 48px;
 	font-weight: 600;
 	margin-bottom: 50px;
 	}
@@ -1466,6 +1554,7 @@ ul#nav-double li{
 .features-title{
 	text-transform: uppercase;
 	font-size: 20px;
+	line-height: 28px;f
 	font-weight: 600;
 	margin-bottom: 10px;
 	letter-spacing: 2px;
@@ -1477,13 +1566,13 @@ ul#nav-double li{
 
 #product-features-content-list-left{
 	float:left;
-	width: 40%;
-	margin-right: 140px;
+	width: 45%;
+	margin-right: 10%;
 	}
 
 #product-features-content-list-right{
 	float:left;
-	width: 40%;
+	width: 45%;
 	}
 
 #product-features-content-list-left li, #product-features-content-list-right li{
@@ -1716,7 +1805,7 @@ ul#nav-double li{
 
 #client-summary{
 	float: left;
-	max-width: 38%;
+	max-width: 45%;
 	margin-left: 80px;
 	margin-top: 60px;
 	color: #ffffff;
@@ -1753,12 +1842,12 @@ ul#nav-double li{
 	text-align: center;
 	}
 
-.who-we-serve-icons-column{
+.who-we-serve-links{
 	float: left;
 	width: 33%;
 	}
 
-.who-we-serve-icons-column a{
+.who-we-serve-icons-row a{
 	color: #615d54;
 	text-decoration: none;
 	font-size: 16px;
@@ -1768,29 +1857,44 @@ ul#nav-double li{
 	letter-spacing: 0.02em;
 	}
 
-.who-we-serve-icons-column a:hover, .who-we-serve-icons-column a:focus{
+.who-we-serve-icons-row a:hover, .who-we-serve-icons-row a:focus{
 	color: #93ad3c;
 	}
 
-.who-we-serve-icons-column h3 {
+.who-we-serve-icons-row h3 {
 	padding-top: 90px;
 	}
 
-#who-we-serve-icons #nonprofits {
-	background: url(../images/icon-nonprofits.png) no-repeat center top;
+#who-we-serve-icons #child{
+	background: url(../images/icon-education.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	}
+
+#who-we-serve-icons #collaboratives{
+	background: url(../images/icon-education.png) no-repeat center top;
 	width: 100%;
 	height: auto;
 	margin-bottom: 60px;
 	}
 
+#who-we-serve-icons #foundations{
+	background: url(../images/icon-case.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	margin-bottom: 60px;
+	}
+
+
 #who-we-serve-icons #health{
 	background: url(../images/icon-health.png) no-repeat center top;
 	width: 100%;
 	height: auto;
+	margin-bottom: 60px;
 	}
 
-#who-we-serve-icons #workforce{
-	background: url(../images/icon-workforce.png) no-repeat center top;
+#who-we-serve-icons #homelessness{
+	background: url(../images/icon-homelessness.png) no-repeat center top;
 	width: 100%;
 	height: auto;
 	margin-bottom: 60px;
@@ -1802,19 +1906,85 @@ ul#nav-double li{
 	height: auto;
 	}
 
-#who-we-serve-icons #homelessness{
-	background: url(../images/icon-homelessness.png) no-repeat center top;
+#who-we-serve-icons #workforce{
+	background: url(../images/icon-workforce.png) no-repeat center top;
 	width: 100%;
 	height: auto;
 	margin-bottom: 60px;
 	}
 
-#who-we-serve-icons #education{
-	background: url(../images/icon-education.png) no-repeat center top;
+#who-we-serve-icons #victim {
+	background: url(../images/icon-nonprofits.png) no-repeat center top;
 	width: 100%;
 	height: auto;
+	margin-bottom: 60px;
 	}
 
+
+/* ------ Basic Page ------ */
+
+#basic-hero{
+	background-color: #67cad9;
+	height: 200px;
+	padding: 40px 0px;
+	width: 100%;
+	}
+
+#basic-hero-content {
+	max-width: 1175px; 
+	margin: 0 auto;
+	}
+
+#basic-hero-image{
+	float: left;
+	width: 200px;
+	padding-right: 5%
+	}
+
+#basic-hero-summary{
+	float: left;
+	max-width: 40%;
+	margin-top: 60px;
+	color: #ffffff;
+	}
+
+#basic-hero-summary h2{
+	font-size: 52px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	line-height: 45px;
+	}
+
+#basic-hero-summary h3{
+	color: #6e6a62;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	}
+
+#basic-about{
+	max-width: 1175px; 
+	margin: 0 auto;
+	padding: 60px 0px;
+	}
+
+#bio p{
+	margin-bottom: 20px;
+	line-height: 26px;
+}
+
+#bio{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 60px; /* Firefox */
+    column-gap: 60px;
+	margin-bottom: 25px;
+	}
 /* ------ Services ------ */
 
 #services-hero {
@@ -1869,6 +2039,7 @@ ul#nav-double li{
 	text-align: center;
 	width: 75%;
 	margin: 0 auto;
+	
 	}
 
 #implement-about-content{
@@ -1919,7 +2090,9 @@ ul#nav-double li{
 	padding-bottom: 15px;
 	}
 
-
+#implement-about-summary p{
+	margin-bottom: 25px;
+}
 #training-banner{
 	background: #e95d52;
 	}
@@ -2025,6 +2198,7 @@ ul#nav-double li{
 	max-width: 47%;
 	margin-top: 50px;
 	color: #ffffff;
+	margin-left:15px;
 	}
 
 #support-about-top-summary p{
@@ -2608,13 +2782,13 @@ ul#nav-double li{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	height:320px;
+	height:400px;
 	}
 
 #serve-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding-top: 120px;
+	padding-top: 90px;
 	}
 
 #serve-hero-content h2{
@@ -2627,6 +2801,15 @@ ul#nav-double li{
 	max-width: 70%;
 	padding-bottom: 20px;
 	}
+
+#serve-hero-content p{
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+}
 
 #serve-about{
 	background-color: #ffffff;
@@ -3142,6 +3325,7 @@ h1 a {
 .yellow-headline{
 	color: #ffc441 !important;
 	}
+
 .blue-button a{
 	color: #ffffff;
 	font-weight: 600;
@@ -3222,3 +3406,84 @@ h1 a {
 	background: #ffffff;
 	border: 4px solid #ffc441;
 	}
+
+.plain-headline{
+	margin-top: 60px;
+}
+
+.plain-headline  p{
+	width:75%;
+	margin: 0 auto;
+}
+
+.plain-headline h2 {
+	font-size: 38px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	letter-spacing: 0.02em;
+	text-align: center
+	}
+
+.plain-headline h2.zero-padding {
+	font-size: 38px;
+	font-weight: 600;
+	margin-bottom: -30px;
+	letter-spacing: 0.02em;
+	text-align: center
+}
+p.solutions-stats{
+	font-size: 32px;
+	line-height: 40px;
+	color: #ffffff;	
+	text-align: center;
+	padding: 20% 2%;
+	
+}
+@media only screen and (max-width: 1304px) {
+   #green-full-band-summary {
+    max-width: 45%;
+    margin-left: 80px;
+	}
+	
+	#red-full-band-summary {
+    max-width: 45%;
+    margin-left: 80px;
+	}	
+	
+	#white-full-band-summary {
+    max-width: 40%;
+    margin-left: 40px;
+	}	
+	
+	#support-about-bottom-summary {
+    margin-left: 40px;
+    width: 40%;	
+	}
+	
+	#serve-about-summary {
+    max-width: 50%;
+    margin-left: 50px;
+	}
+	
+}
+
+@media only screen and (max-width: 1205px) {
+   #green-full-band-summary {
+    max-width: 40%;
+    margin-left: 40px;
+}
+#green-full-band-summary p {
+    width: 100%; 
+}
+	
+	#red-full-band-summary {
+    max-width: 40%;
+    margin-left: 40px;
+	}
+	
+	#serve-about-summary {
+		max-width: 50%;
+		margin-left: 25px;
+		}
+}
+

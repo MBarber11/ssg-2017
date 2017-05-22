@@ -1,10 +1,10 @@
 <?php
 
-$title = "ETO Collaborate";
-$name = "eto-collaborate";
-$section = "services";
+$title = "Apricot Essentials";
+$name = "apricot-essentials";
+$section = "solutions";
 
-include('../../includes/header.php');
+include('../includes/header.php');
 
 ?>
 
@@ -17,7 +17,7 @@ include('../../includes/header.php');
 
 		<div id="product-hero-summary">
 
-			<h2>ETO Collaborate</h2>
+			<h2>Apricot Essentials</h2>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat.</p>	
 
@@ -27,7 +27,7 @@ include('../../includes/header.php');
 
 		<div id="product-hero-image">
 			
-			<img src="../../images/hero-eto-impact.jpg" />
+			<img src="../images/hero-eto-impact.jpg" />
 			
 		</div>
 	   
@@ -54,7 +54,7 @@ include('../../includes/header.php');
 
 		<div id="product-about-image">
 			
-			<img src="../../images/eto-impact-support-one.jpg">
+			<img src="../images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -71,7 +71,7 @@ include('../../includes/header.php');
 		
 		<div id="product-about-secondary-image">
 			
-			<img src="../../images/placeholder-530x300.jpg">
+			<img src="../images/placeholder-530x300.jpg">
 			
 		</div>
 		
@@ -151,7 +151,7 @@ include('../../includes/header.php');
 
 		<div id="green-full-band-image">
 			
-			<img src="../../images/eto-impact-support-two.jpg">
+			<img src="../images/eto-impact-support-two.jpg">
 			
 		</div>
 
@@ -255,7 +255,7 @@ include('../../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../../images/clients/featured-client-friends-of-children.jpg">
+			<img src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -278,7 +278,7 @@ include('../../includes/header.php');
         
 <div id="featured-library">
 		
-		<?php include('../../includes/resource-section.php'); ?>
+		<?php include('../includes/resource-section.php'); ?>
 
 </div>
            
@@ -286,7 +286,7 @@ include('../../includes/header.php');
 
 <div id="who-we-serve-icons">
 
-	<?php include('../../includes/who-we-serve-section.php'); ?>
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
 </div>
            
@@ -301,6 +301,6 @@ include('../../includes/header.php');
           
 </div>
            
-<?php include('../../includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
 
     
