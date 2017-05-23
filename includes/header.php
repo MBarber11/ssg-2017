@@ -24,7 +24,7 @@ $detect = new Mobile_Detect;
 <?php } else { ?>
 <meta name="viewport" content="width=750, user-scalable=no">
 <?php } ?>
-
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <meta property="og:title" content="Social Solutions Global | Case Management Software" />
 <meta property="og:type" content="cause" />
 <meta property="og:description" content="*to do*" />

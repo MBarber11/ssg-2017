@@ -1,7 +1,7 @@
 <?php
 
-$title = "Non Profits";
-$name = "non-profits";
+$title = "Health and HUman Services";
+$name = "health-services";
 $section = "who-we-serve";
 
 include('../includes/header.php');
@@ -15,7 +15,9 @@ include('../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Something Healty</h2>
+			<h2>Managing Outcomes for Health and Human Service Organizations</h2>
+			
+			<p>MWhether you aim to improve parenting skills and child well-being, provide quality elder care, prevent risky behaviors, help people recover from trauma, or achieve unique outcomes, our solutions will help you serve your clients better. </p>
 	   
 	</div> 
       
@@ -29,13 +31,9 @@ include('../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Pellentesque Molestie</h2>
-			
-			<h3>Aliquam erat volutpat.</h3>
+			<h2>Real Data to Help Real People</h2>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
-	
-
+			<p>Access real-time, client-level data to manage service delivery – like assessments, case planning, and referrals – and review progress toward client outcomes. At the program-level, ensure that services are delivered as designed by all your staff and in all your locations over time. Have the information you need to enhance or even course-correct as needed. Make sure your programs deliver on your mission.</p>	
 
 		</div>
 
@@ -53,68 +51,50 @@ include('../includes/header.php');
 <div class="clear"></div><!--clear-->
 
 
-<div id="trio-feature-boxes">      
-    
-    <div id="trio-feature-boxes-content">	
+<div id="benefits-about">
+	
+	<div id="benefits-about-content">
 		
-		<h2>Benefits of ETO for Nonprofit Agencies</h2>
+		<h2>Tools for Every Step of the Process</h2>
+
+		<div id="benefits-about-left">
 		
-		<div class="box orange">
+			<h3 class="blue-headline">Intake Clients</h4>
 			
-			<ul>
+			<p>As individuals enter your organization, data collection happens in real-time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door so they can quickly receive the services they need.</p>
 			
-				<li>Track demographics, service delivery, and progress toward client outcomes for all your programs in one system </li>
-				
-				<li>Increase efficiency by sharing information across staff and programs as appropriate</li>
-				
-				<li>Give frontline staff access to real-time data so they can adjust their approach as needed with individual clients</li>
+			<h3 class="red-headline">Assess Needs</h4>
 			
-			</ul>
+			<p>Whether you’re providing mental health counseling, elderly care, or substance abuse prevention, ensure your clients are aligned with the correct services. Our best practice solutions include assessment forms to easily assign clients to services.</p>
 			
-		</div>
-		
-		<div class="box yellow">
+			<h3 class="yellow-headline">Provide Services</h4>
 			
-			<ul>
+			<p>Develop individual plans to ensure you are providing the right services and the right amount of services for each client. Easily enroll clients in programs and track progress related to specific programs and services to gain a comprehensive understanding of an individual’s progress.</p> <br><br>
 			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>
-			
-		</div>
-		
-		<div class="box blue">
-			
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>	
 
 		</div>
+		
+		<div id="benefits-about-right">
+		
+			<h3 class="orange-headline">Collaborate</h4>
+			
+			<p>Work collaboratively within your organization, referring individuals between programs and staff as well as externally to other nonprofits, government agencies, and medical facilities. </p>
+			
+			<h3 class="green-headline">Report Results</h4>
+			
+			<p>Meet funding requirements such as Substance Abuse Block Grants (SABG) and Maternal Infant Early Childhood Home Visiting (MIECHV). Report against individual goals such as improved self-sufficiency, quality of care, and more.</p>
+			
+			<h3 class="blue-headline">Manage to Outcomes</h4>
+			
+			<p>Take your service delivery to the next level and understand the impact of the services you’ve provided. Measure and manage against individual and program level goals and outcomes of success.</p>
 
+		</div>
+		
+		<div class="clear"></div>
 
-	 <div class="clear"></div><!--clear-->
-   
-   		
 	</div>
-    
-      
+		
 </div>
-
-<div class="clear"></div>
 
 <div id="featured-client">
 
@@ -128,9 +108,9 @@ include('../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Friends of the Children Discovered a Ripple Effect</h3>
+			<h3>Love In the Name of Christ (Love INC) of Lancaster County </h3>
 
-			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
+			<p>Love INC’s mission is to connect members of their community with the services that they need in real time. Working with partner churches, shelters, and food banks across the city of Lancaster, Love INC’s dedicated call center staff help to identify needs and solutions for a wide range of clients and services. Using Apricot Essentials, the team is able to collect and report on the services they offer the community all in one seamless, easy to use tool. Read their full story here.</p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -141,6 +121,45 @@ include('../includes/header.php');
     
     </div>
     
+</div>
+       
+<div id="product-intro">
+
+	<div id="product-intro-content" >
+
+		<h2>Solutions Designed for Health and Human Services</h2>
+
+		<div id="product-intro-summary">
+		
+			<p>Our ETO and Apricot comprehensive case management solutions enable organizations in the health and human services sector to collect information in a single, secure location and report on the impact of the services they provide. Aggregate data, and meet compliance needs and reporting requirements more efficiently. Share data with all stakeholders regularly, impress them with your success, and secure their long-term support. Our ETO Initiators provide best practice solutions in Self-Sufficiency, mental health, substance abuse prevention, and more. Our Apricot mission packs center on self-sufficiency and senior services. </p>
+
+			</p>
+
+		</div>
+
+		<div id="product-intro-list">
+			
+			<p>We support organizations with funding across the health and human services sector including:</p>
+			
+			<ul>
+			
+				<li>Maternal Infant Early Childhood Home Visiting (MIECHV)</li>
+				
+				<li>Substance Abuse Prevention and Treatment Block Grants (SABG)</li>
+				
+				<li>Foundation funding</li>
+				
+				<li>Much more!</li>
+			
+			</ul>
+
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div>
+	
+	
 </div>		
         
 <div id="featured-library">
@@ -151,55 +170,29 @@ include('../includes/header.php');
            
 <div class="clear"></div>
 
-<div id="serve-download">
+<div id="who-we-serve-icons">
 
-	<div id="serve-download-content">	
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
-		<div id="serve-download-image">
-			
-			<img src="<?=$url;?>/images/resource-download.jpg">
-			
-		</div>
-			
-		<div id="serve-download-summary">
-			
-			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
-			
-			<p class="brochure-resource">Brochure</p>
-			
-			<h2>Free Annual Report Template</h2>
-			
-			<p class="date">January 1, 2017  |  Non-profits</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
-			
-			<div id="serve-download-button"><a href="#">Download</a></div>	
-
-
-		</div>
-		
-		<div class="clear"></div>
-
-		
-
-	   <!--clear-->
-	</div> 
-	
-</div>  
+</div>
 
 <div class="clear"></div>
 
  
-<div id="serve-resources">
+<div id="product-contact">
          
-	<div id="serve-resources-content">
+	<div id="product-contact-content">
 	
-		<h2>Lorem Ipsum Dolor</h2>
+		<h2>See How Social Solutions Can Help Increase Self Sufficiency</h2>
+		
+		<p>We help your organization track all aspects of your health and human service programs and services to prove effectiveness at the individual, program and organizational level to reach your goals and increase self-sufficiency.</p>
 	
-		<div id="serve-resources-button"><a href="#">More Resources</a></div>
+		<div id="demo-button"><a href="#">Get a Demo</a></div>
 	
           
 </div>
+          
+          
            
 <?php include('../includes/footer.php'); ?>
 

@@ -1,7 +1,7 @@
 <?php
 
-$title = "Non Profits";
-$name = "non-profits";
+$title = "Victim Services";
+$name = "victim-services";
 $section = "who-we-serve";
 
 include('../includes/header.php');
@@ -15,7 +15,9 @@ include('../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Managing Outcomes in Non-Profits</h2>
+			<h2>Managing Outcomes for Victims’ Services Organizations</h2>
+			
+			<p>From battering intervention, violence prevention, intervention and counseling support, legal services, to domestic violence shelters, victims’ service organizations need a comprehensive system to ensure their data is secure, organized, and used to positively impact those they serve. That’s where we come in. </p>
 	   
 	</div> 
       
@@ -29,12 +31,9 @@ include('../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Case Management Software</h2>
-			
-			<h3>non-profit and social work</h3>
+			<h2>Helping Safe &amp; Secure Be a Reality</h2>
 
-			<p>Designed by direct service workers for direct service workers, ETO helps measure the incremental progress of your participants, understand the effectiveness of your programs, and demonstrate impact to key stakeholders both quickly and easily. Whether you provide case management, training, support groups, or other direct services, ETO can help you serve your clients more effectively.</p>	
-
+			<p>Our software solutions provide flexible case management to meet the unique program needs of your domestic violence or victim service organization. From tracking individual goals such as permanent housing and job retention to family and program goals, it’s important to keep your data secure, accessible, and organized. </p>	
 
 		</div>
 
@@ -52,68 +51,50 @@ include('../includes/header.php');
 <div class="clear"></div><!--clear-->
 
 
-<div id="trio-feature-boxes">      
-    
-    <div id="trio-feature-boxes-content">	
+<div id="benefits-about">
+	
+	<div id="benefits-about-content">
 		
-		<h2>Benefits of ETO for Nonprofit Agencies</h2>
+		<h2>Tools for Every Step of the Process</h2>
+
+		<div id="benefits-about-left">
 		
-		<div class="box orange">
+			<h3 class="blue-headline">Intake Clients</h4>
 			
-			<ul>
+			<p>As individuals enter your shelter or office, data collection happens in real time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door. With built-in forms such as the bed enrollment form, assign a bed to each individual right when they enter your shelter.</p>
 			
-				<li>Track demographics, service delivery, and progress toward client outcomes for all your programs in one system </li>
-				
-				<li>Increase efficiency by sharing information across staff and programs as appropriate</li>
-				
-				<li>Give frontline staff access to real-time data so they can adjust their approach as needed with individual clients</li>
+			<h3 class="red-headline">Assess Needs</h4>
 			
-			</ul>
+			<p>Whether you’re providing shelter and temporary housing to victims of violence, or helping clients secure stable jobs and housing, ensure your clients are aligned with the correct services. Apricot Victims’ Services (AVS) includes a Goals Assessment form to easily identify individual needs.</p>
 			
-		</div>
-		
-		<div class="box yellow">
+			<h3 class="yellow-headline">Provide Services</h4>
 			
-			<ul>
+			<p>Develop individual plans to ensure you are providing the right services in the right way and at the right time for each client. Easily enroll clients in programs and track progress related to specific programs and services to gain a comprehensive understanding of an individual’s progress.</p> <br><br>
 			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>
-			
-		</div>
-		
-		<div class="box blue">
-			
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>	
 
 		</div>
+		
+		<div id="benefits-about-right">
+		
+			<h3 class="orange-headline">Collaborate</h4>
+			
+			<p>Easily work with individuals and families to meet household goals. Compare results across individuals, caseloads, and programs to understand where improvements can be made.</p>
+			
+			<h3 class="green-headline">Report Results</h4>
+			
+			<p>Report to HUD and VOCA funders to help meet requirements and secure funding. Customize reports to inform internal decision making and gain more funding.</p>
+			
+			<h3 class="blue-headline">Manage to Outcomes</h4>
+			
+			<p>Make your service delivery to the next level by understanding the impact of the services you’ve provided. Measure and manage against individual and program level goals and outcomes of success.</p>
 
+		</div>
+		
+		<div class="clear"></div>
 
-	 <div class="clear"></div><!--clear-->
-   
-   		
 	</div>
-    
-      
+		
 </div>
-
-<div class="clear"></div>
 
 <div id="featured-client">
 
@@ -127,9 +108,9 @@ include('../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Friends of the Children Discovered a Ripple Effect</h3>
+			<h3>Center for Violence Free Relationships</h3>
 
-			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
+			<p>In his early days on the job as Executive Director, Matt Huckabay saw a baby, teen mother, grandmother, and great grandmother arriving together for services at the Center for Violence Free Relationships. Three generations were traumatized by domestic violence. Would the baby grow up to be the fourth generation of victims? Using ETO, the Center can track individual and family progress against a specific set of outcomes to make informed, data-driven decisions – the kind of decisions that can truly change the course of someone’s life. </p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -140,6 +121,49 @@ include('../includes/header.php');
     
     </div>
     
+</div>
+       
+<div id="product-intro">
+
+	<div id="product-intro-content" >
+
+		<h2>A Solution Designed for Victims Services’ Organization</h2>
+
+		<div id="product-intro-summary">
+		
+			<p>Our Apricot for Victims’ Support (AVS) product is uniquely designed with domestic violence service providers in mind. AVS is a preconfigured solution with standard forms and reports based on funding requirements and best practices in the domestic violence space. AVS is the solution that specifically addresses the case management and outcomes reporting of your domestic violence service providers.</p>
+
+			</p>
+
+		</div>
+
+		<div id="product-intro-list">
+			
+			
+			<ul>
+			
+				<li>Built in reports to help you meet funder requirements 
+				
+					<ul>
+					
+						<li>HUD Data Quality Report, APR, and ESG Caper Reports</li>
+						
+						<li>VOCA Report</li>
+						
+					</ul>	
+				</li>
+				
+				<li>Best practice forms designed for domestic violence service providers</li>
+			
+			</ul>
+
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div>
+	
+	
 </div>		
         
 <div id="featured-library">
@@ -150,55 +174,29 @@ include('../includes/header.php');
            
 <div class="clear"></div>
 
-<div id="serve-download">
+<div id="who-we-serve-icons">
 
-	<div id="serve-download-content">	
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
-		<div id="serve-download-image">
-			
-			<img src="<?=$url;?>/images/resource-download.jpg">
-			
-		</div>
-			
-		<div id="serve-download-summary">
-			
-			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
-			
-			<p class="brochure-resource">Brochure</p>
-			
-			<h2>Free Annual Report Template</h2>
-			
-			<p class="date">January 1, 2017  |  Non-profits</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
-			
-			<div id="serve-download-button"><a href="#">Download</a></div>	
-
-
-		</div>
-		
-		<div class="clear"></div>
-
-		
-
-	   <!--clear-->
-	</div> 
-	
-</div>  
+</div>
 
 <div class="clear"></div>
 
  
-<div id="serve-resources">
+<div id="product-contact">
          
-	<div id="serve-resources-content">
+	<div id="product-contact-content">
 	
-		<h2>Lorem Ipsum Dolor</h2>
+		<h2>See How Social Solutions Can Help Victims’ Services Organizations</h2>
+		
+		<p>We help your organization track all aspects of your victims’ services programs and services to prove effectiveness at the individual, program and organizational level to reach your goals and promote safety, intervention, and prevention.</p>
 	
-		<div id="serve-resources-button"><a href="#">More Resources</a></div>
+		<div id="demo-button"><a href="#">Get a Demo</a></div>
 	
           
 </div>
+          
+          
            
 <?php include('../includes/footer.php'); ?>
 

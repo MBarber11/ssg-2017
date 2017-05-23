@@ -1,7 +1,7 @@
 <?php
 
-$title = "Education";
-$name = "education";
+$title = "Collaboratives";
+$name = "collaboratives";
 $section = "who-we-serve";
 
 include('../includes/header.php');
@@ -18,8 +18,6 @@ include('../includes/header.php');
 			<h2>Managing Outcomes for Community Collaborations</h2>
 			
 			<p>Making a positive impact on the community is often not a one-person, one-organization activity. It frequently requires the voluntary participation of many persons or organizations, and their provision of resources. It is practically impossible to establish a holistic, family-centric case management service delivery and performance management process without collaboration of some kind. That’s where we come in.</p>
-			
-			
 	   
 	</div> 
       
@@ -36,7 +34,6 @@ include('../includes/header.php');
 			<h2>See the Connection.<br>See the Change.</h2>
 
 			<p>Connect and collaborate with internal staff and external partners to provide the best services to your community. Our comprehensive, collaborative case management solutions can help bridge the gap between disparate services, programs and organizations aimed at improving their communities through collaboration and data sharing.</p>	
-
 
 		</div>
 
@@ -85,7 +82,7 @@ include('../includes/header.php');
 			
 			<h3 class="green-headline">Report Results</h4>
 			
-			<p>Report individual progress and program success. Compare results between programs, caseloads, and collaborative organizations easily from within the system</p>
+			<p>Report individual progress and program success. Compare results between programs, caseloads, and collaborative organizations easily from within the system.</p>
 			
 			<h3 class="blue-headline">Manage to Outcomes</h4>
 			
@@ -113,7 +110,7 @@ include('../includes/header.php');
 
 			<h3>Local Investment Commission (LINC)</h3>
 
-			<p>Established in 1992 in Kansas City, the Local Investment Commission (LINC) has a big role to fill: coordinating across state agencies, school districts, and local nonprofits to improve the lives of children and families across their community. With the help of Apricot software, LINC has been able to increase visibility across programs and sites, redirect time and energy to direct client work, and improve service delivery through coordinated effort. Read their full story here.</p>	
+			<p>Established in 1992 in Kansas City, the Local Investment Commission (LINC) has a big role to fill: coordinating across state agencies, school districts, and local nonprofits to improve the lives of children and families across their community. With the help of Apricot software, LINC has been able to increase visibility across programs and sites, redirect time and energy to direct client work, and improve service delivery through coordinated effort.</p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -170,6 +167,12 @@ include('../includes/header.php');
            
 <div class="clear"></div>
 
+<div id="who-we-serve-icons">
+
+	<?php include('../includes/who-we-serve-section.php'); ?>
+
+</div>
+
 <!--<div id="serve-download">
 
 	<div id="serve-download-content">	
@@ -214,7 +217,7 @@ include('../includes/header.php');
 		
 		<p>We help your organization track all aspects of your victims’ services programs and services<br>to prove effectiveness at the individual, program and organizational level to reach your goals and increase collaboration.</p>
 	
-		<div id="demo-button"><a href="#">Contact us</a></div>
+		<div id="demo-button"><a href="#">Get a Demo</a></div>
 	
           
 </div>

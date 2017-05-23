@@ -1,7 +1,7 @@
 <?php
 
-$title = "Reentry";
-$name = "reentry";
+$title = "Foundations";
+$name = "Foundations";
 $section = "who-we-serve";
 
 include('../includes/header.php');
@@ -15,7 +15,9 @@ include('../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Something About Reentry</h2>
+			<h2>Managing Outcomes for Foundations and Funders</h2>
+			
+			<p>Take your foundation to the next level with impact funding. Track grant applications, approvals, and measure the impact of your investment. Work alongside your grantees to generate positive outcomes in the communities they serve so you can make smart funding decisions in the future. We can help you get there.</p>
 	   
 	</div> 
       
@@ -29,13 +31,9 @@ include('../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Pellentesque Molestie</h2>
-			
-			<h3>Aliquam erat volutpat.</h3>
+			<h2>Grow Your Foundation's Impact</h2>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
-	
-
+			<p>Our Apricot for Funders (AFF) software provides a flexible and secure solution for foundations of all sizes. Track grant applications, review submissions, and measure the outcome of your grantees’ work all within one system.</p>	
 
 		</div>
 
@@ -52,70 +50,6 @@ include('../includes/header.php');
 
 <div class="clear"></div><!--clear-->
 
-
-<div id="trio-feature-boxes">      
-    
-    <div id="trio-feature-boxes-content">	
-		
-		<h2>Benefits of ETO for Nonprofit Agencies</h2>
-		
-		<div class="box orange">
-			
-			<ul>
-			
-				<li>Track demographics, service delivery, and progress toward client outcomes for all your programs in one system </li>
-				
-				<li>Increase efficiency by sharing information across staff and programs as appropriate</li>
-				
-				<li>Give frontline staff access to real-time data so they can adjust their approach as needed with individual clients</li>
-			
-			</ul>
-			
-		</div>
-		
-		<div class="box yellow">
-			
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>
-			
-		</div>
-		
-		<div class="box blue">
-			
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>	
-
-		</div>
-
-
-	 <div class="clear"></div><!--clear-->
-   
-   		
-	</div>
-    
-      
-</div>
-
-<div class="clear"></div>
-
 <div id="featured-client">
 
 	<div id="featured-client-content">
@@ -128,9 +62,9 @@ include('../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Friends of the Children Discovered a Ripple Effect</h3>
+			<h3>United Way of Metro Chicago</h3>
 
-			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
+			<p>United Way of Metropolitan Chicago (UWMC) wanted to take their investment a step further, transitioning from funding the same programs and organizations year after year to focusing on impact investing to collectively and effectively make progress toward defined goals across community organizations. Using Apricot, UWMC is able to track the application and review process as well as report on the progress their grantees are making.</p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -141,6 +75,42 @@ include('../includes/header.php');
     
     </div>
     
+</div>
+       
+<div id="product-intro">
+
+	<div id="product-intro-content" >
+
+		<h2>A Solution Designed for Foundations and Funders</h2>
+
+		<div id="product-intro-summary">
+		
+			<p>Social Solutions offers Apricot for Funders (AFF) software for foundations, whether corporate, family, private, community or institutional. Online grant solicitations and applications are safe, simple and secure for both grantors and applicants. Scheduling site reviews, application assessments and formal or informal scoring is efficient and easy. Reporting by supported agencies and grantees is user-friendly and accessible from any Internet-based computer. .</p>
+
+			</p>
+
+		</div>
+
+		<div id="product-intro-list">
+			
+			
+			<ul>
+			
+				<li>Create and share output, outcome, and ROI charts and graphs</li>
+				
+				<li>Streamline your grant application process</li>
+				
+				<li>Make every grant dollar count </li>
+			
+			</ul>
+
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div>
+	
+	
 </div>		
         
 <div id="featured-library">
@@ -151,55 +121,29 @@ include('../includes/header.php');
            
 <div class="clear"></div>
 
-<div id="serve-download">
+<div id="who-we-serve-icons">
 
-	<div id="serve-download-content">	
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
-		<div id="serve-download-image">
-			
-			<img src="<?=$url;?>/images/resource-download.jpg">
-			
-		</div>
-			
-		<div id="serve-download-summary">
-			
-			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
-			
-			<p class="brochure-resource">Brochure</p>
-			
-			<h2>Free Annual Report Template</h2>
-			
-			<p class="date">January 1, 2017  |  Non-profits</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
-			
-			<div id="serve-download-button"><a href="#">Download</a></div>	
-
-
-		</div>
-		
-		<div class="clear"></div>
-
-		
-
-	   <!--clear-->
-	</div> 
-	
-</div>  
+</div>
 
 <div class="clear"></div>
 
  
-<div id="serve-resources">
+<div id="product-contact">
          
-	<div id="serve-resources-content">
+	<div id="product-contact-content">
 	
-		<h2>Lorem Ipsum Dolor</h2>
+		<h2>See How Social Solutions Can Help Fund Greater Impact</h2>
+		
+		<p>We help your organization track all aspects of your victims’ services programs and services to prove effectiveness at the individual, program and organizational level to reach your goals and fund greater impact.</p>
 	
-		<div id="serve-resources-button"><a href="#">More Resources</a></div>
+		<div id="demo-button"><a href="#">Get a Demo</a></div>
 	
           
 </div>
+          
+          
            
 <?php include('../includes/footer.php'); ?>
 

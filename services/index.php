@@ -136,17 +136,15 @@ include('../includes/header.php');
 	
 		<div id="training-quote-image">
 
-			<img src="<?=$url;?>/images/services-support-2.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 
 		</div>
 
 		<div id="training-quote-summary">
 			
-			<p class="quote">"Testimonial quote lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper id tellus non vestibulum."</p>	
-			
-			<p class="author">Lorem Ipsum</p>
-			
-			<p class="role">Dolor sit amet, Consectetur Adipiscing Elit</p>
+			<h4 class="red-headline">Online Training Portal</h4>
+
+				<p>The Social Solutions online training portal ensures all user have access to on-demand training that will enable their success. </p>
 
 		</div>
 		
@@ -156,25 +154,72 @@ include('../includes/header.php');
 			
 </div>-->
 
-<div id="training-about">
+<div id="benefits-about">
 
-	<div id="training-about-content">
+	<div id="benefits-about-content">
 
-		<h4>Lorem Ipsum</h4>
-
-		<div id="training-about-summary">
+		<div id="benefits-about-left">
+		
+			<h3 class="red-headline">Boot Camps</h4>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
+			<p>Hands on, multiday courses that set our clients up<br>for success</p>
 			
-			<p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
+			<h3 class="red-headline">Virtual Interactive Labs</h4>
 			
-			<div class="clear"></div>
+			<p>Convenient, self paced learning labs designed to fit in your busy schedule and enable use of the software</p>
+			
 
 		</div>
 		
+		<div id="benefits-about-right">
+		
+			<h3 class="red-headline">eLearning Library</h4>
+			
+			<p>Free on demand eLearning libraries for end users to help onboard new hires and provide refreshers on key topics</p>
+			
+			<h3 class="red-headline">Webinars</h4>
+			
+			<p>Regularly scheduled webinars focused on enhancing your utilization of the software</p>
+			
+			
+
+		</div>
+		
+		<div class="clear"></div>
+
 	</div>
+	
+	
+	
+</div>  
+
+<div class="clear"></div><!--clear-->
+	
+<div id="training-about">
+
+		<div id="training-about-content">	
+
+			<div id="training-about-summary">
+
+				<h4 class="red-headline">Online Training Portal</h4>
+
+				<p>The Social Solutions online training portal ensures all user have access to on-demand training that will enable their success. </p>	
+
+
+			</div>
+
+			<div id="training-about-image">
+
+				<img src="<?=$url;?>/images/services-support-1.jpg">
+
+			</div>
+
+		   <!--clear-->
+		</div> 
 		
 </div>
+
+<div class="clear"></div><!--clear-->
 
 <div id="support-banner">
 
@@ -191,145 +236,150 @@ include('../includes/header.php');
 	</div>
 		
 </div>
-
-<div id="support-about-top">
-
-	<div id="support-about-top-content">	
-
-		<div id="support-about-top-summary">
-
-			<h4>Sub-headline lorem ipsum</h4>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim. Nam eleifend, nunc convallis imperdiet dignissim, turpis nulla fermentum odio, nec semper nunc metus et ipsum. Aliquam vel arcu eget leo faucibus varius. Donec blandit ex ut elit bibendum, id porttitor tellus scelerisque.</p>	
-
-
-		</div>
-
-		<div id="support-about-top-image">
-			
-			<img src="<?=$url;?>/images/services-support-3.jpg">
-			
-		</div>
-
-	   <!--clear-->
-	</div> 
-	
-</div>  
-
-<div class="clear"></div><!--clear-->
  
-<div id="support-about-bottom">      
-    
-    <div id="support-about-bottom-content">	
-		
-		<div id="support-about-bottom-image">
-			
-			<img src="<?=$url;?>/images/services-support-3.jpg">
-			
-		</div>
-		
-		<div id="support-about-bottom-summary">
-
-			<h4></h4>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim. Nam eleifend, nunc convallis imperdiet dignissim, turpis nulla fermentum odio, nec semper nunc metus et ipsum. Aliquam vel arcu eget leo faucibus varius. Donec blandit ex ut elit bibendum, id porttitor tellus scelerisque.</p>	
-
-
-		</div>
-   		
-	</div>
-         
-</div>
-
+ 
 <div class="clear"></div><!--clear-->
 
 <div id="services-feature">
 
-<div id="services-feature-content">
+	<div id="services-feature-content">
 
-	<h4>At your fingertips or a call away, we are here for you.</h4>
+		<h4>At your fingertips or a call away, we are here for you.</h4>
 
-	<p>We offer a variety of options for contacting the Social Solutions Support teams</p>
+		<p>We offer a variety of options for contacting the Social Solutions Support teams</p>
 
-	<div id="product-features">
+		<div id="product-features">
 
-		<div id="product-features-content">
+			<div id="product-features-content">
 
-			<div id="product-features-content-list-left">
+				<div id="product-features-content-list-left">
 
-				<ul>
+					<ul>
 
-					<li class="feature-database">
+						<li class="feature-database">
 
-						<div class="features-item-copy">
+							<div class="features-item-copy">
 
-							<div class="features-title">Email</div>
+								<div class="features-title">Email</div>
 
-							<p>Email our technical support from within your system. Our detailed tracking system ensures you’ll get a quick and helpful response.</p>
+								<p>Email our technical support from within your system. Our detailed tracking system ensures you’ll get a quick and helpful response.</p>
 
-						</div>
+							</div>
 
-					</li>
+						</li>
 
-					<li class="feature-tracking">
+						<li class="feature-tracking">
 
-						<div class="features-item-copy">
+							<div class="features-item-copy">
 
-							<div class="features-title">Phone</div>
+								<div class="features-title">Phone</div>
 
-							<p>Our technical support is knowledgeable and ready to help! Call us anytime.</p>
+								<p>Our technical support is knowledgeable and ready to help! Call us anytime.</p>
 
-						</div>
+							</div>
 
-					</li>
+						</li>
 
+					</ul>
 
+				</div>
 
-				</ul>
+				<div id="product-features-content-list-right">
+
+					<ul>
+
+						<li class="feature-grants">
+
+							<div class="features-item-copy">
+
+								<div class="features-title">Chat</div>
+
+								<p>Need a quick answer? Utilize our chat feature and our support reps are there within seconds to help out.</p>
+
+							</div>
+
+						</li>
+
+						<li class="feature-database">
+
+							<div class="features-item-copy">
+
+								<div class="features-title">Knowledge Base</div>
+
+								<p>Access our Knowledge Base through our built in portal for quick how tos and documentation.</p>
+
+							</div>
+
+						</li>
+
+					</ul>
+
+				</div>
+
+				<div class="clear"></div>
 
 			</div>
 
-			<div id="product-features-content-list-right">
 
-				<ul>
+		</div>
 
-					<li class="feature-grants">
+	</div> 
+	
+	<div id="support-about-top">
 
-						<div class="features-item-copy">
+		<div id="support-about-top-content">	
 
-							<div class="features-title">Chat</div>
+			<div id="support-about-top-summary">
 
-							<p>Need a quick answer? Utilize our chat feature and our support reps are there within seconds to help out.</p>
+				<h4>Premium Support Options </h4>
 
-						</div>
+				<p>Need a little extra support for your organization? We have you covered. Social Solutions offers tiered packages to meet the diverse needs of our clients including options for a dedicated Advanced Support Consultant.</p>
 
-					</li>
+				<p>Acting as a member of your team, the ASC relationship further enables your team and provides a consistent support presence who understands your specific use of the software.</p>	
 
-					<li class="feature-database">
-
-						<div class="features-item-copy">
-
-							<div class="features-title">Knowledge Base</div>
-
-							<p>Access our Knowledge Base through our built in portal for quick how tos and documentation.</p>
-
-						</div>
-
-					</li>
-
-				</ul>
 
 			</div>
 
-			<div class="clear"></div>
+			<div id="support-about-top-image">
+
+				<img src="<?=$url;?>/images/services-support-3.jpg">
+
+			</div>
+
+		</div> 
+
+	</div>  
+
+	<div class="clear"></div><!--clear-->
+
+	<div id="support-about-bottom">      
+
+		<div id="support-about-bottom-content">	
+
+			<div id="support-about-bottom-image">
+
+				<img src="<?=$url;?>/images/services-support-3.jpg">
+
+			</div>
+
+			<div id="support-about-bottom-summary">
+
+				<h4>Account Management</h4>
+
+				<p>Think of your Social Solutions Account Manager as your "person" in our organization. Every Social Solutions client gets paired up with a general point of contact to provide big picture guidance on your journey, as well to be there with answers to your everyday questions. In a nutshell, your Account Manager is there to provide proactive, consist communication so that you are a happy and satisfied customer.</p>	
+
+
+			</div>
 
 		</div>
 
 	</div>
 
-</div>
+	<div class="clear"></div><!--clear-->
 
 </div>
+
+
 
            
 <?php include('../includes/footer.php'); ?>

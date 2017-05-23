@@ -16,6 +16,8 @@ include('../includes/header.php');
 	<div id="serve-hero-content">	
 
 			<h2>Managing Outcomes for Workforce Organizations</h2>
+			
+			<p>Our software was built to handle the full range of data and outcomes you need to track to effectively serve your clients. Things like skills assessments, job training, placement, retention, and client and employer engagement are easy to manage with a software suite from Social Solutions.</p>
 	   
 	</div> 
       
@@ -29,12 +31,9 @@ include('../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Pellentesque Molestie</h2>
-			
-			<h3>Aliquam erat volutpat</h3>
+			<h2>Helping Workforce Organizations Get the Job Done</h2>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
-
+			<p>Between funder requirements, like the Workforce Investment and Opportunity Act (WIOA), and the desire to prove the impact of the services being provided, it’s more important than ever that workforce organizations have a comprehensive data management system. That’s where we come in.  </p>	
 
 		</div>
 
@@ -52,68 +51,50 @@ include('../includes/header.php');
 <div class="clear"></div><!--clear-->
 
 
-<div id="trio-feature-boxes">      
-    
-    <div id="trio-feature-boxes-content">	
+<div id="benefits-about">
+	
+	<div id="benefits-about-content">
 		
-		<h2>Benefits of ETO for Nonprofit Agencies</h2>
+		<h2>Tools for Every Step of the Process</h2>
+
+		<div id="benefits-about-left">
 		
-		<div class="box orange">
+			<h3 class="blue-headline">Intake Clients</h4>
 			
-			<ul>
+			<p>As individuals enter your organization, data collection happens in real-time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door.</p>
 			
-				<li>Track demographics, service delivery, and progress toward client outcomes for all your programs in one system </li>
-				
-				<li>Increase efficiency by sharing information across staff and programs as appropriate</li>
-				
-				<li>Give frontline staff access to real-time data so they can adjust their approach as needed with individual clients</li>
+			<h3 class="red-headline">Assess Needs</h4>
 			
-			</ul>
+			<p>Initial skills assessment helps staff determine the ideal programs and services for individual clients. Define what drove this individual to seek services from your organization and align their needs with the correct programs, internally or through an external referral.</p>
 			
-		</div>
-		
-		<div class="box yellow">
+			<h3 class="yellow-headline">Provide Services</h4>
 			
-			<ul>
+			<p>We give you a host of features for managing individual and group services, with automated program eligibility determination, training plan creation, service tracking, and targeted job announcements.</p>
 			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>
-			
-		</div>
-		
-		<div class="box blue">
-			
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>	
 
 		</div>
+		
+		<div id="benefits-about-right">
+		
+			<h3 class="orange-headline">Collaborate</h4>
+			
+			<p>With referral functionality, you can engage at a deeper level with employers in your area and offer more job opportunities to clients that fit their unique skillsets.</p>
+			
+			<h3 class="green-headline">Report Results</h4>
+			
+			<p>Be equipped with reports based on Federal performance indicators, and standard forms like job retention and employer engagement, based on common metrics and goals within the workforce space.</p>
+			
+			<h3 class="blue-headline">Manage to Outcomes</h4>
+			
+			<p>Assess the impact of your actions and adjust your processes over time so you can ensure you are providing the best services to your clients at every stage. </p>
 
+		</div>
+		
+		<div class="clear"></div>
 
-	 <div class="clear"></div><!--clear-->
-   
-   		
 	</div>
-    
-      
+		
 </div>
-
-<div class="clear"></div>
 
 <div id="featured-client">
 
@@ -127,9 +108,9 @@ include('../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>JVS Boston Expanded Their Reach and Their Impact</h3>
+			<h3>JVS Boston Expanded Their Reach and Their Impact </h3>
 
-			<p>Founded prior to World War II to help Eastern European immigrants enter the American workforce, JVS Boston now provides educational and training programs to the broader Boston-area population. Today, they help more than 15,000 low-skill, low-income adults each year. With Social Solutions, they can see the clear impact of their work through higher wages and higher rates of placement, promotion, and retention among their participants...</p>	
+			<p>Founded prior to World War II to help Eastern European immigrants enter the American workforce, JVS Boston now provides educational and training programs to the broader Boston-area population. Today, they help more than 15,000 low-skill, low-income adults each year. With Social Solutions, they can see the clear impact of their work through higher wages and higher rates of placement, promotion, and retention among their participants. </p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -140,6 +121,44 @@ include('../includes/header.php');
     
     </div>
     
+</div>
+       
+<div id="product-intro">
+
+	<div id="product-intro-content" >
+
+		<h2>A Solution Designed for Workforce Organizations</h2>
+
+		<div id="product-intro-summary">
+		
+			<p>ETO for Workforce is our preconfigured best practice solution for workforce organizations, including reports based on Federal performance indicators and standard forms based on common metrics and goals within the workforce space such as job retention and employer engagement.</p>
+
+			</p>
+
+		</div>
+
+		<div id="product-intro-list">
+			
+			<p>With ETO for Workforce you can:</p>
+			
+			<ul>
+			
+				<li>Meet funder requirements like WIOA</li>
+				
+				<li>Engage with clients and employers to align job seekers with the ideal career</li>
+				
+				<li>Gain a deeper understanding of the impact of the services you provide</li>
+				
+			
+			</ul>
+
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div>
+	
+	
 </div>		
         
 <div id="featured-library">
@@ -150,55 +169,29 @@ include('../includes/header.php');
            
 <div class="clear"></div>
 
-<div id="serve-download">
+<div id="who-we-serve-icons">
 
-	<div id="serve-download-content">	
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
-		<div id="serve-download-image">
-			
-			<img src="<?=$url;?>/images/resource-download.jpg">
-			
-		</div>
-			
-		<div id="serve-download-summary">
-			
-			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
-			
-			<p class="brochure-resource">Brochure</p>
-			
-			<h2>Free Annual Report Template</h2>
-			
-			<p class="date">January 1, 2017  |  Non-profits</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
-			
-			<div id="serve-download-button"><a href="#">Download</a></div>	
-
-
-		</div>
-		
-		<div class="clear"></div>
-
-		
-
-	   <!--clear-->
-	</div> 
-	
-</div>  
+</div>
 
 <div class="clear"></div>
 
  
-<div id="serve-resources">
+<div id="product-contact">
          
-	<div id="serve-resources-content">
+	<div id="product-contact-content">
 	
-		<h2>Lorem Ipsum Dolor</h2>
+		<h2>See How Workforce Organizations Get More from Social Solutions</h2>
+		
+		<p>We help you go beyond task monitoring to drive more effective case management with a preconfigured solution, built to support best practices for workforce organizations. </p>
 	
-		<div id="serve-resources-button"><a href="#">More Resources</a></div>
+		<div id="demo-button"><a href="#">Get a Demo</a></div>
 	
           
 </div>
+          
+          
            
 <?php include('../includes/footer.php'); ?>
 

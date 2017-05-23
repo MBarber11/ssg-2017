@@ -15,11 +15,9 @@ include('../includes/header.php');
 
 	<div id="who-we-serve-hero-content">	
 
-			<h2>Who We Serve</h2>
-			
-			<h3>Lorem Ipsum Aldit Tofu</h3>
+			<h2>When It Comes to Improving Human Lives, It’s Worth Getting It Right</h2>
 		
-			<p>Our clients’ work touches countless lives every day. That’s why we strive to give them more than just tools to get the job done. We help them tell the story of their work, and the insights and evidence they gain from our software make those stories even more powerful.</p>
+			<p>Social Solutions was founded with the goal of giving human services professionals a better way to collect data on the services they provide so they could better understand their impact. Today, case managers, job coaches, correctional officers, youth workers, and funders alike, all log in to our software and trust our tools to help them serve their communities better.</p>
 	   
 	</div> 
       
@@ -27,85 +25,88 @@ include('../includes/header.php');
 
 <div class="clear"></div><!--clear-->
 
-<div id="product-intro">
-
-	<div id="product-intro-content">
-
-		<h2>Lorem ipsum dolor sit amet, consectetur adi.</h2>
-
-		<div id="product-intro-summary">
-		
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel justo nec mi pulvinar gravida ut vel nulla. Phasellus at lobortis nulla. Fusce ut pellentesque enim. Nam eleifend, nunc convallis imperdiet dignissim, turpis nulla fermentum odio, nec semper nunc metus et ipsum. Aliquam vel arcu eget leo faucibus varius. Donec blandit ex ut elit bitbendum, id porttitor tellus scelerisque. Cras auctor, lacus efficitur lacinia sagittis, nunc tortor lobortis justo, sitamet tristique erat erat vitae diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, himenaeos.
-				
-			</p>
-
-		</div>
-
-		<div id="product-intro-list">
-		
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-				
-				<li>Sed vel justo nec mi pulvinar gravida ut vel nulla.</li>
-				
-				<li>Phasellus at lobortis nulla.</li>
-				
-				<li>Fusce ut pellentesque enim.</li>
-				
-				<li>Aliquam vel arcu eget leo faucibus varius.</li>
-			
-			</ul>
-
-		</div>
-		
-		<div class="clear"></div>
-		
-	</div>
-	
-	
-</div>
-
 <div id="who-we-serve-icons">
 
 	<?php include('../includes/who-we-serve-section.php'); ?>
 
 </div>
 
+<div id="training-banner">
 
-<div id="featured-client">
+	<div id="training-banner-content">
 
-	<div id="featured-client-content">
+		<h3>Comprehensive Software for Nonprofit and Government Organizations</h3>
 
-		<div id="client-image">
 		
-			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
-		
-		</div>
-
-		<div id="client-summary">
-
-			<h3>Friends of the Children Discovered a Ripple Effect</h3>
-
-			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
-
-			<div id="read-more-client-button"><a href="#">Read more</a></div>
-
-		</div>
-
-	   <div class="clear"></div><!--clear-->
-   
-    
-    </div>
-    
-</div>		
-        
-<div id="featured-library">
-		
-		<?php include('../includes/resource-section.php'); ?>
-
+	</div>
+			
 </div>
+
+<div id="nonprofit-about">
+
+	<div id="nonprofit-about-content">
+
+		<div id="nonprofit-about-summary">
+			
+			<p>From intake, needs assessment, funder requirements and reporting, and the desire to understand the outcomes of your service delivery, we’ve designed our products to fit and configure to the ins and outs of your organization. With specific solutions for multiple verticals based on best practices and industry standards, we’ll help you choose the right solution to have the greatest impact. </p>
+			
+			<p class="last">Social Solutions is proud to partner with organizations in both the nonprofit and public sectors, offering a wide array of service areas and proven results. This includes organizations providing health and human services, workforce services, reentry services, child and family services, homeless services, foundations and funders, and victims services.</p>
+			
+			<div class="clear"></div>
+
+		</div>
+		
+	</div>
+		
+</div>
+
+<div id="support-about-top">
+
+		<div id="support-about-top-content">	
+
+			<div id="support-about-top-summary">
+
+				<h4>How Social Solutions Helps Nonprofits Maximize Impact </h4>
+
+				<p>The Wyman Center’s Teen Outreach Program (TOP) knew that their outcomes were impressive. Thanks to our tracking tools, they knew their program led to a 53% lower risk of teen pregnancy and a 60% lower risk of dropping out of school. But that wasn’t enough for them. They wanted to get even smarter about their approach. By comparing several different TOP programs to measure best practices, they were able to see that taking a trauma-informed approach could lead to even better outcomes. This discovery means the Wyman Center isn’t just more effective; it’s more empathetic and understanding, too.</p>	
+
+
+			</div>
+
+			<div id="support-about-top-image">
+
+				<img src="<?=$url;?>/images/services-support-3.jpg">
+
+			</div>
+
+		</div> 
+
+	</div>  
+
+	<div class="clear"></div><!--clear-->
+
+	<div id="support-about-bottom">      
+
+		<div id="support-about-bottom-content">	
+
+			<div id="support-about-bottom-image">
+
+				<img src="<?=$url;?>/images/services-support-3.jpg">
+
+			</div>
+
+			<div id="support-about-bottom-summary">
+
+				<h4>Social Solutions Software in the Public Sector</h4>
+
+				<p>Chris Smith, the Director of the MCDD, needed to answer the question, “How is it you know you’ve made a diﬀerence today?” Apricot allowed him to find one. Using the outcomes analysis tools, he discovered a fascinating insight: African American children with autism were more likely to be misdiagnosed as intellectually disabled. Once he saw this trend, he could propose a new approach that better trained doctors in areas that haven’t traditionally served children with autism. This helped more children beneﬁt from a faster, more accurate diagnosis, leading to better care for life</p>	
+
+
+			</div>
+
+		</div>
+
+	</div>
            
 <div class="clear"></div>
 

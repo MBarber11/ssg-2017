@@ -732,13 +732,13 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	height:320px;
+	height:400px;
 	}
 
 #essentials-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding-top: 120px;
+	padding-top: 90px;
 	}
 
 #essentials-hero-content h2{
@@ -748,10 +748,17 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	line-height: 64px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 620px;
+	max-width: 70%;
 	padding-bottom: 20px;
 	}
-
+#essentials-hero-content p{
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+	}
 
 #eto-hero {
 	background: url(../images/hero-eto.jpg); 
@@ -787,6 +794,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin: 0 auto;
 	max-width: 80%;
 	}
+
 #product-intro{
 	width: 100%;
 	}
@@ -865,15 +873,16 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	line-height: 50px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 620px;
+	max-width: 70%;
 	padding-bottom: 10px;
 	}
 
 #product-contact-content p{
 	color: #ffffff;
 	text-align: center;
-	margin-bottom: 40px;
-
+	padding-bottom: 40px;
+	max-width: 65%;
+	margin: 0 auto;
 	}
 
 /* ------ About Us ------ */
@@ -1492,7 +1501,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 .green {
-	background: #93ad3c;
+	background: #93ad3c !important;
 	margin-right: 10px;
 	}
 
@@ -2031,7 +2040,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	line-height: 58px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 80%;
 	margin-bottom: 30px;
 	}	
 
@@ -2130,12 +2139,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #training-about{
 	background: #f3f3f3;
+	height: 300px;
+	padding: 80px 0px;
 	}
 
 #training-about-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding: 80px 0px;
+	
 	}
 
 #training-about-content h4 {
@@ -2144,16 +2155,22 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
     font-weight: 600;
     line-height: 48px;
     padding-bottom: 25px;
+	margin-top: 15%;
 	}
 
-#training-about-summary p {
+
+#training-about-summary {
 	float: left;
 	width: 40%;
-	padding-right: 10%;
+	padding-right: 6%;
 	}
 
 #training-about-summary p.last{
 	padding-right: 0;
+	}
+
+#training-about-image{
+	float: right;
 	}
 
 #support-banner{
@@ -2180,10 +2197,11 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #support-about-top p, #support-about-bottom p{
 	color: #6e6a62;
+	text-align: left !important;
 	}
 
 #support-about-top{
-	background-color: #ffffff;
+	background: #f3f3f3;
 	height: 400px;
 	padding: 50px 0px;
 	background-size: cover;
@@ -2201,10 +2219,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	color: #ffffff;
 	margin-left:15px;
 	}
-
-#support-about-top-summary p{
-	width: 80%;
-		}
 
 #support-about-top-image{
 	float: right;
@@ -2233,14 +2247,18 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	width: 45%;
 	}
 
+#services-feature-content #product-features {
+	padding-bottom: 0px !important;
+}
+
 #services-feature-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding: 80px 0px;
+	padding-top: 80px;;
 	}
 
 #services-feature-content h4{
-	color: #93ad3c;
+	color: #f47a35;
 	font-size: 38px;
 	line-height: 45px;
 	text-align: center;
@@ -2948,7 +2966,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	line-height: 64px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 60%;
+	max-width: 80%;
 	padding-bottom: 20px;
 	}
 
@@ -2974,6 +2992,19 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-bottom: 20px;
 	}
 
+#nonprofit-about {
+	max-width: 1175px; 
+	margin: 0 auto;
+	padding: 60px 0px;
+	}
+
+#nonprofit-about p{
+	float:left;
+	width: 47%;
+}
+#nonprofit-about p.last{
+	padding-left: 5%;
+}
 /* ------ Who We Serve Individual  ------ */
 
 #serve-hero {
@@ -2998,7 +3029,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	line-height: 64px;
 	text-align: center;
 	margin: 0 auto;
-	max-width: 70%;
+	max-width: 80%;
 	padding-bottom: 20px;
 	}
 

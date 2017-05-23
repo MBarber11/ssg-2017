@@ -15,7 +15,9 @@ include('../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Something About Homelessness</h2>
+			<h2>Social Solutions for Homeless Service Organizations </h2>
+			
+			<p>Our software was built to help you meet the regulatory requirements necessary in securing the critical funding your organization depends on. This includes agencies receiving funding that requires use of a Homeless Management Information System (HMIS). </p>
 	   
 	</div> 
       
@@ -23,98 +25,97 @@ include('../includes/header.php');
 
 <div class="clear"></div><!--clear-->
 
-<div id="serve-about">
+<div id="product-intro">
 
-	<div id="serve-about-content">	
+	<div id="product-intro-content" >
 
-		<div id="serve-about-summary" class="product-about-text">
+		<h2>Helping You Light the Path Home</h2>
 
-			<h2>Pellentesque Molestie</h2>
-			
-			<h3>Aliquam erat volutpat.</h3>
+		<div id="product-intro-summary">
+		
+			<p>Juggling support shelters, supportive housing, case management for residents’ self-sufficiency, and comprehensive neighborhood revitalization, is no easy task. You need to feel confident that your programs are being delivered as designed, and that they are improving the outcomes that drive your mission.  </p>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non ante vel tellus blandit pulvinar quis in odio. Aliquam erat volutpat. Aenean sagittis eleifend turpis, ut accumsan dolor sollicitudin vestibulum. Pellentesque molestie at ipsum feugiat interdum.</p>	
-	
-
+			</p>
 
 		</div>
 
-		<div id="serve-about-image">
+		<div id="product-intro-list">
 			
-			<img src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<p>Program Naming "Entities" </p>
 			
-		</div>
+			<ul>
+			
+				<li>US Department of Housing and Urban Development (HUD)  
+				
+					<ul>
+					
+						<li>Choice Neighborhoods Program</li>
+						
+						<li>Continuum of Care (CoC) Program</li>
+						
+					</ul>	
+					
+				</li>
+				
+				<li>Department of Education (ED) Promise Neighborhoods Program</li>
+				
+				<li>The Corporation of National and Community /li>
+			
+			</ul>
 
-	   <!--clear-->
-	</div> 
-	
-</div>  
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div>  
 
 <div class="clear"></div><!--clear-->
 
 
-<div id="trio-feature-boxes">      
-    
-    <div id="trio-feature-boxes-content">	
+<div id="benefits-about">
+	
+	<div id="benefits-about-content">
 		
-		<h2>Benefits of ETO for Nonprofit Agencies</h2>
+		<h2>Tools for Every Step of the Process</h2>
+
+		<div id="benefits-about-left">
 		
-		<div class="box orange">
+			<h3 class="blue-headline">Intake Clients</h4>
 			
-			<ul>
+			<p>As individuals enter your shelter, data collection happens in real time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door. With built-in forms such as the bed enrollment form, assign a bed to each individual right when they enter.</p>
 			
-				<li>Track demographics, service delivery, and progress toward client outcomes for all your programs in one system </li>
-				
-				<li>Increase efficiency by sharing information across staff and programs as appropriate</li>
-				
-				<li>Give frontline staff access to real-time data so they can adjust their approach as needed with individual clients</li>
+			<h3 class="red-headline">Assess Needs</h4>
 			
-			</ul>
+			<p>Whether you’re providing shelter and temporary or permanent housing, or helping secure stable jobs, ensure your clients are aligned with the correct services. </p>
 			
-		</div>
-		
-		<div class="box yellow">
+			<h3 class="yellow-headline">Provide Services</h4>
 			
-			<ul>
+			<p>Manage all aspects of your services in a single, secure location, including individual and aggregate data as well as funder and outcomes reporting. </p> <br><br>
 			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>
-			
-		</div>
-		
-		<div class="box blue">
-			
-			<ul>
-			
-				<li>Lorem ipsum dolor sit amet</li>
-				
-				<li>Consecteturadipiscing elit</li>
-				
-				<li>Donec feugiat neque in velit ornare</li>
-				
-				<li>Cum sociis natoque.</li>
-			
-			</ul>	
 
 		</div>
+		
+		<div id="benefits-about-right">
+		
+			<h3 class="orange-headline">Collaborate</h4>
+			
+			<p>Collaborate across partner agencies, collect uniform data, share information, report on progress in the aggregate, and meet compliance needs and reporting requirements more efficiently.</p>
+			
+			<h3 class="green-headline">Report Results</h4>
+			
+			<p>Feel confident with a preconfigured solution designed to ensure accuracy and continuity in the data you report to the Department of Housing and Urban Development (HUD).</p>
+			
+			<h3 class="blue-headline">Manage to Outcomes</h4>
+			
+			<p>Assess the impact of your actions and adjust your processes over time so you can ensure you are providing the best services to your clients at every stage.</p>
 
+		</div>
+		
+		<div class="clear"></div>
 
-	 <div class="clear"></div><!--clear-->
-   
-   		
 	</div>
-    
-      
+		
 </div>
-
-<div class="clear"></div>
 
 <div id="featured-client">
 
@@ -128,9 +129,9 @@ include('../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Friends of the Children Discovered a Ripple Effect</h3>
+			<h3>Alberta Housing Collaborative</h3>
 
-			<p>Friends of the Children had a few basic goals: help students graduate high school, stay out of the juvenile justice system and avoid early parenthood. Using our software, they knew they were meeting those goals with at least 85% of participants, even though they had enormous odds against them. But what they didn’t expect was the ripple effect their program would have on the children’s siblings...</p>	
+			<p>The Alberta Housing Collaborative developed a unique initiative that shifted their efforts from simply managing homelessness to a Housing First approach, aimed at breaking the cycle for good. Clients are quickly placed into permanent housing with access to supportive services that move them toward stability and self-sufficiency. ETO makes it easy for them to track all aspects of their service delivery, across 26 homeless shelters. It all happens from one comprehensive system that helps them meet funder requirements and report on progress.</p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 
@@ -141,6 +142,49 @@ include('../includes/header.php');
     
     </div>
     
+</div>
+       
+<div id="product-intro">
+
+	<div id="product-intro-content" >
+
+		<h2>A Solution Designed for Victims Services’ Organization</h2>
+
+		<div id="product-intro-summary">
+		
+			<p>Our Apricot for Victims’ Support (AVS) product is uniquely designed with domestic violence service providers in mind. AVS is a preconfigured solution with standard forms and reports based on funding requirements and best practices in the domestic violence space. AVS is the solution that specifically addresses the case management and outcomes reporting of your domestic violence service providers.</p>
+
+			</p>
+
+		</div>
+
+		<div id="product-intro-list">
+			
+			
+			<ul>
+			
+				<li>Built in reports to help you meet funder requirements 
+				
+					<ul>
+					
+						<li>HUD Data Quality Report, APR, and ESG Caper Reports</li>
+						
+						<li>VOCA Report</li>
+						
+					</ul>	
+				</li>
+				
+				<li>Best practice forms designed for domestic violence service providers</li>
+			
+			</ul>
+
+		</div>
+		
+		<div class="clear"></div>
+		
+	</div>
+	
+	
 </div>		
         
 <div id="featured-library">
@@ -151,55 +195,29 @@ include('../includes/header.php');
            
 <div class="clear"></div>
 
-<div id="serve-download">
+<div id="who-we-serve-icons">
 
-	<div id="serve-download-content">	
+	<?php include('../includes/who-we-serve-section.php'); ?>
 
-		<div id="serve-download-image">
-			
-			<img src="<?=$url;?>/images/resource-download.jpg">
-			
-		</div>
-			
-		<div id="serve-download-summary">
-			
-			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
-			
-			<p class="brochure-resource">Brochure</p>
-			
-			<h2>Free Annual Report Template</h2>
-			
-			<p class="date">January 1, 2017  |  Non-profits</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum nulla, blandit sit amet gravida ut, interdum a nunc. Maecenas aliquet, metus quis ornare convallis, turpis lacus ullamcorper sem, non accumsan ligula odio at orci. Quisque ac varius turpis, in consequat ex. Vivamus placerat quam iaculis nulla venenatis, sit amet.</p>
-			
-			<div id="serve-download-button"><a href="#">Download</a></div>	
-
-
-		</div>
-		
-		<div class="clear"></div>
-
-		
-
-	   <!--clear-->
-	</div> 
-	
-</div>  
+</div>
 
 <div class="clear"></div>
 
  
-<div id="serve-resources">
+<div id="product-contact">
          
-	<div id="serve-resources-content">
+	<div id="product-contact-content">
 	
-		<h2>Lorem Ipsum Dolor</h2>
+		<h2>See How Social Solutions Can Help You Reduce Homelessness</h2>
+		
+		<p>We help you go beyond helping people in need to driving the most effective outcomes, with a preconfigured HMIS solution. It’s built to support best practices and meet critical regulatory guidelines. </p>
 	
-		<div id="serve-resources-button"><a href="#">More Resources</a></div>
+		<div id="demo-button"><a href="#">Get a Demo</a></div>
 	
           
 </div>
+          
+          
            
 <?php include('../includes/footer.php'); ?>
 
