@@ -80,7 +80,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../images/clients/featured-client-friends-of-children.jpg">
+			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 

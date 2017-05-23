@@ -38,14 +38,14 @@ $detect = new Mobile_Detect;
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <link rel="shortcut icon" type="image/x-icon" href="<?=$url;?>/images/favicon.ico" />
-<link rel="stylesheet" media="all" href="http://localhost:8888/ssg-2017/css/ui.css" />
+<link rel="stylesheet" media="all" href="<?=$url;?>/css/ui.css" />
 
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-<script type="text/javascript" src="http://localhost:8888/ssg-2017/js/jquery.slicknav.js"></script>
+<script type="text/javascript" src="<?=$url;?>/js/jquery.slicknav.js"></script>
 
-<script type="text/javascript" src="http://localhost:8888/ssg-2017/js/jquery.sticky.js "></script>
+<script type="text/javascript" src="<?=$url;?>/js/jquery.sticky.js "></script>
 
    <script>
     $(window).load(function(){
@@ -91,11 +91,11 @@ $detect = new Mobile_Detect;
 					<ul class="no-float">
 						
 						
-						<li id="nav-essentials-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot-essentials.php">Apricot Essentials</a></li>
+						<li id="nav-essentials-logo"><a href="<?=$url;?>/solutions/apricot-essentials.php">Apricot Essentials</a></li>
 						
-						<li id="nav-apricot-logo"><a href="http://localhost:8888/ssg-2017/solutions/apricot.php">Apricot</a></li>
+						<li id="nav-apricot-logo"><a href="<?=$url;?>/solutions/apricot.php">Apricot</a></li>
 						
-						<li id="nav-eto-logo"><a href="http://localhost:8888/ssg-2017/solutions/eto.php">ETO</a></li>
+						<li id="nav-eto-logo"><a href="<?=$url;?>/solutions/eto.php">ETO</a></li>
 	
 					</ul>	
 				
@@ -109,21 +109,21 @@ $detect = new Mobile_Detect;
             	<!--<ul>
 									
          		
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/child-services.php">Child Services</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/child-services.php">Child Services</a></li>
          			
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/collaboratives.php">Collaboratives</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/collaboratives.php">Collaboratives</a></li>
          			
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/health-and-human-services.php">Health &amp; Human Services</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/health-and-human-services.php">Health &amp; Human Services</a></li>
          			
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/homelessness.php">Homelessness</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/homelessness.php">Homelessness</a></li>
          			
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/foundations.php">Foundations</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/foundations.php">Foundations</a></li>
          			
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/reentry.php">Reentry</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/reentry.php">Reentry</a></li>
          			
-         			<li><a href="http://localhost:8888/ssg-2017/who-we-serve/victim-services.php">Victim Services</a></li>
+         			<li><a href="<?=$url;?>/who-we-serve/victim-services.php">Victim Services</a></li>
 						
-					<li><a href="http://localhost:8888/ssg-2017/who-we-serve/workforce.php">Workforce</a></li>
+					<li><a href="<?=$url;?>/who-we-serve/workforce.php">Workforce</a></li>
          			
           		
            		</ul>-->

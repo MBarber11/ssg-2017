@@ -27,7 +27,7 @@ include('../includes/header.php');
 
 		<div id="white-full-band-image">
 			
-			<img src="../images/eto-impact-support-two.jpg">
+			<img src="<?=$url;?>/images/eto-impact-support-two.jpg">
 			
 		</div>
 		
@@ -157,7 +157,7 @@ include('../includes/header.php');
 
 		<div id="red-full-band-image">
 			
-			<img src="../images/eto-impact-support-two.jpg">
+			<img src="<?=$url;?>/images/eto-impact-support-two.jpg">
 			
 		</div>
 

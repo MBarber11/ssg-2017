@@ -99,7 +99,7 @@ include('../includes/header.php');
 
 		<div id="white-full-band-image">
 			
-			<img src="../images/eto-impact-support-two.jpg">
+			<img src="<?=$url;?>/images/eto-impact-support-two.jpg">
 			
 		</div>
 			
@@ -140,7 +140,7 @@ include('../includes/header.php');
 
 		<div id="green-full-band-image">
 			
-			<img src="../images/eto-impact-support-two.jpg">
+			<img src="<?=$url;?>/images/eto-impact-support-two.jpg">
 			
 		</div>
 
@@ -278,7 +278,7 @@ include('../includes/header.php');
 
 	<div id="featured-client-content">
 
-		<div id="client-image"><img src="../images/clients/featured-client-friends-of-children.jpg"></div>
+		<div id="client-image"><img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg"></div>
 
 		<div id="client-summary">
 

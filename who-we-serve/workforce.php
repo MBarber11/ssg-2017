@@ -40,7 +40,7 @@ include('../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img src="../images/eto-impact-support-one.jpg">
+			<img src="<?=$url;?>/images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -121,7 +121,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../images/clients/featured-client-friends-of-children.jpg">
+			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -156,13 +156,13 @@ include('../includes/header.php');
 
 		<div id="serve-download-image">
 			
-			<img src="../images/resource-download.jpg">
+			<img src="<?=$url;?>/images/resource-download.jpg">
 			
 		</div>
 			
 		<div id="serve-download-summary">
 			
-			<div id="brochure"><img src="../images/icon-brochure.png"></div>
+			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
 			
 			<p class="brochure-resource">Brochure</p>
 			

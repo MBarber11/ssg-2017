@@ -47,7 +47,7 @@ include('../includes/header.php');
 		
 		<div class="partner-one-image">
 			
-			<img src="../images/services-support-3.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 			
 		</div>
 
@@ -64,7 +64,7 @@ include('../includes/header.php');
 		
 		<div class="partner-two-image">
 			
-			<img src="../images/services-support-3.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 			
 		</div>
 		
@@ -102,7 +102,7 @@ include('../includes/header.php');
 		
 		<div class="partner-one-image">
 			
-			<img src="../images/services-support-3.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 			
 		</div>
 
@@ -119,7 +119,7 @@ include('../includes/header.php');
 		
 		<div class="partner-two-image">
 			
-			<img src="../images/services-support-3.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 			
 		</div>
 		

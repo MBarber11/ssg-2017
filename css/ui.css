@@ -1549,6 +1549,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #product-features p{
 	font-size: 16px;
 	line-height: 24px;
+	text-align: left !important;
 	}
 
 .features-title{
@@ -2048,11 +2049,11 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding: 60px 0px;
 	}
 
-#implement-about-boxes{
+.implement-about-boxes{
 	margin: 0 auto;
 	}
 
-#implement-about-boxes .title {
+.implement-about-boxes .title {
 	color: #6ccad6;
 	font-weight:600;
 	font-size: 18px;
@@ -2062,12 +2063,12 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin-bottom: 10px;
 	}
 
-#implement-about-boxes .box {
+.implement-about-boxes .box {
 	height: 150px;
 	margin-bottom: 80px;
 }
 
-#implement-about-boxes p {
+.implement-about-boxes p {
 	color: #615d54;
 	}
 
@@ -2253,7 +2254,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	line-height: 26px;
 	text-align: center;
 	padding-bottom: 40px;
-	width: 65%;
 	margin: 0 auto;
 	}
 
@@ -2377,8 +2377,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-one{
 	background-color: #ffffff;
-	height: 460px;
-	padding-top: 80px;
+	height: 400px;
+	padding: 50px 0px 30px 0px;
 }
 
 #solutions-one-content{
@@ -2392,23 +2392,29 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-right: 100px;
 }
 
-#solutions-one h2, #solutions-two h2{
+#solutions-one h2, #solutions-two h2, #solutions-three h2{
     font-size: 48px;
     text-align: center;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
     font-weight: 600;
     letter-spacing: 0.02em;
 	text-align: left;
 	}
 
-#solutions-one p, #solutions-two p {
+#solutions-one h3, #solutions-two h3, #solutions-three h3{
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 10px;
+	text-transform: uppercase;
+	}
+	
+#solutions-one p, #solutions-two p, #solutions-three p {
 	margin-bottom: 40px;
 	}
 
 #solutions-one-image{
-	background: url(../images/mockup-home.png);
-	width: 538px;
-	height: 518px;
+	width: 530px;
+	height: 363px;
 	float: right;
 	}
 
@@ -2432,8 +2438,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-two{
 	background-color: #f3f3f3;
-	height: 460px;
-	padding: 50px 0px;
+	height: 400px;
+	padding: 50px 0px 30px 0px;
 	}
 
 #solutions-two-content{
@@ -2442,8 +2448,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #solutions-two-image{
-	width: 538px;
-	height: 518px;
+	width: 530px;
+	height: 363px;
 	float: left;
 	}
 
@@ -2473,11 +2479,55 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}	
 
 
+#solutions-three{
+	background-color: #ffffff;
+	height: 460px;
+	padding-top: 80px;
+}
+
+#solutions-three-content{
+	max-width: 1175px; 
+	margin: 0 auto;
+	}
+
+#solutions-three-summary {
+	float: left;
+	width: 43%;
+	padding-right: 100px;
+	}
+
+
+#solutions-three-image{
+	width: 530px;
+	height: 363px;
+	float: right;
+	}
+
+#solutions-three-button a{
+	color: #ffffff;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #f47a35;
+	padding: 8px 40px;
+	border: 4px solid #f47a35;
+	}
+
+#solutions-three-button a:hover, #solutions-three-button a:focus {
+	color: #f47a35;
+	background: #ffffff;
+	border: 4px solid #f47a35;
+	}
+
+#solutions-suite{
+	background-color: #f3f3f3;
+	}
 
 #solutions-suite-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding-top: 80px;
+	padding: 80px 0px;
 	}
 
 #solutions-suite-content h2{
@@ -2496,6 +2546,156 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin: 0 auto;
 	}
 
+
+
+
+#small, #midsize, #enterprise{
+	float: left;
+	width: 31%;
+	min-height: 650px;
+	background: #ffffff;
+	}
+
+#small {
+	border: 1px solid #ffc441;
+	
+}
+
+#midsize {
+	border: 1px solid #f47a35;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#enterprise{
+	border: 1px solid #93ad3c;
+}
+.suite-title {
+	height: 50px;
+	width: 100%;
+	}
+
+.suite-title h3{
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 15px;
+	}
+
+.suite-headline h4{
+	text-align: center;
+	font-size: 25px;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.suite-about{
+	min-height: 200px;
+}
+
+.suite-about p, .suite-includes p, .suite-additional p{
+	width:75% !important;
+	padding-bottom: 15px !important;
+	font-size: 14px;
+	line-height: 22px;
+	}
+
+.suite-includes p.includes, .suite-additional p.additional{
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 10px;
+	}
+
+.suite-additional {
+	min-height: 150px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	}
+
+.suite-additional p a{ 
+	padding-right: 30px;
+	height: 25px;
+	
+	}
+
+.suite-additional a  {
+	background: url(../images/icon-read-more.png) no-repeat right;
+	color: #615d54;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-top: 5px;
+	}
+
+.suite-additional a:hover, .suite-additional a:focus {
+	background: url(../images/icon-read-more-hover.png) no-repeat right;
+	color: #93ad3c;
+	}
+
+#small .suite-includes p.includes{
+	color: #ffc441 !important;
+	}
+
+#midsize .suite-includes p.includes{
+	color: #f47a35 !important;
+	}
+
+#enterprise .suite-includes p.includes{
+	color: #93ad3c !important;
+	}
+
+.essentials-button, .apricot-button, .eto-button {
+	width:100%;
+	text-align: center;
+	}
+
+.essentials-button a, .apricot-button a, .eto-button a{
+	text-align: center;
+	padding: 20px 50px;
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-size: 15px;
+	}
+
+.essentials-button a{
+	background: #ffc441;
+	border: 3px solid #ffc441;
+	}
+
+.essentials-button a:hover, .essentials-button a:focus{
+	background: #ffffff;
+	color: #ffc441;
+	}
+
+.essentials-button a, .apricot-button a, .eto-button a{
+	text-align: center;
+	padding: 15px 60px;
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+.apricot-button a{
+	background: #f47a35;
+	border: 3px solid #f47a35;
+	}
+
+.apricot-button a:hover, .apricot-button a:focus{
+	background: #ffffff;
+	color: #f47a35;
+	}
+
+.eto-button a{
+	background: #93ad3c;
+	border: 3px solid #93ad3c;
+	}
+
+.eto-button a:hover, .eto-button a:focus{
+	background: #ffffff;
+	color: #93ad3c;
+	}
 /* ------ Quotes Classes ------ */
 
 .quote {
@@ -2566,7 +2766,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	color: #ffffff;
 	font-size: 38px;
 	line-height: 54px;
-	max-width: 80%;
+	max-width: 92%;
 	padding-bottom: 20px;
 	}
 

@@ -14,13 +14,13 @@
 			<li class="footer-headline">Solutions</li>
 
 
-			<li><a href="http://localhost:8888/ssg-2017/solutions/apricot-essentials.php">Apricot Essentials</a></li>
+			<li><a href="<?=$url;?>/solutions/apricot-essentials.php">Apricot Essentials</a></li>
 			
-			<li><a href="http://localhost:8888/ssg-2017/solutions/apricot.php">Apricot</a></li>
+			<li><a href="<?=$url;?>/solutions/apricot.php">Apricot</a></li>
 			
-			<li><a href="http://localhost:8888/ssg-2017/solutions/eto.php" target="_blank">ETO</a></li>
+			<li><a href="<?=$url;?>/solutions/eto.php" target="_blank">ETO</a></li>
 
-			<li><a href="<?=$url;?>#" target="_blank">Login</a></li>
+			<li><a href="<?=$url;?>/" target="_blank">Login</a></li>
 			
 
 		</ul>
@@ -29,11 +29,11 @@
 
 			<li class="footer-headline">Company</li>
 
-			<li><a href="http://localhost:8888/ssg-2017/about-us/">About Us</a></li>
+			<li><a href="<?=$url;?>/about-us/">About Us</a></li>
 
 			<li><a href="<?=$url;?>/about-us/">Jobs</a></li>
 
-			<li><a href="http://localhost:8888/ssg-2017/partners/index.php">Become a Partner</a></li>
+			<li><a href="<?=$url;?>/partners/index.php">Become a Partner</a></li>
 
 		   <li><a href="<?=$url;?>/about-us/press">Press</a></li>
 
@@ -46,7 +46,7 @@
 
 			<li><a href="<?=$url;?>/resources/">Resource Library</a></li>
 
-			<li><a href="<?=$url;?>#" target="_blank">Blog</a></li>
+			<li><a href="<?=$url;?>/" target="_blank">Blog</a></li>
 
 		</ul>
 		
@@ -103,7 +103,7 @@
     	
     	<div id="copyright">    
 
-			<p><span class="copyright-space">Copyright &copy;<?=date("Y");?> Social Solutions&nbsp;&nbsp;&nbsp;&nbsp;| <a href="http://localhost:8888/ssg-2017/legal/">Legal Information</a> </p>
+			<p><span class="copyright-space">Copyright &copy;<?=date("Y");?> Social Solutions&nbsp;&nbsp;&nbsp;&nbsp;| <a href="<?=$url;?>/legal/">Legal Information</a> </p>
 
 	   </div>
 	   

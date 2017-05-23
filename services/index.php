@@ -40,7 +40,7 @@ include('../includes/header.php');
 
 	<div id="implement-about-content">
 
-		<div id="implement-about-boxes">
+		<div class="implement-about-boxes">
 		
 			<div class="box">
 			
@@ -73,7 +73,7 @@ include('../includes/header.php');
 
 		<div id="implement-about-image">
 
-			<img src="../images/services-support-1.jpg">
+			<img src="<?=$url;?>/images/services-support-1.jpg">
 
 		</div>
 
@@ -136,7 +136,7 @@ include('../includes/header.php');
 	
 		<div id="training-quote-image">
 
-			<img src="../images/services-support-2.jpg">
+			<img src="<?=$url;?>/images/services-support-2.jpg">
 
 		</div>
 
@@ -207,7 +207,7 @@ include('../includes/header.php');
 
 		<div id="support-about-top-image">
 			
-			<img src="../images/services-support-3.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 			
 		</div>
 
@@ -224,7 +224,7 @@ include('../includes/header.php');
 		
 		<div id="support-about-bottom-image">
 			
-			<img src="../images/services-support-3.jpg">
+			<img src="<?=$url;?>/images/services-support-3.jpg">
 			
 		</div>
 		
@@ -245,45 +245,89 @@ include('../includes/header.php');
 
 <div id="services-feature">
 
-  <div id="services-feature-content">
-  		  
-	  <h4>At your fingertips or a call away, we are here for you.</h4>
-	  
-	  <p>We offer a variety of options for contacting the Social Solutions Support teams</p>
-	  
-	  <div id="services-feature-icon">
-	  	
-	  	<div id="services-feature-spark">
-		  	
-			<div id="services-feature-spark-icon"></div>
-		  				
-			<p>Email</p>
-	  	
-			<p>Email our technical support from within your system. Our detailed tracking system ensures you’ll get a quick and helpful response.</p>	
-		  	
+<div id="services-feature-content">
+
+	<h4>At your fingertips or a call away, we are here for you.</h4>
+
+	<p>We offer a variety of options for contacting the Social Solutions Support teams</p>
+
+	<div id="product-features">
+
+		<div id="product-features-content">
+
+			<div id="product-features-content-list-left">
+
+				<ul>
+
+					<li class="feature-database">
+
+						<div class="features-item-copy">
+
+							<div class="features-title">Email</div>
+
+							<p>Email our technical support from within your system. Our detailed tracking system ensures you’ll get a quick and helpful response.</p>
+
+						</div>
+
+					</li>
+
+					<li class="feature-tracking">
+
+						<div class="features-item-copy">
+
+							<div class="features-title">Phone</div>
+
+							<p>Our technical support is knowledgeable and ready to help! Call us anytime.</p>
+
+						</div>
+
+					</li>
+
+
+
+				</ul>
+
+			</div>
+
+			<div id="product-features-content-list-right">
+
+				<ul>
+
+					<li class="feature-grants">
+
+						<div class="features-item-copy">
+
+							<div class="features-title">Chat</div>
+
+							<p>Need a quick answer? Utilize our chat feature and our support reps are there within seconds to help out.</p>
+
+						</div>
+
+					</li>
+
+					<li class="feature-database">
+
+						<div class="features-item-copy">
+
+							<div class="features-title">Knowledge Base</div>
+
+							<p>Access our Knowledge Base through our built in portal for quick how tos and documentation.</p>
+
+						</div>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="clear"></div>
+
 		</div>
-		  
-		<div id="services-feature-data">
-	  
-	  		<div id="services-feature-data-icon"></div>
-		  
-			<p>Lorem ipsum</p>	
-		  	
-		</div>
-		  
-		<div id="services-feature-impact">
-		  
-			<div id="services-feature-impact-icon"></div>
-		  
-			<p>Lorem ipsum</p>	
-		  	
-		</div>
-		
-		<div class="clear"></div>
-	  
-	  </div>
-  	
-  </div>
+
+	</div>
+
+</div>
 
 </div>
 
