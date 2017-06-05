@@ -39,7 +39,7 @@ include('../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<img alt="" src="<?=$url;?>/images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -102,7 +102,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
+			<img alt="" src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 

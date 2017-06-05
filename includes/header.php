@@ -14,23 +14,26 @@ $detect = new Mobile_Detect;
 <!-- hidesearch start -->
 
 
-<title>Social Solutions Global | Case Management Software</title>
+<title>Social Solutions Global | <?=$title;?></title>
 
 
-<meta name="description" content="*to do*">
+<meta name="description" content="<?=$description;?>">
 
 <?php if($detect->isTablet()) { ?>
 <meta name="viewport" content="width=960, user-scalable=yes">
 <?php } else { ?>
 <meta name="viewport" content="width=750, user-scalable=no">
 <?php } ?>
+
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-<meta property="og:title" content="Social Solutions Global | Case Management Software" />
-<meta property="og:type" content="cause" />
-<meta property="og:description" content="*to do*" />
-<meta property="og:url" content="http://www.socialsolutions.com" />
-<meta property="og:image" content="*to do*" />
-<meta property="og:site_name" content="Social Solutions Global | Case Management Software" />
+
+<meta property="og:title" content="Social Solutions Global | <?=$ogtitle;?>" />
+<meta property="og:type" content="<?=$ogtype;?>" />
+<meta property="og:description" content="<?=$ogdescription;?>" />
+<meta property="og:url" content="<?=$ogurl;?>" />
+<meta property="og:image" content="<?=$ogimage;?>" />
+<meta property="og:site_name" content="Social Solutions Global | <?=$ogsitename;?>" />
+
 
 <script type="text/javascript" src="<?=$url;?>/js/modernizr.js"></script>
 
@@ -47,7 +50,7 @@ $detect = new Mobile_Detect;
 
 <script type="text/javascript" src="<?=$url;?>/js/jquery.sticky.js "></script>
 
-   <script>
+<script>
     $(window).load(function(){
       $("#sticky-nav").sticky({ topSpacing: 0 });
     });
@@ -79,7 +82,7 @@ $detect = new Mobile_Detect;
 		
         <div id="logo">
         
-            <h1><a href="<?=$url;?>/">Social Solutions Global</a></h1>
+            <div id="logo-header"><a href="<?=$url;?>/">Social Solutions Global</a></div>
         
         </div><!--header-wrapper-->
 
@@ -91,11 +94,11 @@ $detect = new Mobile_Detect;
 					<ul class="no-float">
 						
 						
-						<li id="nav-essentials-logo"><a href="<?=$url;?>/solutions/apricot-essentials.php">Apricot Essentials</a></li>
+						<li id="nav-essentials-logo"><a href="<?=$url;?>/solutions/apricot-essentials/index.php">Apricot Essentials</a></li>
 						
-						<li id="nav-apricot-logo"><a href="<?=$url;?>/solutions/apricot.php">Apricot</a></li>
+						<li id="nav-apricot-logo"><a href="<?=$url;?>/solutions/apricot/index.php">Apricot</a></li>
 						
-						<li id="nav-eto-logo"><a href="<?=$url;?>/solutions/eto.php">ETO</a></li>
+						<li id="nav-eto-logo"><a href="<?=$url;?>/solutions/eto/index.php">ETO</a></li>
 	
 					</ul>	
 				
@@ -138,7 +141,7 @@ $detect = new Mobile_Detect;
 						
 					<!--<li><a href="resources/events/index.php">Events</a></li>-->
 					
-					<li><a href="resources/resource-library/index.php">Resource Library</a></li>
+					<li><a href="<?=$url;?>/resources/featured-resources/index.php">Featured Resources</a></li>
 					
 				
            		</ul>

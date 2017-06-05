@@ -9,9 +9,9 @@ include('../includes/header.php');
 ?>
 
 
-<div id="serve-hero">
+<div id="serve-hero" class="child-services">
 
-	<div id="serve-hero-content">	
+	<div id="serve-hero-content" >	
 
 			<h2>Managing Outcomes for Child and Family Service Organizations</h2>
 			
@@ -40,7 +40,7 @@ include('../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<img alt="" src="<?=$url;?>/images/child-services-1.jpg">
 			
 		</div>
 
@@ -104,7 +104,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
+			<img alt="" src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 
@@ -189,13 +189,13 @@ include('../includes/header.php');
 
 		<div id="serve-download-image">
 			
-			<img src="<?=$url;?>/images/resource-download.jpg">
+			<img alt="" src="<?=$url;?>/images/resource-download.jpg">
 			
 		</div>
 			
 		<div id="serve-download-summary">
 			
-			<div id="brochure"><img src="<?=$url;?>/images/icon-brochure.png"></div>
+			<div id="brochure"><img alt="" src="<?=$url;?>/images/icon-brochure.png"></div>
 			
 			<p class="brochure-resource">Brochure</p>
 			

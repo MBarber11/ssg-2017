@@ -52,7 +52,7 @@ include('../includes/header.php');
 		
 		<div id="careers-about-image">
 
-			<img src="<?=$url;?>/images/working-here-jobs.jpg">
+			<img alt="" src="<?=$url;?>/images/working-here-jobs.jpg">
 
 		</div>
 		

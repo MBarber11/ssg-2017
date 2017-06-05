@@ -130,7 +130,7 @@ include('../includes/header.php');
     
     <div id="solutions-two-content">	
 		
-		<div id="solutions-two-image"><img src="<?=$url;?>/images/solutions-1.jpg"></div>
+		<div id="solutions-two-image"><img src="<?=$url;?>/images/solutions-2.jpg"></div>
 		
 		<div id="solutions-two-summary">
 
@@ -167,7 +167,7 @@ include('../includes/header.php');
   		
 		</div>
 	   
-	   <div id="solutions-three-image"><img src="<?=$url;?>/images/solutions-1.jpg"></div>   
+	   <div id="solutions-three-image"><img src="<?=$url;?>/images/solutions-3.jpg"></div>   
 	
 	</div>
 

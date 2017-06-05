@@ -27,7 +27,7 @@ include('../includes/header.php');
 
 		<div id="product-hero-image">
 			
-			<img src="../images/hero-eto-impact.jpg" />
+			<img alt="" src="../images/hero-eto-impact.jpg" />
 			
 		</div>
 	   
@@ -54,7 +54,7 @@ include('../includes/header.php');
 
 		<div id="product-about-image">
 			
-			<img src="../images/eto-impact-support-one.jpg">
+			<img alt="" src="../images/eto-impact-support-one.jpg">
 			
 		</div>
 
@@ -71,7 +71,7 @@ include('../includes/header.php');
 		
 		<div id="product-about-secondary-image">
 			
-			<img src="../images/placeholder-530x300.jpg">
+			<img alt="" src="../images/placeholder-530x300.jpg">
 			
 		</div>
 		
@@ -151,7 +151,7 @@ include('../includes/header.php');
 
 		<div id="green-full-band-image">
 			
-			<img src="../images/eto-impact-support-two.jpg">
+			<img alt="" src="../images/eto-impact-support-two.jpg">
 			
 		</div>
 
@@ -255,7 +255,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="../images/clients/featured-client-friends-of-children.jpg">
+			<img alt="" src="../images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 

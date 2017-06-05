@@ -11,7 +11,7 @@ include('../includes/header.php');
 
 <div id="breadcrumbs"></div>
 
-<div id="serve-hero">
+<div id="serve-hero" class="foundations">
 
 	<div id="serve-hero-content">	
 
@@ -39,7 +39,7 @@ include('../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<img alt="" src="<?=$url;?>/images/foundations-1.jpg">
 			
 		</div>
 
@@ -56,7 +56,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
+			<img alt="" src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 

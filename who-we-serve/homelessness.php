@@ -123,7 +123,7 @@ include('../includes/header.php');
 
 		<div id="client-image">
 		
-			<img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
+			<img alt="" src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg">
 		
 		</div>
 

@@ -91,7 +91,7 @@ include('../includes/header.php');
 
 		<div id="gray-full-band-image">
 			
-			<img src="<?=$url;?>/images/eto-impact-support-two.jpg">
+			<img alt="" src="<?=$url;?>/images/about-us-1.jpg">
 			
 		</div>
 			

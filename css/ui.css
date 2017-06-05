@@ -1,4 +1,3 @@
-
 @import url("reset.css");
 
 
@@ -38,6 +37,10 @@ p {
 	line-height: 26px;
 }
 
+/*img {
+	width:100%;
+	height: auto;
+}*/
 
 #skip {
 	left: -100%;
@@ -132,7 +135,7 @@ header {
 	float: left;
 }
 
-h1 {
+#logo-header {
 	float: left;
 	display: block;
 	height: 100%;
@@ -141,7 +144,7 @@ h1 {
 	margin-bottom: 25px;
 	}
 
-h1 a {
+#logo-header a {
 	background: url('../images/nav-logo-grey.png') no-repeat top left;
 	display: block;
 	height: 50px;
@@ -330,7 +333,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #hero-content p{
 	color: #ffffff;
-	font-weight: 500px;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 26px;
 	text-align: center;
@@ -498,7 +501,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #services-image{
-	background: url(../images/mockup-home.png);
 	width: 538px;
 	height: 518px;
 	float: right;
@@ -558,8 +560,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #green-full-band{
 	background-color: #93ad3c;
-	height: 400px;
-	padding: 80px 0px;
+	height: 440px;
+	padding: 5% 0%;
 	background-size: cover;
 	margin-bottom: 40px;
 	}
@@ -571,9 +573,9 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #green-full-band-summary{
 	float: left;
-	max-width: 45%;
+	width: 45%;
 	margin-top: 2%;
-	margin-left: 10%;
+	margin-right: 4%;
 	color: #ffffff;
 	}
 
@@ -588,12 +590,12 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #green-full-band-image{
 	float: right;
+	width: 45%;
 	}
 
 #white-full-band{
-	height: 400px;
-	padding: 80px 0px;
-	background-size: cover;
+    height: 440px;
+	padding: 5% 0px;
 	}
 
 #white-full-band-content {
@@ -603,9 +605,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #white-full-band-summary{
 	float: left;
-	max-width: 45%;
+	width: 45%;
 	margin-top: 30px;
-	margin-left: 80px;
 	color: #6e6a62;
 	}
 
@@ -619,6 +620,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #white-full-band-image{
 	float: left;
+	width: 45%;
+	margin-right: 4%;
 	}
 
 #gray-full-band{
@@ -703,7 +706,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #apricot-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-top: 80px;
 	}
 
 #apricot-hero-content h2{
@@ -724,6 +727,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	text-align: center;
 	margin: 0 auto;
 	max-width: 80%;
+	padding-bottom: 20px;
 	}
 
 #essentials-hero {
@@ -761,7 +765,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #eto-hero {
-	background: url(../images/hero-eto.jpg); 
+	background: url(../images/hero-eto-2.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -825,7 +829,9 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin-left: 80px;
 	padding-right: 50px;
 }
-
+#product-intro-summary p{
+	margin-bottom: 20px;
+}
 #product-intro-list {
 	float: left;
 	padding-left: 50px;
@@ -888,7 +894,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ About Us ------ */
 
 #about-hero {
-	background: url(../images/home-hero.jpg); 
+	background: url(../images/hero-about.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -914,7 +920,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #about-hero-content h3, #about-intro-content h2{
-	color: #97af43;
+	color: #ffc441;
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 30px;
@@ -1061,7 +1067,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 
 #culture{
-	background-image: url('../images/product-contact-background.jpg');
+	background-image: url('../images/culture-background.jpg');
 	background-size: cover;
 	height: 365px;
 }
@@ -1107,7 +1113,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	text-align: center;
 	font-weight: 600;
 	letter-spacing: 2px;
-	text-shado
 	}
 
 #culture-button a:hover, #culture-button a:focus{
@@ -1118,7 +1123,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ Working Here ------ */
 
 #working-hero {
-	background: url(../images/hero-services.png); 
+	background: url(../images/hero-working-here.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -1494,8 +1499,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	float: left;
 	width: 32.5%;
 	height: 365px;
-	
 	}
+
 .blue {
 	background: #67cad9;
 	}
@@ -1520,9 +1525,13 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin-right: 10px;
 	}
 
+.white {
+	background: #ffffff !important;
+	}
+
 .green.last{
 	margin-right:0px;
-}
+	}
 
 .box h3{
 	color:#ffffff;
@@ -1672,18 +1681,18 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 /* ------ Featured Library ------ */
 
-#featured-library{
+.featured-library{
 	background-color: #f2f2f2;
 	height: 470px;
-	padding: 60px 0px 100px 0px;
+	padding: 60px 0px 60px 0px;
 	}
 
-#library-content{
+.library-content{
 	max-width: 1175px; 
 	margin: 0 auto;
 	}
 
-#library-content h2{
+.library-content h2{
 	font-size: 38px;
 	font-weight: 600;
 	letter-spacing: 0.02em;
@@ -1722,6 +1731,62 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	color: #f47a35;
 	}
 
+.library-summary .brochure .icon{
+	background-image: url('../images/icon-brochure.png');
+	width: 62px;
+	height: 62px;
+	margin-bottom: 40px;
+	}
+
+.library-summary .brochure .category{
+	color: #67cad9;
+	}
+
+.library-summary .case-study .icon{
+	background-image: url('../images/icon-case-study.png');
+	width: 62px;
+	height: 62px;
+	margin-bottom: 40px;
+	}
+
+.library-summary .case-study .category{
+	color: #eb5d4e;
+	}
+
+.library-summary .ebook .icon{
+	background-image: url('../images/icon-ebook.png');
+	width: 62px;
+	height: 62px;
+	margin-bottom: 40px;
+	}
+
+
+.library-summary .ebook .category{
+	color: #93ad3c;
+	}
+
+.library-summary .event .icon{
+	background-image: url('../images/icon-event.png');
+	width: 62px;
+	height: 62px;
+	margin-bottom: 40px;
+	} 
+
+.library-summary .event .category{
+	color: #ffc441;
+	}
+
+.library-summary .guides .icon{
+	background-image: url('../images/icon-guides.png');
+	width: 62px;
+	height: 62px;
+	margin-bottom: 40px;
+	}
+
+.library-summary .guides .category{
+	color: #67cad9;
+	}
+
 .library-summary .webinar .icon{
 	background-image: url('../images/icon-webinar.png');
 	width: 62px;
@@ -1733,31 +1798,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 .library-summary .webinar .category{
 	color: #eb5d4e;
 	}
-
-.library-summary .brochure .icon{
-	background-image: url('../images/icon-brochure.png');
-	width: 62px;
-	height: 62px;
-	margin-bottom: 40px;
-	}
-
-
-.library-summary .brochure .category{
-	color: #67cad9;
-	}
-
-.library-summary .event .icon{
-	background-image: url('../images/icon-event.png');
-	width: 62px;
-	height: 62px;
-	margin-bottom: 40px;
-	}
-
-
-.library-summary .event .category{
-	color: #ffc441;
-	}
-
 
 .library-summary .title{
 	font-size: 20px;
@@ -1798,8 +1838,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #featured-client{
 	background-color: #eb5d4e;
-	height: 440px;
-	padding: 80px 0px;
+	max-height: 440px;
+	padding: 5% 0%;
 	}
 
 #featured-client-content{
@@ -1809,14 +1849,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #client-image{
 	float: left;
-	width: 643px;
+	width: 45%;
 	height: 458px;
 	}
 
 #client-summary{
 	float: left;
 	max-width: 45%;
-	margin-left: 80px;
+	margin-left: 4%;
 	margin-top: 60px;
 	color: #ffffff;
 	}
@@ -1998,12 +2038,12 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ Services ------ */
 
 #services-hero {
-	background: url(../images/hero-services.png); 
+	background: url(../images/hero-services.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	height:320px;
+	height:400px;
 	}
 
 #services-hero-content{
@@ -2178,7 +2218,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #support-about{
-	padding: 60px 0px;
+	padding:  0px;
 	}
 
 #support-about-content{
@@ -2191,7 +2231,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	font-size: 38px;
 	font-weight: 600;
 	line-height: 48px;
-	padding-top: 40px;
 	padding-bottom: 15px;
 	}
 
@@ -2202,9 +2241,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #support-about-top{
 	background: #f3f3f3;
-	height: 400px;
-	padding: 50px 0px;
-	background-size: cover;
+	height: 440px;
+	padding: 5% 0%;
 	}
 
 #support-about-top-content {
@@ -2214,14 +2252,15 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #support-about-top-summary{
 	float: left;
-	max-width: 47%;
-	margin-top: 50px;
+	width: 45%;
+	margin-top: 3%;
+	margin-right: 4%;
 	color: #ffffff;
-	margin-left:15px;
 	}
 
 #support-about-top-image{
 	float: right;
+	width: 45%;
 	}
 
 #support-about-bottom{
@@ -2322,7 +2361,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ Solutions ------ */
 
 #solutions-hero {
-	background: url(../images/home-hero.jpg); 
+	background: url(../images/hero-solutions.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -2501,7 +2540,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	background-color: #ffffff;
 	height: 460px;
 	padding-top: 80px;
-}
+	}
 
 #solutions-three-content{
 	max-width: 1175px; 
@@ -2576,18 +2615,17 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #small {
 	border: 1px solid #ffc441;
-	
-}
+	}
 
 #midsize {
 	border: 1px solid #f47a35;
 	margin-left: 2%;
 	margin-right: 2%;
-}
+	}
 
 #enterprise{
 	border: 1px solid #93ad3c;
-}
+	}
 .suite-title {
 	height: 50px;
 	width: 100%;
@@ -2714,8 +2752,87 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	background: #ffffff;
 	color: #93ad3c;
 	}
-/* ------ Quotes Classes ------ */
+/* ------ APricot Sub-pages ------ */
 
+
+
+#case-management-hero {
+	background: url(../images/hero-case-management.jpg); 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
+
+#case-management-hero-content{
+	max-width: 1175px; 
+	margin: 0 auto;
+	padding-top: 100px;
+	}
+
+#case-management-hero-content h2{
+	color: #ffffff;
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 70%;
+	padding-bottom: 20px;
+	}
+
+#case-management-hero-content p{
+	color: #ffffff;
+	font-weight: 500px;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+	padding-bottom: 40px;
+	}
+
+
+#database-hero {
+	background: url(../images/hero-solutions.jpg); 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
+
+#database-hero-content{
+	max-width: 1175px; 
+	margin: 0 auto;
+	padding-top: 100px;
+	}
+
+#database-hero-content h2{
+	color: #ffffff;
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 64px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 70%;
+	padding-bottom: 20px;
+	}
+
+#database-hero-content p{
+	color: #ffffff;
+	font-weight: 500px;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+	padding-bottom: 40px;
+	}
+
+
+/* ------ Quotes Classes ------ */
 .quote {
 	text-align: center;
 	margin: 0 auto;
@@ -2796,10 +2913,10 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-bottom: 20px;
 	}
 
-/* ------ Who We Serve Main ------ */
+/* ------ Resource Main ------ */
 
-#client-hero {
-	background: url(../images/hero-services.png); 
+#resources-hero {
+	background: url(../images/hero-resources.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -2807,13 +2924,13 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	height:320px;
 	}
 
-#client-hero-content{
+#resources-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
 	padding-top: 120px;
 	}
 
-#client-hero-content h2{
+#resources-hero-content h2{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -2824,38 +2941,106 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-bottom: 20px;
 	}
 
+#resources-icons{
+	padding: 60px 0px 60px 0px;
+	}
 
-#client-non-profit-banner{
+#resources-icons-content{
+	max-width: 980px; 
+	margin: 0 auto;
+	}
+
+#resources-icons h2{
+	font-size: 38px;
+	font-weight: 600;
+	margin-bottom: 60px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	}
+
+#resources-icons-content a{
+	float: left;
+	width: 20%;
+	}
+
+#resources-icons-content a{
+	color: #615d54;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	}
+
+#resources-icons-content a:hover, #resources-icons-content a:focus{
+	color: #93ad3c;
+	}
+
+#resources-icons-content h3 {
+	padding-top: 90px;
+	}
+
+#resources-icons #case-study{
+	background: url(../images/icon-resource-case-study.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	}
+
+#resources-icons #guides{
+	background: url(../images/icon-resource-guides.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	margin-bottom: 60px;
+	}
+
+#resources-icons #video{
+	background: url(../images/icon-resource-video.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	margin-bottom: 60px;
+	}
+
+#resources-icons #webinar{
+	background: url(../images/icon-resource-webinar.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	}
+
+#resources-icons #ebook{
+	background: url(../images/icon-resource-ebook.png) no-repeat center top;
+	width: 100%;
+	height: auto;
+	margin-bottom: 60px;
+	}
+
+#resources-case-study-banner{
 	background: #e95d52;
 	}
 
-#client-workforce-banner{
-	background: #ffc441;
-	}
-
-#client-homeless-banner{
-	background: #f47a35;
-	}
-
-#client-health-banner{
+#resources-guides-banner{
 	background: #6ccad6;
 	}
 
-#client-reentry-banner{
+#resources-video-banner{
+	background: #ffc441;
+	}
+
+#resources-webinar-banner{
+	background: #f47a35;
+	}
+
+#resources-ebook-banner{
 	background: #93ad3c;
 	}
 
-#client-education-banner{
-	background: #e95d52;
-	}
-
-#client-non-profit-banner-content, #client-workforce-banner-content, #client-homeless-banner-content, #client-health-banner-content, #client-reentry-banner-content, #client-education-banner-content{
+#resources-case-study-banner-content, #resources-guides-banner-content, #resources-video-banner-content, #resources-webinar-banner-content, #resources-ebook-banner-content{
 	max-width: 1175px; 
 	margin: 0 auto;
 	padding: 40px 0px 40px 0px;
 	}
 
-#client-non-profit-banner-content h3, #client-workforce-banner-content h3, #client-homeless-banner-content h3, #client-health-banner-content h3, #client-reentry-banner-content h3, #client-education-banner-content h3{
+#resources-case-study-banner h3, #resources-guides-banner h3, #resources-video-banner h3, #resources-webinar-banner h3, #resources-ebook-banner h3{
 	color: #ffffff;
 	font-size: 48px;
 	font-weight: 600;
@@ -2866,13 +3051,23 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin-bottom: 10px;
 	}	
 
-#client-non-profit-banner-content p, #client-workforce-banner-content p, #client-homeless-banner-content p, #client-health-banner-content p, #client-reentry-banner-content p, #client-education-banner-content p{
+#resources-case-study-banner h3 img, #resources-guides-banner h3 img, #resources-video-banner h3 img, #resources-webinar-banner h3 img, #resources-ebook-banner h3 img{
+	vertical-align: bottom;
+	padding-right: 10px;
+	}
+
+#resources-case-study-banner-content p, #resources-guides-bannercontent p, #resources-video-banner-content p, #resources-webinar-banner-content p, #resources-education-banner-content p{
 	color: #ffffff;
 	text-align: center;
 	width: 55%;
 	margin: 0 auto;
+	}
+
+.resource-image{
+	margin-bottom: 20px;
 }
 
+/*
 .client-one, .client-two{
 	padding: 60px 0px;
 	}
@@ -2941,11 +3136,12 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	margin-top: 35px;
 	width: 45%;
 	}
+*/
 
 /* ------ Who We Serve Main ------ */
 
 #who-we-serve-hero {
-	background: url(../images/home-hero.jpg); 
+	background: url(../images/hero-who-we-serve.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -3008,7 +3204,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ Who We Serve Individual  ------ */
 
 #serve-hero {
-	background: url(../images/hero-eto.jpg); 
+	
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -3016,6 +3212,31 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	height:400px;
 	}
 
+#serve-hero.child-services{
+	background: url(../images/hero-child-services.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
+
+#serve-hero.collab{
+	background: url(../images/hero-child-services.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
+#serve-hero.foundations{
+	background: url(../images/hero-foundations.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	height:400px;
+	}
 #serve-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
@@ -3670,7 +3891,7 @@ p.solutions-stats{
 	padding: 20% 2%;
 	
 }
-@media only screen and (max-width: 1304px) {
+/*@media only screen and (max-width: 1304px) {
    #green-full-band-summary {
     max-width: 45%;
     margin-left: 80px;
@@ -3702,10 +3923,11 @@ p.solutions-stats{
    #green-full-band-summary {
     max-width: 40%;
     margin-left: 40px;
-}
-#green-full-band-summary p {
-    width: 100%; 
-}
+	}
+	
+	#green-full-band-summary p {
+	width: 100%; 
+	}
 	
 	#red-full-band-summary {
     max-width: 40%;
@@ -3713,8 +3935,67 @@ p.solutions-stats{
 	}
 	
 	#serve-about-summary {
-		max-width: 50%;
-		margin-left: 25px;
-		}
+	max-width: 50%;
+	margin-left: 25px;
+	}
 }
+*/
+@media only screen and (max-width: 960px) {
+	
+#stats-boxes {
+	max-width: 1190px; 
+	margin: 0 auto;
+	}
 
+.stat-box {
+	float: left;
+	width: 49.3%;
+	height: 275px;
+	margin-top: 10px;
+	}
+
+
+.stat-box p.number{
+	color: #ffffff;
+	font-size: 90px;
+	text-align: center;
+	margin-top: 110px;
+	}
+
+.stat-box p.label{
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 40px;
+	text-transform: uppercase;
+	}
+
+	.blue {
+	background: #67cad9;
+	}
+
+.green {
+	background: #93ad3c !important;
+	margin-right: 0px;
+	}
+
+.orange {
+	background: #f47a35;
+	margin-right: 0px;
+	}
+
+.red {
+	background: #eb5d4e;
+	margin-right: 0px;
+	}
+
+.yellow {
+	background: #ffc441;
+	margin-right: 0px;
+	}
+
+.green.last{
+	margin-right:0px;
+}
+	
+}

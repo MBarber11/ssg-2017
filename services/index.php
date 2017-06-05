@@ -73,7 +73,7 @@ include('../includes/header.php');
 
 		<div id="implement-about-image">
 
-			<img src="<?=$url;?>/images/services-support-1.jpg">
+			<img alt="" src="<?=$url;?>/images/services-support-1.jpg">
 
 		</div>
 
@@ -136,7 +136,7 @@ include('../includes/header.php');
 	
 		<div id="training-quote-image">
 
-			<img src="<?=$url;?>/images/services-support-3.jpg">
+			<img alt="" src="<?=$url;?>/images/services-support-3.jpg">
 
 		</div>
 
@@ -210,7 +210,7 @@ include('../includes/header.php');
 
 			<div id="training-about-image">
 
-				<img src="<?=$url;?>/images/services-support-1.jpg">
+				<img alt="" src="<?=$url;?>/images/services-support-2.jpg">
 
 			</div>
 
@@ -342,7 +342,7 @@ include('../includes/header.php');
 
 			<div id="support-about-top-image">
 
-				<img src="<?=$url;?>/images/services-support-3.jpg">
+				<img alt="" src="<?=$url;?>/images/services-support-3.jpg">
 
 			</div>
 
@@ -358,7 +358,7 @@ include('../includes/header.php');
 
 			<div id="support-about-bottom-image">
 
-				<img src="<?=$url;?>/images/services-support-3.jpg">
+				<img alt="" src="<?=$url;?>/images/services-support-4.jpg">
 
 			</div>
 

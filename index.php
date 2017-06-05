@@ -17,7 +17,7 @@ include('includes/header.php');
 		
 		<p>Social Solutions gives you easy-to-use tools to track data, manage cases, and measure outcomes. Whether you are small team just starting to track data or a large multi-service organization, our tools meet you where you are, and grow with you as your needs evolve. </p>
 		
-		<div id="hero-learn-more-button"><a href="http://localhost:8888/ssg-2017/solutions/">Learn More</a></div>
+		<div id="hero-learn-more-button"><a href="<?=$url;?>/solutions/">Learn More</a></div>
 		
 		<div id="hero-scroll-button"></div>
 
@@ -92,15 +92,87 @@ include('includes/header.php');
     
 </div>		
         
-<div id="featured-library">
+<div class="featured-library">
 
-	<div id="library-content">
+	<div class="library-content">
+	
+		<h2>Resources</h2>
 		
-		<?php include('includes/resource-section.php'); ?>
-		
-	</div>	
+		<div class="library-summary">
 
-</div>  
+			<div class="guides">
+
+				<div class="icon"></div>
+
+				<div class="category">Guide</div>
+
+				<div class="title">Nonprofit Close-Out Kit</div>
+
+				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+
+				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
+
+			</div>
+
+		</div>
+
+		<div class="library-summary">
+
+			<div class="case-study">
+
+				<div class="icon"></div>
+
+				<div class="category">Case Study</div>
+
+				<div class="title">Client Success: Love INC</div>
+
+				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
+
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+
+			</div>
+
+		</div>
+
+		<div class="library-summary ">
+
+		<div class="ebook">
+
+			<div class="icon"></div>
+
+			<div class="category">eBook</div>
+
+			<div class="title">Leap of Reason</div>
+
+			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+
+			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+
+		</div>
+
+		</div>
+		
+		<div class="library-summary last">
+
+			<div class="webinar">
+
+				<div class="icon"></div>
+
+				<div class="category">Webinar</div>
+
+				<div class="title">Whole Brain Fundraising</div>
+
+				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+
+				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+
+			</div>
+
+		</div>
+
+	</div> 
+	
+</div>
 
 <div id="home-featured-services">
 
@@ -112,7 +184,7 @@ include('includes/header.php');
  		
 			<p>We love helping nonprofits succeed. We have teams dedicated to working hand-in-hand with our clients so that getting started is hassle-free, your teams are trained, and you have support you can rely on. Get to know the teams that make it happen for our users.</p>	
 
-			<div id="read-more-services-button"><a href="http://localhost:8888/ssg-2017/services/">Learn more</a></div>
+			<div id="read-more-services-button"><a href="<?=$url;?>/services/">Learn more</a></div>
   		
 		</div>
 	   

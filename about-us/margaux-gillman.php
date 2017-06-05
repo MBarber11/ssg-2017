@@ -17,7 +17,7 @@ include('../includes/header.php');
 
 		<div id="basic-hero-image">
 			
-			<img src="<?=$url;?>/images/team/team-margaux-gillman.png" />
+			<img alt="" src="<?=$url;?>/images/team/team-margaux-gillman.png" />
 			
 		</div>
 		
