@@ -4,6 +4,16 @@ $title = "Who We Serve";
 $name = "who-we-serve";
 $section = "who-we-serve";
 
+//Meta Data
+$description = "*to do*";
+
+$ogtitle = "*to do*";
+$ogtype = "*to do*";
+$ogdesription = "*to do*";
+$ogurl = "*to do*";
+$ogimage = "*to do*";
+$ogsitename = "*to do*";
+
 include('../includes/header.php');
 
 ?>
@@ -31,7 +41,7 @@ include('../includes/header.php');
 
 </div>
 
-<div id="training-banner">
+<div id="training-banner" class="blue">
 
 	<div id="training-banner-content">
 
@@ -66,7 +76,7 @@ include('../includes/header.php');
 
 			<div id="support-about-top-summary">
 
-				<h4>How Social Solutions Helps Nonprofits Maximize Impact </h4>
+				<h4 class="blue-headline">How Social Solutions Helps Nonprofits Maximize Impact </h4>
 
 				<p>The Wyman Center’s Teen Outreach Program (TOP) knew that their outcomes were impressive. Thanks to our tracking tools, they knew their program led to a 53% lower risk of teen pregnancy and a 60% lower risk of dropping out of school. But that wasn’t enough for them. They wanted to get even smarter about their approach. By comparing several different TOP programs to measure best practices, they were able to see that taking a trauma-informed approach could lead to even better outcomes. This discovery means the Wyman Center isn’t just more effective; it’s more empathetic and understanding, too.</p>	
 
@@ -97,7 +107,7 @@ include('../includes/header.php');
 
 			<div id="support-about-bottom-summary">
 
-				<h4>Social Solutions Software in the Public Sector</h4>
+				<h4 class="blue-headline">Social Solutions Software in the Public Sector</h4>
 
 				<p>Chris Smith, the Director of the MCDD, needed to answer the question, “How is it you know you’ve made a diﬀerence today?” Apricot allowed him to find one. Using the outcomes analysis tools, he discovered a fascinating insight: African American children with autism were more likely to be misdiagnosed as intellectually disabled. Once he saw this trend, he could propose a new approach that better trained doctors in areas that haven’t traditionally served children with autism. This helped more children beneﬁt from a faster, more accurate diagnosis, leading to better care for life</p>	
 

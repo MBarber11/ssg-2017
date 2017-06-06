@@ -7,6 +7,13 @@ $section = "solutions";
 //Meta Data
 $description = "*to do*";
 
+$ogtitle = "*to do*";
+$ogtype = "*to do*";
+$ogdesription = "*to do*";
+$ogurl = "*to do*";
+$ogimage = "*to do*";
+$ogsitename = "*to do*";
+
 include('../../includes/header.php');
 
 ?>
@@ -19,9 +26,6 @@ include('../../includes/header.php');
 			<h2>Apricot Makes Case Management Easier and Smarter than Ever</h2>
 			
 		<p>Apricot offers a secure, flexible, and easy-to-use solution for everything from case management to donor management to volunteer tracking, and even outcomes management. With this comprehensive tool, increasing efficiency and proving your outcomes is a snap.</p>
-   
-   				<div id="hero-learn-more-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-case-management-software/index.php">Learn More</a></div>
-
 	   
 	</div> 
       
@@ -39,7 +43,7 @@ include('../../includes/header.php');
 
 			<p>You get data right at your fingertips, in a cloud-based solution that gives your organization freedom from paper files, spreadsheets and local hardware.</p>
 				
-			<div class="green-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-database-software/index.php">Learn more about data management.</a></div>
+			
 	
 		</div>
 
@@ -104,19 +108,19 @@ include('../../includes/header.php');
 
 		<div id="white-full-band-image">
 			
-			<img src="<?=$url;?>/images/apricot-image-1.jpg">
+			<img alt="" src="<?=$url;?>/images/apricot-image-1.jpg">
 			
 		</div>
 			
 		<div id="white-full-band-summary">
 			
-			<h2>Empower Your Organization with Insight and Flexibility</h2>
+			<h2>Superchange Case Management with Insight &amp; Flexibility</h2>
 			
 			<p>Real time data ensure that you always have insight on your programs allowing you to adjust as needed along the way. </p><br>
 
 			<p>Completely configurable forms and fields allow your organization to modify the system on the fly so that you are always tracking what matters. </p><br>	<br>	
 
-			
+			<div class="orange-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-case-management-software/index.php">Learn More</a></div>
 
 		</div>
 		
@@ -139,15 +143,15 @@ include('../../includes/header.php');
 			<p>Apricot’s reporting platform allows you to create and share reports, securely from within the system. From day one, you get value from the system because it’s loaded with standard program and case management reports, right out of the box. </p>	<br>
 
 			<p>Reporting happens in real-time so that you can monitor results and be responsive when it matters. Drag and drop your way to powerful reports with dynamic graphs that visualize your data. Then, use the built-in geolocation tools for heatmapping to better understand your populations and need. </p>	
-			
-			
+			<br><br>
+			<div class="white-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-database-software/index.php">Learn more</a></div>
 
 
 		</div>
 
 		<div id="green-full-band-image">
 			
-			<img src="<?=$url;?>/images/apricot-image-2.jpg">
+			<img alt="" src="<?=$url;?>/images/apricot-image-2.jpg">
 			
 		</div>
 
@@ -285,7 +289,7 @@ include('../../includes/header.php');
 
 	<div id="featured-client-content">
 
-		<div id="client-image"><img src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg"></div>
+		<div id="client-image"><img alt="" src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg"></div>
 
 		<div id="client-summary">
 
@@ -328,6 +332,6 @@ include('../../includes/header.php');
 </div>
 
            
-<?php include('../includes/footer.php'); ?>
+<?php include('../../includes/footer.php'); ?>
 
     

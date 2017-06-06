@@ -4,6 +4,16 @@ $title = "Home";
 $name = "home";
 $section = "general";
 
+//Meta Data
+$description = "*to do*";
+
+$ogtitle = "*to do*";
+$ogtype = "*to do*";
+$ogdesription = "*to do*";
+$ogurl = "*to do*";
+$ogimage = "*to do*";
+$ogsitename = "*to do*";
+
 include('includes/header.php');
 
 ?>
@@ -15,7 +25,7 @@ include('includes/header.php');
 	
 		<h2>Your work changes lives. Our work gives you tools to make that job easier.</h2>
 		
-		<p>Social Solutions gives you easy-to-use tools to track data, manage cases, and measure outcomes. Whether you are small team just starting to track data or a large multi-service organization, our tools meet you where you are, and grow with you as your needs evolve. </p>
+		<p>Social Solutions gives you easy-to-use tools to track data, manage cases, and measure outcomes. Whether you are a small team just starting to track data or a large multi-service organization, our tools meet you where you are, and grow with you as your needs evolve. </p>
 		
 		<div id="hero-learn-more-button"><a href="<?=$url;?>/solutions/">Learn More</a></div>
 		
@@ -49,7 +59,7 @@ include('includes/header.php');
 	  
 	  		<div id="home-about-data-icon"></div>
 		  
-			<p>Make Data Better</p>	
+			<p>Make Data Matter</p>	
 		  	
 		</div>
 		  
@@ -73,13 +83,13 @@ include('includes/header.php');
 
 	<div id="featured-client-content">
 
-		<div id="client-image"><img src="images/clients/featured-client-friends-of-children.jpg"></div>
+		<div id="client-image"><img alt="" src="images/clients/featured-client-friends-of-children.jpg"></div>
 
 		<div id="client-summary">
 
 			<h3>Friends of the Children</h3>
 
-			<p>Friends of the Children helps students graduate high school, stay out of the juvenile justice system, and avoid early parenthood. Using our software, they proved success with at least 85% of participants and measured $7.20 returned to the community for every dollar invested in FOTC. Now that’s a powerful measure of success. </p>	
+			<p>Friends of the Children helps students graduate high school, stay out of the juvenile justice system, and avoid early parenthood. Using our software, they proved success with at least 85% of participants and measured $7.00 returned to the community for every dollar invested in FOTC. Now that’s a powerful measure of success. </p>	
 
 			<div id="read-more-client-button"><a href="#">Read more</a></div>
 

@@ -4,7 +4,17 @@ $title = "Tricia Benedix";
 $name = "tricia-benedix";
 $section = "About Us";
 
-include('../includes/header.php');
+//Meta Data
+$description = "*to do*";
+
+$ogtitle = "*to do*";
+$ogtype = "*to do*";
+$ogdesription = "*to do*";
+$ogurl = "*to do*";
+$ogimage = "*to do*";
+$ogsitename = "*to do*";
+
+include('../../includes/header.php');
 
 ?>
 
@@ -57,6 +67,6 @@ include('../includes/header.php');
 	
 </div>  
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../../includes/footer.php'); ?>
 
     

@@ -574,7 +574,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #green-full-band-summary{
 	float: left;
 	width: 45%;
-	margin-top: 2%;
 	margin-right: 4%;
 	color: #ffffff;
 	}
@@ -671,13 +670,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #red-full-band-summary{
 	float: left;
 	max-width: 43%;
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-left: 160px;
 	color: #ffffff;
 	}
 
 #red-full-band-summary h2{
 	font-size: 38px;
+	line-height: 48px;
 	font-weight: 600;
 	margin-bottom: 40px;
 	letter-spacing: 0.02em;
@@ -695,7 +695,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ Product Main ------ */
 
 #apricot-hero {
-	background: url(../images/hero-eto.jpg); 
+	background: url(../images/hero-apricot.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -705,7 +705,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #apricot-hero-content{
 	max-width: 1175px; 
-	margin: 0 auto;
+	margin: 0 auto;ed
 	padding-top: 80px;
 	}
 
@@ -731,11 +731,11 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #essentials-hero {
-	background: url(../images/hero-eto.jpg); 
+	background: url(../images/hero-essentials.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	  background-size: cover;
+	background-size: cover;
 	height:400px;
 	}
 
@@ -1502,7 +1502,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 .blue {
-	background: #67cad9;
+	background: #67cad9 !important;
 	}
 
 .green {
@@ -1511,7 +1511,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 .orange {
-	background: #f47a35;
+	background: #f47a35 !important;
 	margin-right: 10px;
 	}
 
@@ -3810,6 +3810,23 @@ h1 a {
 	background: #ffffff;
 	}
 
+.white-button a{
+	color: #93ad3c;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ffffff;
+	padding: 8px 40px;
+	border: 4px solid #ffffff;
+	}
+
+.white-button a:hover, .white-button a:focus {
+	color: #ffffff;
+	background: #93ad3c;
+	}
+
+
 .orange-button a{
 	color: #ffffff;
 	font-weight: 600;
@@ -3980,7 +3997,7 @@ p.solutions-stats{
 	}
 
 .orange {
-	background: #f47a35;
+	background: #f47a35 !important;
 	margin-right: 0px;
 	}
 

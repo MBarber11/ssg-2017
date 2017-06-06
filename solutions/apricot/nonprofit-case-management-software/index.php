@@ -7,6 +7,13 @@ $section = "solutions";
 //Meta Data
 $description = "*to do*";
 
+$ogtitle = "*to do*";
+$ogtype = "*to do*";
+$ogdesription = "*to do*";
+$ogurl = "*to do*";
+$ogimage = "*to do*";
+$ogsitename = "*to do*";
+
 include('../../../includes/header.php');
 
 ?>
@@ -46,7 +53,7 @@ include('../../../includes/header.php');
 
 <div class="clear"></div><!--clear-->
 
-<div id="green-full-quote">
+<div id="green-full-quote" class="orange">
 
 	<div id="green-full-quote-content">	
 
@@ -107,6 +114,6 @@ include('../../../includes/header.php');
 
 <div class="clear"></div><!--clear-->
         
-<?php include('../includes/footer.php'); ?>
+<?php include('../../../includes/footer.php'); ?>
 
     
