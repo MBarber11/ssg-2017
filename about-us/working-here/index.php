@@ -24,7 +24,7 @@ include('../../includes/header.php');
 
 	<div id="working-hero-content">	
 
-			<h2>Working Here</h2>
+			<h1>Working Here</h1>
 					
 			<p>We believe in working hard and playing hard, while keeping our core values at the center of everything we do.</p>
 	   
@@ -37,7 +37,7 @@ include('../../includes/header.php');
 
 	<div id="careers-banner-content">
 
-		<h3>Careers</h3>
+		<h2>Careers</h2>
 
 	</div>
 			
@@ -57,7 +57,7 @@ include('../../includes/header.php');
 			
 			</p>
 			
-			<div class="orange-button"><a href="">View Jobs</a></div>
+			<div class="orange-button"><a href="<?=$url;?>/about-us/working-here/careers/">View Jobs</a></div>
 
 		</div>
 		
@@ -98,7 +98,7 @@ include('../../includes/header.php');
 
 	<div id="benefits-banner-content">
 
-		<h3>Benefits</h3>
+		<h2>Benefits</h2>
 		
 	</div>
 			
@@ -111,15 +111,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Paid Time Off</h4>
+			<h3 class="blue-headline">Paid Time Off</h3>
 			
 			<p>Every employee starts with 17 vacation days and gain more over time. In addition, we get 8 paid holiday each year. On top of that, every employee receives 8 hours of paid time each quarter to volunteer. </p>
 			
-			<h3 class="red-headline">Health Insurance</h4>
+			<h3 class="red-headline">Health Insurance</h3>
 			
 			<p>We pay 100% of medical insurance for employees with HSA account. Dental and vision is free for employees and family. We also offer an HSA match for employee and family. </p>
 			
-			<h3 class="yellow-headline">Disability Coverage/Life + AD&amp;D</h4>
+			<h3 class="yellow-headline">Disability Coverage/Life + AD&amp;D</h3>
 			
 			<p>Our benefits include short and long-term disability, as well as $50K of coverage provided by the company for employees.</p> <br><br>
 			
@@ -128,21 +128,19 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">401K Match</h4>
+			<h3 class="orange-headline">401K Match</h3>
 			
 			<p>We offer a 401K match to help our employees invest in their future retirement.  </p>
 			
-			<h3 class="green-headline">Tuition Reimbursement</h4>
+			<h3 class="green-headline">Tuition Reimbursement</h3>
 			
 			<p>$1,500 per year toward role related graduate and undergraduate programs. $500 per year for continued education courses.</p>
 			
-			
-
 		</div>
 		
 		<div class="clear"></div>
 
-		<div class="blue-button"><a href="">View Jobs</a></div>
+		<div class="blue-button"><a href="<?=$url;?>/about-us/working-here/careers/">View Jobs</a></div>
 	</div>
 		
 </div>
@@ -151,7 +149,7 @@ include('../../includes/header.php');
 
 	<div id="values-banner-content">
 
-		<h3>Values</h3>
+		<h2>Values</h2>
 		
 	</div>
 		
@@ -240,12 +238,12 @@ include('../../includes/header.php');
 		<div class="clear"></div>
 
 
-		<div class="red-button"><a href="">View Jobs</a></div>
+		<div class="red-button"><a href="<?=$url;?>/about-us/working-here/careers/">View Jobs</a></div>
 	</div>
 
 </div>
 
            
-<?php include('../includes/footer.php'); ?>
+<?php include('../../includes/footer.php'); ?>
 
     

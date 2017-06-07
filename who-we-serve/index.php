@@ -25,7 +25,7 @@ include('../includes/header.php');
 
 	<div id="who-we-serve-hero-content">	
 
-			<h2>When It Comes to Improving Human Lives, It’s Worth Getting It Right</h2>
+			<h1>When It Comes to Improving Human Lives, It’s Worth Getting It Right</h1>
 		
 			<p>Social Solutions was founded with the goal of giving human services professionals a better way to collect data on the services they provide so they could better understand their impact. Today, case managers, job coaches, correctional officers, youth workers, and funders alike, all log in to our software and trust our tools to help them serve their communities better.</p>
 	   
@@ -45,7 +45,7 @@ include('../includes/header.php');
 
 	<div id="training-banner-content">
 
-		<h3>Comprehensive Software for Nonprofit and Government Organizations</h3>
+		<h2>Comprehensive Software for Nonprofit and Public Sector Organizations</h2>
 
 		
 	</div>
@@ -76,7 +76,7 @@ include('../includes/header.php');
 
 			<div id="support-about-top-summary">
 
-				<h4 class="blue-headline">How Social Solutions Helps Nonprofits Maximize Impact </h4>
+				<h3 class="blue-headline">How Social Solutions Helps Nonprofits Maximize Impact </h3>
 
 				<p>The Wyman Center’s Teen Outreach Program (TOP) knew that their outcomes were impressive. Thanks to our tracking tools, they knew their program led to a 53% lower risk of teen pregnancy and a 60% lower risk of dropping out of school. But that wasn’t enough for them. They wanted to get even smarter about their approach. By comparing several different TOP programs to measure best practices, they were able to see that taking a trauma-informed approach could lead to even better outcomes. This discovery means the Wyman Center isn’t just more effective; it’s more empathetic and understanding, too.</p>	
 
@@ -107,7 +107,7 @@ include('../includes/header.php');
 
 			<div id="support-about-bottom-summary">
 
-				<h4 class="blue-headline">Social Solutions Software in the Public Sector</h4>
+				<h3 class="blue-headline">Social Solutions Software in the Public Sector</h3>
 
 				<p>Chris Smith, the Director of the MCDD, needed to answer the question, “How is it you know you’ve made a diﬀerence today?” Apricot allowed him to find one. Using the outcomes analysis tools, he discovered a fascinating insight: African American children with autism were more likely to be misdiagnosed as intellectually disabled. Once he saw this trend, he could propose a new approach that better trained doctors in areas that haven’t traditionally served children with autism. This helped more children beneﬁt from a faster, more accurate diagnosis, leading to better care for life</p>	
 

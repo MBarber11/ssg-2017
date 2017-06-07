@@ -24,7 +24,7 @@ include('../../includes/header.php');
 
 	<div id="resources-hero-content">	
 
-			<h2>Featured Resources</h2>
+			<h1>Featured Resources</h1>
 	   
 	</div> 
       
@@ -62,7 +62,7 @@ include('../../includes/header.php');
 
 	<div id="resources-case-study-banner-content">
 
-		<h3><img src="<?=$url;?>/images/icon-resource-case-study.png">Case Study</h3>
+		<h2><img src="<?=$url;?>/images/icon-resource-case-study.png">Case Study</h2>
 
 	</div>
 			
@@ -141,7 +141,7 @@ include('../../includes/header.php');
 
 	<div id="resources-guides-banner-content">
 
-		<h3><img src="<?=$url;?>/images/icon-resource-guides.png">Guides</h3>
+		<h2><img src="<?=$url;?>/images/icon-resource-guides.png">Guides</h2>
 		
 	</div>
 			
@@ -214,7 +214,7 @@ include('../../includes/header.php');
 
 	<div id="resources-video-banner-content">
 
-		<h3><img src="<?=$url;?>/images/icon-resource-video.png">Video</h3>
+		<h2><img src="<?=$url;?>/images/icon-resource-video.png">Video</h2>
 
 		<!--<div id="resources-video-banner-summary">
 		
@@ -226,7 +226,7 @@ include('../../includes/header.php');
 			
 </div>
          
-/*<div class="featured-library white">
+<div class="featured-library white">
 
 	<div class="library-content">
 	
@@ -282,7 +282,7 @@ include('../../includes/header.php');
 
 	</div> 
 	
-</div>*/
+</div>
 
 <div class="clear"></div><!--clear-->
 
@@ -292,7 +292,7 @@ include('../../includes/header.php');
 
 	<div id="resources-webinar-banner-content">
 
-		<h3><img src="<?=$url;?>/images/icon-resource-webinar.png">Webinar</h3>
+		<h2><img src="<?=$url;?>/images/icon-resource-webinar.png">Webinar</h2>
 		
 	</div>
 			
@@ -366,7 +366,7 @@ include('../../includes/header.php');
 
 	<div id="resources-ebook-banner-content">
 
-		<h3> <img src="<?=$url;?>/images/icon-resource-ebook.png">E-Book</h3>
+		<h2> <img src="<?=$url;?>/images/icon-resource-ebook.png">E-Book</h2>
 
 	</div>
 			

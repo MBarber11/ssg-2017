@@ -2,7 +2,7 @@
 
 $title = "Nonprofit Case Management Software";
 $name = "nonprofit-case-management-software";
-$section = "solutions";
+$section = "software";
 
 //Meta Data
 $description = "*to do*";

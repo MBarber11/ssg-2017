@@ -24,9 +24,7 @@ include('../includes/header.php');
 
 	<div id="about-hero-content">	
 
-		<h2>About Us</h2>
-			
-		<h3>Bring Your Impact to Life</h3>
+		<h1>Bring Your Impact to Life</h1>
 		
 		<p>Our clients' work touches countless lives every day. That's why we go beyond providing tools to get the job done. We help nonprofits get to the heart of their data to understand the full impact of their work. With the insights and evidence they gain from our software, our clients know how to maximize their efforts to do even more good.</p>
    
@@ -102,7 +100,7 @@ include('../includes/header.php');
 
 		<div id="gray-full-band-image">
 			
-			<img alt="" src="<?=$url;?>/images/about-us-1.jpg">
+			<img alt="" src="<?=$url;?>/images/about-us-1.png">
 			
 		</div>
 			
@@ -132,7 +130,7 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/kristin-nimsger.php">
+					<a href="<?=$url;?>/about-us/team/kristin-nimsger.php">
 
 						<img alt="CEO Kristin Nimsger" src="../images/team/team-kristin-nimsger.png">
 
@@ -146,7 +144,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/jon-bahl.php">
+					<a href="<?=$url;?>/about-us/team/jon-bahl.php">
 
 						<img alt="CRO John Bahl" src="../images/team/team-jon-bahl.png">
 
@@ -160,7 +158,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/joel-martins.php">
+					<a href="<?=$url;?>/about-us/team/joel-martins.php">
 
 						<img alt="CTO Joel Martins" src="../images/team/team-joel-martins.png">
 
@@ -174,7 +172,7 @@ include('../includes/header.php');
 
 				<div class="team-member last">
 
-					<a href="<?=$url;?>/team/tricia-benedrix.php">
+					<a href="<?=$url;?>/about-us/team/tricia-benedrix.php">
 
 						<img alt="CFO Tricia Benedix" src="../images/team/team-tricia-benedix.png">
 
@@ -194,7 +192,7 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/kristin-nimsger.php">
+					<a href="<?=$url;?>/about-us/team/kristin-nimsger.php">
 
 						<img alt="COO Nikhil Kumar" src="../images/team/team-nikhil-kumar.png">
 
@@ -208,7 +206,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/matt-van-itallie.php">
+					<a href="<?=$url;?>/about-us/team/matt-van-itallie.php">
 
 						<img alt="VP of Customer Support and Customer Operations Matt van Itallie" src="../images/team/team-matt-van-itallie.png">
 
@@ -222,7 +220,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/joel-martins.php">
+					<a href="<?=$url;?>/about-us/team/joel-martins.php">
 
 						<img alt="VP of Engineering Matt Kraft" src="../images/team/team-matt-kraft.png">
 
@@ -236,7 +234,7 @@ include('../includes/header.php');
 
 				<div class="team-member last">
 
-					<a href="<?=$url;?>/team/tricia-benedrix.php">
+					<a href="<?=$url;?>/about-us/team/tricia-benedrix.php">
 
 						<img alt="VP of Marketing Heather Smith" src="../images/team/team-heather-smith.png">
 
@@ -256,7 +254,7 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/benjamin-allen.php">
+					<a href="<?=$url;?>/about-us/team/benjamin-allen.php">
 
 						<img alt="VP of Sales Ben Allen" src="../images/team/team-benjamin-allen.png">
 
@@ -270,7 +268,7 @@ include('../includes/header.php');
 
 				<div class="team-member">
 
-					<a href="<?=$url;?>/team/margaux-gillman.php">
+					<a href="<?=$url;?>/about-us/team/margaux-gillman.php">
 
 						<img alt="VP of People Margaux Gillman" src="../images/team/team-margaux-gillman.png">
 
@@ -343,7 +341,7 @@ include('../includes/header.php');
 		
 		<p>Our clients get out of bed every day to change lives in a world of unlimited need, scarce resources, and growing expectations. We get out of bed to help them on their journey, and we are looking for smart, mission-minded people to join us.    </p>
 	
-		<div id="culture-button"><a href="<?=$url;?>/team/working-here.php">See Why We Love Social Solutions</a></div>
+		<div id="culture-button"><a href="<?=$url;?>/about-us/working-here/">See Why We Love Social Solutions</a></div>
 	
           
 </div>

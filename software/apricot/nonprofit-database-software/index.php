@@ -2,7 +2,7 @@
 
 $title = "Nonprofit Database Software";
 $name = "nonprofit-database-software";
-$section = "solutions";
+$section = "software";
 
 //Meta Data
 $description = "*to do*";

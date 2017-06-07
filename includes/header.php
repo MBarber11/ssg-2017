@@ -89,25 +89,25 @@ $detect = new Mobile_Detect;
         
         <ul class="primary-nav">
             
-            <li class="primary-nav"><a href="<?=$url;?>/solutions/" <?php if($section == "solutions") { ?> class="active"<? } ?> class="primary-nav">Solutions</a>
+            <li class="primary-nav"><a href="<?=$url;?>/software" <?php if($section == "software") { ?> class="active"<? } ?> class="primary-nav">Software</a>
           
 					<ul class="no-float">
 						
 						
-						<li id="nav-essentials-logo"><a href="<?=$url;?>/solutions/apricot-essentials/index.php">Apricot Essentials</a></li>
+						<li id="nav-essentials-logo"><a href="<?=$url;?>/software/apricot-essentials">Apricot Essentials</a></li>
 						
-						<li id="nav-apricot-logo"><a href="<?=$url;?>/solutions/apricot/index.php">Apricot</a></li>
+						<li id="nav-apricot-logo"><a href="<?=$url;?>/software/apricot">Apricot</a></li>
 						
-						<li id="nav-eto-logo"><a href="<?=$url;?>/solutions/eto/index.php">ETO</a></li>
+						<li id="nav-eto-logo"><a href="<?=$url;?>/software/eto">ETO</a></li>
 	
 					</ul>	
 				
            		
              </li> 
             
-            <li class="primary-nav"><a href="<?=$url;?>/services/" <?php if($section == "services") { ?> class="active"<? } ?> class="primary ">Services</a></li>
+            <li class="primary-nav"><a href="<?=$url;?>/services" <?php if($section == "services") { ?> class="active"<? } ?> class="primary ">Services</a></li>
             
-            <li class="primary-nav"><a href="<?=$url;?>/who-we-serve/" <?php if($section == "who-we-serve") { ?> class="active"<? } ?> class="primary">Who We Serve</a>
+            <li class="primary-nav"><a href="<?=$url;?>/who-we-serve" <?php if($section == "who-we-serve") { ?> class="active"<? } ?> class="primary">Who We Serve</a>
             
             	<!--<ul>
 									
@@ -141,7 +141,7 @@ $detect = new Mobile_Detect;
 						
 					<!--<li><a href="resources/events/index.php">Events</a></li>-->
 					
-					<li><a href="<?=$url;?>/resources/featured-resources/index.php">Featured Resources</a></li>
+					<li><a href="<?=$url;?>/resources/featured-resources">Featured Resources</a></li>
 					
 				
            		</ul>
@@ -149,7 +149,7 @@ $detect = new Mobile_Detect;
             
             </li>
             
-            <li class="primary-nav"><a href="<?=$url;?>/about-us/" <?php if($section == "about") { ?> class="active"<? } ?> class="primary">About Us</a></li>
+            <li class="primary-nav"><a href="<?=$url;?>/about-us" <?php if($section == "about") { ?> class="active"<? } ?> class="primary">About Us</a></li>
                
             <li class="primary-nav"><a href="#">Search</a></li>   
                 

@@ -23,8 +23,10 @@ include('../includes/header.php');
 
 	<div id="services-hero-content">	
 
-			<h2>Services for nonprofits from people who understand your needs. 
-</h2>
+			<h1>Services for nonprofits from people who understand your needs. </h1>
+			
+			<p>Fusce fermentum ex diam, quis tincidunt sem scelerisque in. Duis ante mauris, aliquam nec massa sit amet, tristique faucibus tortor. Nulla et felis odio.</p>
+
 	   
 	</div> 
       
@@ -34,7 +36,7 @@ include('../includes/header.php');
 
 	<div id="implement-banner-content">
 
-		<h3>Professional Services</h3>
+		<h2>Professional Services</h2>
 
 		<div id="implement-banner-summary">
 		
@@ -128,7 +130,7 @@ include('../includes/header.php');
 
 	<div id="training-banner-content">
 
-		<h3>Training</h3>
+		<h2>Training</h2>
 
 		<div id="training-banner-summary">
 		
@@ -170,13 +172,17 @@ include('../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="red-headline">Boot Camps</h4>
+			<h3 class="red-headline">Boot Camps</h3>
 			
 			<p>Hands on, multiday courses that set our clients up<br>for success</p>
 			
-			<h3 class="red-headline">Virtual Interactive Labs</h4>
+			<h3 class="red-headline">Virtual Interactive Labs</h3>
 			
 			<p>Convenient, self paced learning labs designed to fit in your busy schedule and enable use of the software</p>
+			
+			<h3 class="red-headline">Online Training Portal</h3>
+
+				<p>The Social Solutions online training portal ensures all user have access to on-demand training that will enable their success. </p>	
 			
 
 		</div>
@@ -205,29 +211,6 @@ include('../includes/header.php');
 
 <div class="clear"></div><!--clear-->
 	
-<div id="training-about">
-
-		<div id="training-about-content">	
-
-			<div id="training-about-summary">
-
-				<h4 class="red-headline">Online Training Portal</h4>
-
-				<p>The Social Solutions online training portal ensures all user have access to on-demand training that will enable their success. </p>	
-
-
-			</div>
-
-			<div id="training-about-image">
-
-				<img alt="" src="<?=$url;?>/images/services-support-2.jpg">
-
-			</div>
-
-		   <!--clear-->
-		</div> 
-		
-</div>
 
 <div class="clear"></div><!--clear-->
 
@@ -235,7 +218,7 @@ include('../includes/header.php');
 
 	<div id="support-banner-content">
 
-		<h3>Support Options</h3>
+		<h2>Support Options</h2>
 
 		<div id="support-banner-summary">
 		
@@ -254,7 +237,7 @@ include('../includes/header.php');
 
 	<div id="services-feature-content">
 
-		<h4>At your fingertips or a call away, we are here for you.</h4>
+		<h3>At your fingertips or a call away, we are here for you.</h3>
 
 		<p>We offer a variety of options for contacting the Social Solutions Support teams</p>
 
@@ -335,33 +318,6 @@ include('../includes/header.php');
 
 	</div> 
 	
-	<div id="support-about-top">
-
-		<div id="support-about-top-content">	
-
-			<div id="support-about-top-summary">
-
-				<h4>Premium Support Options </h4>
-
-				<p>Need a little extra support for your organization? We have you covered. Social Solutions offers tiered packages to meet the diverse needs of our clients including options for a dedicated Advanced Support Consultant.</p>
-
-				<p>Acting as a member of your team, the ASC relationship further enables your team and provides a consistent support presence who understands your specific use of the software.</p>	
-
-
-			</div>
-
-			<div id="support-about-top-image">
-
-				<img alt="" src="<?=$url;?>/images/services-support-3.jpg">
-
-			</div>
-
-		</div> 
-
-	</div>  
-
-	<div class="clear"></div><!--clear-->
-
 	<div id="support-about-bottom">      
 
 		<div id="support-about-bottom-content">	
@@ -374,7 +330,36 @@ include('../includes/header.php');
 
 			<div id="support-about-bottom-summary">
 
-				<h4>Account Management</h4>
+				<h3>Premium Support Options </h3>
+
+				<p>Need a little extra support for your organization? We have you covered. Social Solutions offers tiered packages to meet the diverse needs of our clients including options for a dedicated Advanced Support Consultant.</p>
+
+				<p>Acting as a member of your team, the ASC relationship further enables your team and provides a consistent support presence who understands your specific use of the software.</p>	
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="clear"></div><!--clear-->
+
+	
+
+<!--	<div id="support-about-bottom">      
+
+		<div id="support-about-bottom-content">	
+
+			<div id="support-about-bottom-image">
+
+				<img alt="" src="<?=$url;?>/images/services-support-4.jpg">
+
+			</div>
+
+			<div id="support-about-bottom-summary">
+
+				<h3>Account Management</h3>
 
 				<p>Think of your Social Solutions Account Manager as your "person" in our organization. Every Social Solutions client gets paired up with a general point of contact to provide big picture guidance on your journey, as well to be there with answers to your everyday questions. In a nutshell, your Account Manager is there to provide proactive, consist communication so that you are a happy and satisfied customer.</p>	
 

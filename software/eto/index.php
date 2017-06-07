@@ -2,7 +2,7 @@
 
 $title = "ETO";
 $name = "eto";
-$section = "solutions";
+$section = "software";
 
 //Meta Data
 $description = "*to do*";
@@ -455,6 +455,6 @@ include('../../includes/header.php');
 </div>
 
            
-<?php include('../includes/footer.php'); ?>
+<?php include('../../includes/footer.php'); ?>
 
     

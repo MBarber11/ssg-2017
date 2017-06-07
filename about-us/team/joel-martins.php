@@ -64,7 +64,7 @@ include('../../includes/header.php');
 
 		</div>
 		
-		<div class="blue-button"><a href="index.php">&lt; Back </a></div>
+		<div class="blue-button"><a href="<?=$url;?>/about-us/index.php">&lt; Back </a></div>
 
 	</div> 
 	

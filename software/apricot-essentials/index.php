@@ -2,7 +2,7 @@
 
 $title = "Apricot Essentials";
 $name = "apricot-essentials";
-$section = "solutions";
+$section = "software";
 
 //Meta Data
 $description = "*to do*";

@@ -23,13 +23,15 @@ include('includes/header.php');
 
 	<div id="hero-content">
 	
-		<h2>Your work changes lives. Our work gives you tools to make that job easier.</h2>
+		<h1>Your work changes lives. Our work gives you tools to make that job easier.</h1>
 		
 		<p>Social Solutions gives you easy-to-use tools to track data, manage cases, and measure outcomes. Whether you are a small team just starting to track data or a large multi-service organization, our tools meet you where you are, and grow with you as your needs evolve. </p>
 		
 		<div id="hero-learn-more-button"><a href="<?=$url;?>/solutions/">Learn More</a></div>
 		
-		<div id="hero-scroll-button"></div>
+		<div id="hero-scroll-button"><a href="#about">learn more</a></div>
+		
+		<div id="about"></div>
 
 	</div>
 
@@ -43,7 +45,7 @@ include('includes/header.php');
 	  
 	  <h2>We help people transform lives.</h2>
 	  
-	  <p>Everything your social services organization needs to manage, measure, and accelerate your progress.</p>
+	  <h3>Everything your social services organization needs to manage, measure, and accelerate your progress.</h3>
 	  
 	  <div id="home-about-icon">
 	  	
@@ -87,7 +89,7 @@ include('includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Friends of the Children</h3>
+			<h2>Friends of the Children</h2>
 
 			<p>Friends of the Children helps students graduate high school, stay out of the juvenile justice system, and avoid early parenthood. Using our software, they proved success with at least 85% of participants and measured $7.00 returned to the community for every dollar invested in FOTC. Now that’s a powerful measure of success. </p>	
 
