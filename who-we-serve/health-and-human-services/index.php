@@ -1,6 +1,6 @@
 <?php
 
-$title = "Health and HUman Services";
+$title = "Health and Human Services";
 $name = "health-services";
 $section = "who-we-serve";
 
@@ -21,13 +21,13 @@ include('../../includes/header.php');
 
 <div id="breadcrumbs"></div>
 
-<div id="serve-hero">
+<div id="serve-hero" class="health">
 
 	<div id="serve-hero-content">	
 
-			<h2>Managing Outcomes for Health and Human Service Organizations</h2>
+			<h1>Managing Outcomes for Health and Human Service Organizations</h1>
 			
-			<p>MWhether you aim to improve parenting skills and child well-being, provide quality elder care, prevent risky behaviors, help people recover from trauma, or achieve unique outcomes, our solutions will help you serve your clients better. </p>
+			<p>Whether you aim to improve parenting skills and child well-being, provide quality elder care, prevent risky behaviors, help people recover from trauma, or achieve unique outcomes, our solutions will help you serve your clients better. </p>
 	   
 	</div> 
       
@@ -49,7 +49,7 @@ include('../../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img alt="" src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<img alt="" src="<?=$url;?>/images/health-1.jpg">
 			
 		</div>
 
@@ -69,15 +69,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Intake Clients</h4>
+			<img src="<?=$url;?>/images/icon-no.1.png" alt=""><h3 class="blue-headline">Intake Clients</h4>
 			
 			<p>As individuals enter your organization, data collection happens in real-time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door so they can quickly receive the services they need.</p>
 			
-			<h3 class="red-headline">Assess Needs</h4>
+			<img src="<?=$url;?>/images/icon-no.2.png" alt=""><h3 class="red-headline">Assess Needs</h4>
 			
 			<p>Whether you’re providing mental health counseling, elderly care, or substance abuse prevention, ensure your clients are aligned with the correct services. Our best practice solutions include assessment forms to easily assign clients to services.</p>
 			
-			<h3 class="yellow-headline">Provide Services</h4>
+			<img src="<?=$url;?>/images/icon-no.3.png" alt=""><h3 class="yellow-headline">Provide Services</h4>
 			
 			<p>Develop individual plans to ensure you are providing the right services and the right amount of services for each client. Easily enroll clients in programs and track progress related to specific programs and services to gain a comprehensive understanding of an individual’s progress.</p> <br><br>
 			
@@ -86,15 +86,15 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">Collaborate</h4>
+			<img src="<?=$url;?>/images/icon-no.4.png" alt=""><h3 class="orange-headline">Collaborate</h4>
 			
 			<p>Work collaboratively within your organization, referring individuals between programs and staff as well as externally to other nonprofits, government agencies, and medical facilities. </p>
 			
-			<h3 class="green-headline">Report Results</h4>
+			<img src="<?=$url;?>/images/icon-no.5.png" alt=""><h3 class="green-headline">Report Results</h4>
 			
 			<p>Meet funding requirements such as Substance Abuse Block Grants (SABG) and Maternal Infant Early Childhood Home Visiting (MIECHV). Report against individual goals such as improved self-sufficiency, quality of care, and more.</p>
 			
-			<h3 class="blue-headline">Manage to Outcomes</h4>
+			<img src="<?=$url;?>/images/icon-no.6.png" alt=""><h3 class="blue-headline">Manage to Outcomes</h4>
 			
 			<p>Take your service delivery to the next level and understand the impact of the services you’ve provided. Measure and manage against individual and program level goals and outcomes of success.</p>
 
@@ -118,7 +118,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Love In the Name of Christ (Love INC) of Lancaster County </h3>
+			<h2>Love In the Name of Christ (Love INC) of Lancaster County </h2>
 
 			<p>Love INC’s mission is to connect members of their community with the services that they need in real time. Working with partner churches, shelters, and food banks across the city of Lancaster, Love INC’s dedicated call center staff help to identify needs and solutions for a wide range of clients and services. Using Apricot Essentials, the team is able to collect and report on the services they offer the community all in one seamless, easy to use tool. Read their full story here.</p>	
 
@@ -180,17 +180,17 @@ include('../../includes/header.php');
 		
 		<div class="library-summary">
 
-			<div class="guides">
+			<div class="blog">
 
 				<div class="icon"></div>
 
-				<div class="category">Guide</div>
+				<div class="category">Blog</div>
 
-				<div class="title">Nonprofit Close-Out Kit</div>
+				<div class="title">3 Behavioral Health Case Management Best Practices</div>
 
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
 			</div>
 
@@ -204,7 +204,7 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">Love INC</div>
 
 				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
 
@@ -213,38 +213,38 @@ include('../../includes/header.php');
 			</div>
 
 		</div>
-
+		
 		<div class="library-summary ">
 
-		<div class="ebook">
+			<div class="blog">
 
-			<div class="icon"></div>
+				<div class="icon"></div>
 
-			<div class="category">eBook</div>
+				<div class="category">Blog</div>
 
-			<div class="title">Leap of Reason</div>
+				<div class="title">Substance Abuse Case Management Best Practices</div>
 
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
-		</div>
+			</div>
 
 		</div>
 		
 		<div class="library-summary last">
 
-			<div class="webinar">
+			<div class="event">
 
 				<div class="icon"></div>
 
-				<div class="category">Webinar</div>
+				<div class="category">Event</div>
 
-				<div class="title">Whole Brain Fundraising</div>
+				<div class="title">Impact Summit: Best Practices in Health and Human Services</div>
 
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
 			</div>
 

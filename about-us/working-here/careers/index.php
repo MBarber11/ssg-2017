@@ -24,10 +24,8 @@ include('../../../includes/header.php');
 <div id="careers-hero">
 
 	<div id="careers-hero-content">	
-
-			<h1>Careers</h1>
-			
-		<p>Praesent aliquam ultricies lectus, non faucibus nibh scelerisque aliquam. In a pellentesque leo. Nulla dapibus magna quis auctor pretium. Quisque pharetra diam nisl, in luctus quam aliquet in. Aenean tempus, metus nec ultrices suscipit, risus risus semper sapien, a congue elit lacus quis erat.</p>
+		
+		<h1>Careers</h1>
 	   
 	</div> 
       

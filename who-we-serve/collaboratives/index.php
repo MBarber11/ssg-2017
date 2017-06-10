@@ -25,7 +25,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Managing Outcomes for Community Collaborations</h2>
+			<h1>Managing Outcomes for Community Collaborations</h1>
 			
 			<p>Making a positive impact on the community is often not a one-person, one-organization activity. It frequently requires the voluntary participation of many persons or organizations, and their provision of resources. It is practically impossible to establish a holistic, family-centric case management service delivery and performance management process without collaboration of some kind. That’s where we come in.</p>
 	   
@@ -69,15 +69,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Intake Clients</h4>
+			<img src="<?=$url;?>/images/icon-no.1.png" alt=""><h3 class="blue-headline">Intake Clients</h4>
 			
 			<p>As individuals enter your organization, data collection happens in real-time. Easily record basic demographic information in a secure and organized system as soon as clients walk in the door so they can quickly receive the services they need.</p>
 			
-			<h3 class="red-headline">Assess Needs</h4>
+			<img src="<?=$url;?>/images/icon-no.2.png" alt=""><h3 class="red-headline">Assess Needs</h4>
 			
 			<p>Ensure your clients are aligned with the correct services internally or referred to the correct services at another local organization.</p>
 			
-			<h3 class="yellow-headline">Provide Services</h4>
+			<img src="<?=$url;?>/images/icon-no.3.png" alt=""><h3 class="yellow-headline">Provide Services</h4>
 			
 			<p>Develop individual plans to ensure you are providing the right services, at the right time and in the right way for each client. Easily enroll clients in programs and track progress related to specific programs and services to gain a comprehensive understanding of an individual’s progress.</p> <br><br>
 			
@@ -86,15 +86,15 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">Collaborate</h4>
+			<img src="<?=$url;?>/images/icon-no.4.png" alt=""><h3 class="orange-headline">Collaborate</h4>
 			
 			<p>Work collaboratively within your organization and beyond. Refer individuals between programs and staff as well as externally to other nonprofits, government agencies, and funders.</p>
 			
-			<h3 class="green-headline">Report Results</h4>
+			<img src="<?=$url;?>/images/icon-no.5.png" alt=""><h3 class="green-headline">Report Results</h4>
 			
 			<p>Report individual progress and program success. Compare results between programs, caseloads, and collaborative organizations easily from within the system.</p>
 			
-			<h3 class="blue-headline">Manage to Outcomes</h4>
+			<img src="<?=$url;?>/images/icon-no.6.png" alt=""><h3 class="blue-headline">Manage to Outcomes</h4>
 			
 			<p>Take your service delivery to the next level and understand the impact of the services you’ve provided. Measure and manage against individual and program level goals and outcomes of success.</p>
 
@@ -118,7 +118,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Local Investment Commission (LINC)</h3>
+			<h2>Local Investment Commission (LINC)</h2>
 
 			<p>Established in 1992 in Kansas City, the Local Investment Commission (LINC) has a big role to fill: coordinating across state agencies, school districts, and local nonprofits to improve the lives of children and families across their community. With the help of Apricot software, LINC has been able to increase visibility across programs and sites, redirect time and energy to direct client work, and improve service delivery through coordinated effort.</p>	
 
@@ -183,9 +183,9 @@ include('../../includes/header.php');
 
 				<div class="category">Guide</div>
 
-				<div class="title">Nonprofit Close-Out Kit</div>
+				<div class="title">ETO Collaborate Brochure</div>
 
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
 
@@ -201,7 +201,7 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">Love INC</div>
 
 				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
 
@@ -213,35 +213,35 @@ include('../../includes/header.php');
 
 		<div class="library-summary ">
 
-		<div class="ebook">
+			<div class="blog">
 
-			<div class="icon"></div>
+				<div class="icon"></div>
 
-			<div class="category">eBook</div>
+				<div class="category">Blog</div>
 
-			<div class="title">Leap of Reason</div>
+				<div class="title">Data Sharing Across Partner Agencies</div>
 
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
-		</div>
+			</div>
 
 		</div>
 		
 		<div class="library-summary last">
 
-			<div class="webinar">
+			<div class="event">
 
 				<div class="icon"></div>
 
-				<div class="category">Webinar</div>
+				<div class="category">Event</div>
 
-				<div class="title">Whole Brain Fundraising</div>
+				<div class="title">Impact Summit: Community Collaborative</div>
 
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
 			</div>
 

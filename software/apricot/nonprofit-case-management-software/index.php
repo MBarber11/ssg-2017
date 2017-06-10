@@ -24,7 +24,7 @@ include('../../../includes/header.php');
 
 	<div id="case-management-hero-content">	
 
-		<h2>Powerful Case Management for Your Nonprofit</h2>
+		<h1>Powerful Case Management for Your Nonprofit</h1>
 			
 		<p>As a health and human services nonprofit organization, agency or program, you need an easy way to prove that you are making an impact on your clients’ lives. You need a way to measure every effort, every program, dollar and hour.</p>
 	   
@@ -106,7 +106,7 @@ include('../../../includes/header.php');
   		
 		</div>
 	   
-	   <div id="solutions-three-image"><img alt="" src="<?=$url;?>/images/case-management-3.jpg"></div>   
+	   <div id="solutions-three-image"><img alt="" src="<?=$url;?>/images/case-management-3.png"></div>   
 	
 	</div>
 

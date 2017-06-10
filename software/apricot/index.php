@@ -23,7 +23,7 @@ include('../../includes/header.php');
 
 	<div id="apricot-hero-content">	
 
-			<h2>Apricot Makes Case Management Easier and Smarter than Ever</h2>
+			<h1>Apricot Makes Case Management Easier and Smarter than Ever</h1>
 			
 		<p>Apricot offers a secure, flexible, and easy-to-use solution for everything from case management to donor management to volunteer tracking, and even outcomes management. With this comprehensive tool, increasing efficiency and proving your outcomes is a snap.</p>
 	   
@@ -120,7 +120,7 @@ include('../../includes/header.php');
 
 			<p>Completely configurable forms and fields allow your organization to modify the system on the fly so that you are always tracking what matters. </p><br>	<br>	
 
-			<div class="orange-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-case-management-software/index.php">Learn More</a></div>
+			<div class="orange-button"><a href="<?=$url;?>/software/apricot/nonprofit-case-management-software/index.php">Learn More</a></div>
 
 		</div>
 		
@@ -138,20 +138,18 @@ include('../../includes/header.php');
 
 		<div id="green-full-band-summary">
 
-			<h2>Prove Your Impact through Easy Reporting and Data Visualization</h2>
+			<h2>Prove Your Impact</h2>
 			
-			<p>Apricot’s reporting platform allows you to create and share reports, securely from within the system. From day one, you get value from the system because it’s loaded with standard program and case management reports, right out of the box. </p>	<br>
-
-			<p>Reporting happens in real-time so that you can monitor results and be responsive when it matters. Drag and drop your way to powerful reports with dynamic graphs that visualize your data. Then, use the built-in geolocation tools for heatmapping to better understand your populations and need. </p>	
-			<br><br>
-			<div class="white-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-database-software/index.php">Learn more</a></div>
+			<p>Apricot’s reporting platform allows you to create and share reports, securely from within the system. Reporting happens in real-time so that you can monitor results and be responsive when it matters. Drag and drop your way to powerful reports with dynamic graphs that visualize your data. Then, use the built-in geolocation tools for heatmapping to better understand your populations and need. </p>	
+			<br><br><br>
+			<div class="white-button"><a href="<?=$url;?>/software/apricot/nonprofit-database-software/index.php">Learn more</a></div>
 
 
 		</div>
 
 		<div id="green-full-band-image">
 			
-			<img alt="" src="<?=$url;?>/images/apricot-image-2.png">
+			<img class="image-right "alt="" src="<?=$url;?>/images/apricot-image-2.png">
 			
 		</div>
 

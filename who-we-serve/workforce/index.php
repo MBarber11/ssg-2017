@@ -21,11 +21,11 @@ include('../../includes/header.php');
 
 <div id="breadcrumbs"></div>
 
-<div id="serve-hero">
+<div id="serve-hero" class="workforce">
 
 	<div id="serve-hero-content">	
 
-			<h2>Managing Outcomes for Workforce Organizations</h2>
+			<h1>Managing Outcomes for Workforce Organizations</h1>
 			
 			<p>Our software was built to handle the full range of data and outcomes you need to track to effectively serve your clients. Things like skills assessments, job training, placement, retention, and client and employer engagement are easy to manage with a software suite from Social Solutions.</p>
 	   
@@ -41,7 +41,7 @@ include('../../includes/header.php');
 
 		<div id="serve-about-summary" class="product-about-text">
 
-			<h2>Helping Workforce Organizations Get the Job Done</h2>
+			<h2>Helping Workforce Organizations Get<br>the Job Done</h2>
 
 			<p>Between funder requirements, like the Workforce Investment and Opportunity Act (WIOA), and the desire to prove the impact of the services being provided, it’s more important than ever that workforce organizations have a comprehensive data management system. That’s where we come in.  </p>	
 
@@ -49,7 +49,7 @@ include('../../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img alt="" src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<img alt="" src="<?=$url;?>/images/workforce-1.jpg">
 			
 		</div>
 
@@ -69,15 +69,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Intake Clients</h4>
+			<img src="<?=$url;?>/images/icon-no.1.png" alt=""><h3 class="blue-headline">Intake Clients</h4>
 			
 			<p>As individuals enter your organization, data collection happens in real-time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door.</p>
 			
-			<h3 class="red-headline">Assess Needs</h4>
+			<img src="<?=$url;?>/images/icon-no.2.png" alt=""><h3 class="red-headline">Assess Needs</h4>
 			
 			<p>Initial skills assessment helps staff determine the ideal programs and services for individual clients. Define what drove this individual to seek services from your organization and align their needs with the correct programs, internally or through an external referral.</p>
 			
-			<h3 class="yellow-headline">Provide Services</h4>
+			<img src="<?=$url;?>/images/icon-no.3.png" alt=""><h3 class="yellow-headline">Provide Services</h4>
 			
 			<p>We give you a host of features for managing individual and group services, with automated program eligibility determination, training plan creation, service tracking, and targeted job announcements.</p>
 			
@@ -86,15 +86,15 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">Collaborate</h4>
+			<img src="<?=$url;?>/images/icon-no.4.png" alt=""><h3 class="orange-headline">Collaborate</h4>
 			
 			<p>With referral functionality, you can engage at a deeper level with employers in your area and offer more job opportunities to clients that fit their unique skillsets.</p>
 			
-			<h3 class="green-headline">Report Results</h4>
+			<img src="<?=$url;?>/images/icon-no.5.png" alt=""><h3 class="green-headline">Report Results</h4>
 			
 			<p>Be equipped with reports based on Federal performance indicators, and standard forms like job retention and employer engagement, based on common metrics and goals within the workforce space.</p>
 			
-			<h3 class="blue-headline">Manage to Outcomes</h4>
+			<img src="<?=$url;?>/images/icon-no.6.png" alt=""><h3 class="blue-headline">Manage to Outcomes</h4>
 			
 			<p>Assess the impact of your actions and adjust your processes over time so you can ensure you are providing the best services to your clients at every stage. </p>
 
@@ -118,7 +118,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>JVS Boston Expanded Their Reach and Their Impact </h3>
+			<h2>JVS Boston Expanded Their Reach and Their Impact </h2>
 
 			<p>Founded prior to World War II to help Eastern European immigrants enter the American workforce, JVS Boston now provides educational and training programs to the broader Boston-area population. Today, they help more than 15,000 low-skill, low-income adults each year. With Social Solutions, they can see the clear impact of their work through higher wages and higher rates of placement, promotion, and retention among their participants. </p>	
 
@@ -177,19 +177,19 @@ include('../../includes/header.php');
 	
 		<h2>Resources</h2>
 		
-		<div class="library-summary">
+		<div class="library-summary ">
 
-			<div class="guides">
+			<div class="blog">
 
 				<div class="icon"></div>
 
-				<div class="category">Guide</div>
+				<div class="category">Blog</div>
 
-				<div class="title">Nonprofit Close-Out Kit</div>
+				<div class="title">Place-Based vs. Sector-Based Workforce Development</div>
 
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
 			</div>
 
@@ -203,9 +203,9 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">JVS Boston</div>
 
-				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
@@ -215,35 +215,35 @@ include('../../includes/header.php');
 
 		<div class="library-summary ">
 
-		<div class="ebook">
+			<div class="blog">
 
-			<div class="icon"></div>
+				<div class="icon"></div>
 
-			<div class="category">eBook</div>
+				<div class="category">Blog</div>
 
-			<div class="title">Leap of Reason</div>
+				<div class="title">Bend or Break: Workforce Program Adaptability</div>
 
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
-		</div>
+			</div>
 
 		</div>
 		
 		<div class="library-summary last">
 
-			<div class="webinar">
+			<div class="event">
 
 				<div class="icon"></div>
 
-				<div class="category">Webinar</div>
+				<div class="category">Event</div>
 
-				<div class="title">Whole Brain Fundraising</div>
+				<div class="title">Impact Summit: Best Practices in Workforce</div>
 
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
 			</div>
 

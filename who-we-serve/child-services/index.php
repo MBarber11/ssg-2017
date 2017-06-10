@@ -23,7 +23,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content" >	
 
-			<h2>Managing Outcomes for Child and Family Service Organizations</h2>
+			<h1>Managing Outcomes for Child and Family Service Organizations</h1>
 			
 			<p>Our solutions help you make sure your programs are delivered as consistently across staff, sites, and over time, are delivering upon your mission, and most importantly, are helping children and families thrive. Satisfy compliance and reporting requirements more efficiently. Share data with all stakeholders regularly, impress them with your success, and secure their long-term support.</p>
 			
@@ -70,15 +70,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Intake Clients</h4>
+			<img src="<?=$url;?>/images/icon-no.1.png" alt=""><h3 class="blue-headline">Intake Clients</h4>
 			
 			<p>As soon as a new child or family engages with your services, you can easily record and organize all necessary information to ensure they are matched with the correct services. Prenatal care, after-school services, college-prep or anything in between, you’ll be ready.</p>
 			
-			<h3 class="red-headline">Assess Needs</h4>
+			<img src="<?=$url;?>/images/icon-no.2.png" alt=""><h3 class="red-headline">Assess Needs</h4>
 			
 			<p>When an individual comes to your organization, it’s important to quickly establish their immediate needs. Whether tutoring, child care, job seeking, or otherwise, using our tools such as a Needs Assessment form your staff can easily assign the correct services to every individual.</p>
 			
-			<h3 class="yellow-headline">Provide Services</h4>
+			<img src="<?=$url;?>/images/icon-no.3.png" alt=""><h3 class="yellow-headline">Provide Services</h4>
 			
 			<p>Develop individual plans to ensure you are providing the right services, in the right way at the right time. Easily enroll clients in programs and track progress related to specific programs and services to gain a comprehensive understanding of an individual or family’s progress.</p> <br><br>
 			
@@ -87,15 +87,15 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">Collaborate</h4>
+			<img src="<?=$url;?>/images/icon-no.4.png" alt=""><h3 class="orange-headline">Collaborate</h4>
 			
 			<p>Work collaboratively across programs inside and outside your organization to ensure your youth and families are receiving appropriate services. </p>
 			
-			<h3 class="green-headline">Report Results</h4>
+			<img src="<?=$url;?>/images/icon-no.5.png" alt=""><h3 class="green-headline">Report Results</h4>
 			
 			<p>Report back to funders such as MIECHV and state education grants on progress. Share results internally with staff and externally with parents and families.</p>
 			
-			<h3 class="blue-headline">Manage to Outcomes</h4>
+			<img src="<?=$url;?>/images/icon-no.6.png" alt=""><h3 class="blue-headline">Manage to Outcomes</h4>
 			
 			<p>Set goals from increasing high school graduation rates, student engagement, or developmental milestones and easily track progress along the way. </p>
 
@@ -120,7 +120,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>PACE Center for Girls</h3>
+			<h2>PACE Center for Girls</h2>
 
 			<p>The Pace Center for Girls is dedicated to producing positive outcomes for the more than 21,000 girls aged 12-18 that they work with every day. Using a comprehensive model based on a Theory of Change, PACE integrates social services, education, and career readiness programs to prepare the girls in their community for success in all aspects of life. Using ETO, PACE has created consistent, ongoing assessments and an efficient reporting system to successfully provide individualized services while reporting on aggregate progress towards clearly defined outcomes. </p>	
 
@@ -183,26 +183,8 @@ include('../../includes/header.php');
 
 	<div class="library-content">
 	
-		<h2>Resources</h2>
+		<h2>More Resources</h2>
 		
-		<div class="library-summary">
-
-			<div class="guides">
-
-				<div class="icon"></div>
-
-				<div class="category">Guide</div>
-
-				<div class="title">Nonprofit Close-Out Kit</div>
-
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
-
-				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
-
-			</div>
-
-		</div>
-
 		<div class="library-summary">
 
 			<div class="case-study">
@@ -211,31 +193,49 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">Pace Center for Girls</div>
+				
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Download now</span></a></div>
+
+			</div>
+
+		</div>		
+
+		<div class="library-summary ">
+
+			<div class="blog">
+
+				<div class="icon"></div>
+
+				<div class="category">Blog</div>
+
+				<div class="title">How to Make Sure you hit MIECHV Benchmarks</div>
+
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
 			</div>
 
 		</div>
+		
+		<div class="library-summary">
 
-		<div class="library-summary ">
+			<div class="event">
 
-		<div class="ebook">
+				<div class="icon"></div>
 
-			<div class="icon"></div>
+				<div class="category">Event</div>
 
-			<div class="category">eBook</div>
+				<div class="title">Impact Summit: Best Practices in Child and Family Services </div>
 
-			<div class="title">Leap of Reason</div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-		</div>
+			</div>
 
 		</div>
 		
@@ -247,9 +247,9 @@ include('../../includes/header.php');
 
 				<div class="category">Webinar</div>
 
-				<div class="title">Whole Brain Fundraising</div>
-
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="title">Wings for Kids</div>
+				
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
 

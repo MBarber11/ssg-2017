@@ -305,12 +305,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #hero-image{
 	background-image: url('../images/home-hero.jpg');
 	background-size: cover;
+	background-position: right center;
 	height: 650px;
 }
 
 #home-hero{
 	background-image: url('../images/home-hero.jpg');
 	background-size: cover;
+	background-position: right center;
 	height: 650px;
 	}
 
@@ -437,6 +439,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	font-size: 14px;
 	line-height: 18px;
 	letter-spacing: 0.02em;
+	text-align: center;
 	}
 
 #home-about-spark, #home-about-data, #home-about-impact{
@@ -567,7 +570,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #blue-full-band-summary h2{
 	font-size: 38px;
 	font-weight: 600;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	letter-spacing: 0.02em;
 	}
 
@@ -577,11 +580,12 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 
 #green-full-band{
-	background-color: #93ad3c;
-	height: 440px;
-	padding: 5% 0%;
+	background: #92ac3c;
+	color: #ffffff;
+	height: 400px;
+	padding: 40px 0px;
 	background-size: cover;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	}
 
 #green-full-band-content {
@@ -591,25 +595,25 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #green-full-band-summary{
 	float: left;
-	width: 55%;
-	margin-right: 4%;
+	width: 50%;
+	margin-top: 50px;
 	color: #ffffff;
 	}
 
 #green-full-band-summary h2{
 	font-size: 38px;
-	line-height: 54px;
 	font-weight: 600;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	letter-spacing: 0.02em;
 	}
 
-
 #green-full-band-image{
-	float: right;
-	width: 35%;
+	float: left;
 	}
 
+img.image-right {
+	margin-left: 15%;
+}
 #white-full-band{
     height: 440px;
 	padding: 5% 0px;
@@ -675,21 +679,20 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #red-full-band{
 	background-color: #eb5d4e;
-	height: 400px;
+	height: 450px;
 	padding: 80px 0px;
 	background-size: cover;
 	}
 
 #red-full-band-content {
-	max-width: 1365px; 
+	max-width: 1165px; 
 	margin: 0 auto;
 	}
 
 #red-full-band-summary{
 	float: left;
-	max-width: 43%;
-	margin-top: 40px;
-	margin-left: 160px;
+	max-width: 55%;
+	margin-top: 80px;
 	color: #ffffff;
 	}
 
@@ -699,10 +702,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	font-weight: 600;
 	margin-bottom: 40px;
 	letter-spacing: 0.02em;
-	}
-
-#red-full-band-summary p{
-	width: 82%;
 	}
 
 #red-full-band-image{
@@ -718,6 +717,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
 
@@ -727,7 +727,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-top: 80px;
 	}
 
-#apricot-hero-content h2{
+#apricot-hero-content h1{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -753,7 +753,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	background-size: cover;
+	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
 
@@ -763,7 +764,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-top: 90px;
 	}
 
-#essentials-hero-content h2{
+#essentials-hero-content h1{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -773,6 +774,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	max-width: 70%;
 	padding-bottom: 20px;
 	}
+
 #essentials-hero-content p{
 	color: #ffffff;
 	font-size: 18px;
@@ -788,6 +790,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
 
@@ -797,7 +800,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-top: 100px;
 	}
 
-#eto-hero-content h2{
+#eto-hero-content h1{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -850,6 +853,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #product-intro-summary p{
 	margin-bottom: 20px;
 }
+
 #product-intro-list {
 	float: left;
 	padding-left: 50px;
@@ -859,6 +863,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #product-intro-list ul{
 	padding-top: 25px;
+	text-indent:-20px; 
+margin-left:20px;
 }
 
 #product-intro-list.adjust ul{
@@ -867,7 +873,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #product-intro-list li{
 	margin-bottom: 15px;
-	padding-left: 15px;
 	font-weight: 600;
 	line-height: 22px;
 }
@@ -880,7 +885,11 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #product-contact{
 	background-image: url('../images/product-contact-background.jpg');
-	background-size: cover;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	background-position: right center;
 	height: 365px;
 }
 
@@ -917,6 +926,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:500px;
 	}
 
@@ -1146,7 +1156,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	height:320px;
+	height:400px;
 	}
 
 #working-hero-content{
@@ -1156,14 +1166,9 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #working-hero-content h1{
-	color: #ffffff;
-	font-size: 54px;
-	font-weight: 600;
-	line-height: 64px;
-	text-align: center;
-	margin: 0 auto;
-	max-width: 70%;
-	padding-bottom: 20px;
+	display: block;
+	height: 50px;
+	text-indent: -9999em;
 	}
 
 #working-hero-content p{
@@ -1221,7 +1226,6 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	float: left;
 	width: 43%;
 	padding-right: 5%;
-	padding-top: 60px;
 	}
 
 #careers-about-summary p {
@@ -1259,6 +1263,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	font-size: 24px;
     font-weight: 600;
     line-height: 48px;
+	margin-top: -3px;
 	}
 
 #benefits-about-content p{
@@ -1274,6 +1279,11 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #benefits-about-right{
 	float: left;
 	width: 44.5%;
+	}
+
+#benefits-about-left img ,#benefits-about-right img{
+	float:left;
+	margin-right: 15px
 	}
 
 #values-features {
@@ -1370,14 +1380,9 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #careers-hero-content h1{
-	color: #ffffff;
-	font-size: 54px;
-	font-weight: 600;
-	line-height: 64px;
-	text-align: center;
-	margin: 0 auto;
-	max-width: 75%;
-	padding-bottom: 20px;
+	display: block;
+	height: 50px;
+	text-indent: -9999em;
 	}
 
 #careers-hero-content p{
@@ -1759,7 +1764,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 .library-summary{
 	float: left;
-	max-width: 21%;
+	width: 21%;
 	margin-right: 4%;
 	}
 
@@ -1912,8 +1917,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 #client-summary{
 	float: left;
 	max-width: 45%;
-	margin-left: 4%;
-	margin-top: 60px;
+	margin-left: 6%;
+	margin-top: 40px;
 	color: #ffffff;
 	}
 
@@ -2433,6 +2438,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:500px;
 	}
 
@@ -2501,8 +2507,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-one{
 	background-color: #ffffff;
-	height: 400px;
-	padding: 50px 0px 30px 0px;
+	height: 380px;
+	padding-top: 80px;
 }
 
 #solutions-one-content{
@@ -2512,13 +2518,12 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-one-summary {
 	float: left;
-	width: 43%;
-	padding-right: 100px;
+	width: 55%;
 }
 
 #solutions-one h2, #solutions-two h2, #solutions-three h2{
     font-size: 48px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
     font-weight: 600;
     letter-spacing: 0.02em;
@@ -2536,8 +2541,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #solutions-one-image{
-	width: 530px;
-	height: 363px;
+	width: 420px;
+	height: 220px;
 	float: right;
 	}
 
@@ -2561,8 +2566,8 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-two{
 	background-color: #f3f3f3;
-	height: 400px;
-	padding: 50px 0px 30px 0px;
+	height: 380px;
+	padding-top: 80px;
 	}
 
 #solutions-two-content{
@@ -2571,16 +2576,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	}
 
 #solutions-two-image{
-	width: 530px;
-	height: 363px;
+	width: 420px;
+	height: 220px;
 	float: left;
 	}
 
 #solutions-two-summary{
-	float: left;
-	width: 45%;
-	margin-top: 50px;
-	margin-left: 50px;
+	float: right;
+	width: 55%;
 	}
 
 
@@ -2604,7 +2607,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-three{
 	background-color: #ffffff;
-	height: 460px;
+	height: 380px;
 	padding-top: 80px;
 	}
 
@@ -2615,14 +2618,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #solutions-three-summary {
 	float: left;
-	width: 43%;
+	width: 55%;
 	padding-right: 100px;
 	}
 
 
 #solutions-three-image{
-	width: 530px;
-	height: 363px;
+	width: 420px;
+	height: 220px;
 	float: right;
 	}
 
@@ -2700,13 +2703,14 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 .suite-title h3{
 	color: #ffffff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	padding-top: 15px;
 	}
 
 .suite-headline h4{
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
+	font-weight: 600;
 	line-height: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -2837,7 +2841,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-top: 100px;
 	}
 
-#case-management-hero-content h2{
+#case-management-hero-content h1{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -2875,7 +2879,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	padding-top: 100px;
 	}
 
-#database-hero-content h2{
+#database-hero-content h1{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -3024,7 +3028,7 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 
 #resources-icons-content a{
 	float: left;
-	width: 20%;
+	width: 16.5%;
 	}
 
 #resources-icons-content a{
@@ -3268,11 +3272,11 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 /* ------ Who We Serve Individual  ------ */
 
 #serve-hero {
-	
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
 
@@ -3282,15 +3286,17 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
 
 #serve-hero.collab{
-	background: url(../images/hero-child-services.jpg); 
+	background: url(../images/hero-collab.jpg); 
 		  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
 #serve-hero.foundations{
@@ -3299,15 +3305,68 @@ li#nav-eto-logo, li#nav-apricot-logo, li#nav-essentials-logo {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:400px;
 	}
+
+#serve-hero.health{
+	background: url(../images/hero-health-and-human-services.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	background-position: right center;
+	height:400px;
+	}
+
+
+#serve-hero.homelessness{
+	background: url(../images/hero-homelessness.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	background-position: right center;
+	height:400px;
+	}
+
+#serve-hero.reentry{
+	background: url(../images/hero-reentry.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	background-position: right center;
+	height:400px;
+	}
+
+#serve-hero.victim-services{
+	background: url(../images/hero-victim-services.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	background-position: right center;
+	height:400px;
+	}
+
+#serve-hero.workforce{
+	background: url(../images/hero-workforce.jpg); 
+		  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	background-position: right center;
+	height:400px;
+	}
+
 #serve-hero-content{
 	max-width: 1175px; 
 	margin: 0 auto;
 	padding-top: 90px;
 	}
 
-#serve-hero-content h2{
+#serve-hero-content h1{
 	color: #ffffff;
 	font-size: 54px;
 	font-weight: 600;
@@ -3470,6 +3529,7 @@ p.date{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	background-position: right center;
 	height:500px;
 }
 

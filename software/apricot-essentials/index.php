@@ -23,7 +23,7 @@ include('../../includes/header.php');
 
 	<div id="essentials-hero-content">	
 
-		<h2>Deliver More Mission with Apricot Essentials</h2>
+		<h1>Deliver More Mission with Apricot Essentials</h1>
 			
 		<p>Apricot Essentials is a high value, low cost case management solution for small nonprofits. Easy to adopt, Essentials provides small nonprofits with a mission-minded case management system. Centralize your data, align your staff, and prove your impact - at a price within reach. Empower your organization with an expert suite of software products that will grow with your mission. </p>
 	   
@@ -65,7 +65,7 @@ include('../../includes/header.php');
 
 			<div id="support-about-top-summary">
 
-				<h4 class="yellow-headline">Mitigate Risk with Built-in Best Practices</h4>
+				<h3 class="yellow-headline">Mitigate Risk with Built-in Best Practices</h3>
 
 				<p>Apricot Essentials comes with templates built in, so nonprofits can start entering data right away! Forms, workflows, and reports are included out-of-the-box, and it is preconfigured with best practices in mind. Flexible tools allow you to build new forms and fields as you grow, at no additional cost. (And…) since Essentials is a cloud-based solution, you don't need to worry about an expensive system overhaul. </p>	
 
@@ -139,16 +139,19 @@ include('../../includes/header.php');
 			
 			<p>Your nonprofit makes a difference and Essentials helps you show it! Visualize your data with Essentials’ easy-to-use reporting tools. You can get started right away with out-of-box standard demographic and case-management reporting. </p>
 			
-			<bt>
+			<br>
 
-			<p>Report on anything! Use your data to build dynamic, custom reports. Essentials includes simple drag-and-drop report building tools, to help you prove your impact!</p>	
+			<p>Report on anything! Use your data to build dynamic, custom reports. Essentials includes simple drag-and-drop report building tools, to help you prove your impact!</p>
+			
+			<br><br>
+			<div class="white-button"><a href="<?=$url;?>/solutions/apricot/nonprofit-database-software/index.php">Learn more</a></div>
 
 
 		</div>
 
-		<div id="green-full-band-image">
+		<div id="green-full-band-image" >
 			
-			<img src="<?=$url;?>/images/essentials-3.jpg">
+			<img class="image-right" alt="" src="<?=$url;?>/images/essentials-3.png">
 			
 		</div>
 

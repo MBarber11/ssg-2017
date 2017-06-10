@@ -24,7 +24,7 @@ include('../../../includes/header.php');
 
 	<div id="database-hero-content">	
 
-		<h2>Client, Volunteer & Outcomes Database for Nonprofits</h2>
+		<h1>Client, Volunteer & Outcomes Database for Nonprofits</h1>
 			
 		<p>Apricot nonprofit database software supports over 18,000 organizations around the world. With options to fit every nonprofit size and type, Apricot Software meets all your data collection and reporting needs in one secure and centralized online platform.</p>
 	   
@@ -56,7 +56,7 @@ include('../../../includes/header.php');
 
 	<div id="resources-webinar-banner-content">
 
-		<h3>Create Outcomes to Prove Impact</h3>
+		<h2>Create Outcomes to Prove Impact</h2>
 		
 	</div>
 			

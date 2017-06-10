@@ -21,11 +21,11 @@ include('../../includes/header.php');
 
 <div id="breadcrumbs"></div>
 
-<div id="serve-hero">
+<div id="serve-hero" class="reentry">
 
 	<div id="serve-hero-content">	
 
-			<h2>Social Solutions for Reentry</h2>
+			<h1>Social Solutions for Reentry</h1>
 			
 			<p>No matter the type of reentry program, it’s important for organizations to collect individual and programmatic information and report on the outcome of that information. Our ETO and Apricot solutions allow organizations like yours to track what matters, prove impact, and reduce recidivism one inmate at a time.</p>
 	   
@@ -49,7 +49,7 @@ include('../../includes/header.php');
 
 		<div id="serve-about-image">
 			
-			<img alt="" src="<?=$url;?>/images/eto-impact-support-one.jpg">
+			<img alt="" src="<?=$url;?>/images/reentry-1.jpg">
 			
 		</div>
 
@@ -69,15 +69,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Intake Clients</h4>
+			<img src="<?=$url;?>/images/icon-no.1.png" alt=""><h3 class="blue-headline">Intake Clients</h4>
 			
 			<p>As individuals begin to work in your organization, data collection happens in real time. Easily record basic demographic information in a secure and organized system as soon as you engage. </p>
 			
-			<h3 class="red-headline">Assess Needs</h4>
+			<img src="<?=$url;?>/images/icon-no.2.png" alt=""><h3 class="red-headline">Assess Needs</h4>
 			
 			<p>Whether you’re providing education, job seeking, or housing services to inmates inside or outside facilities, ensure your clients are aligned with the correct services.</p>
 			
-			<h3 class="yellow-headline">Provide Services</h4>
+			<img src="<?=$url;?>/images/icon-no.3.png" alt=""><h3 class="yellow-headline">Provide Services</h4>
 			
 			<p>Be confident that your services are delivered as designed, and that programs and agencies work effectively together toward positive client outcomes.</p> <br><br>
 			
@@ -86,15 +86,15 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">Collaborate</h4>
+			<img src="<?=$url;?>/images/icon-no.4.png" alt=""><h3 class="orange-headline">Collaborate</h4>
 			
 			<p>Collaborate across service providers, aggregate data, and meet compliance needs and reporting requirements more efficiently. Share data with all stakeholders regularly, impress them with your success, and secure their long-term support.</p>
 			
-			<h3 class="green-headline">Report Results</h4>
+			<img src="<?=$url;?>/images/icon-no.5.png" alt=""><h3 class="green-headline">Report Results</h4>
 			
 			<p>Our ETO for Reentry solution is a preconfigured best practice solution specifically designed for reentry organizations with prebuilt forms and reports based on proven outcomes.</p>
 			
-			<h3 class="blue-headline">Manage to Outcomes</h4>
+			<img src="<?=$url;?>/images/icon-no.6.png" alt=""><h3 class="blue-headline">Manage to Outcomes</h4>
 			
 			<p>Assess the impact of your actions and adjust your processes over time so you can ensure you are providing the best services to your clients at every stage.</p>
 
@@ -118,7 +118,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>California Department of Corrections and Rehabilitation (CDCR)</h3>
+			<h2>California Department of Corrections and Rehabilitation (CDCR)</h2>
 
 			<p>The California Department of Corrections and Rehabilitation (CDCR) is the largest state agency in California, responsible for overseeing one of the largest prison populations in the United States. With the use of ETO, CDCR is able to coordinate and provide highly individualized rehabilitation and reentry services across 22 unique program areas to improve self-sufficiency and reduce recidivism. </p>	
 
@@ -184,9 +184,9 @@ include('../../includes/header.php');
 
 				<div class="category">Guide</div>
 
-				<div class="title">Nonprofit Close-Out Kit</div>
+				<div class="title">Reentry Best Practices White Paper</div>
 
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
 
@@ -202,9 +202,9 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">CDCR Case Study</div>
 
-				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
@@ -214,35 +214,35 @@ include('../../includes/header.php');
 
 		<div class="library-summary ">
 
-		<div class="ebook">
+			<div class="blog">
 
-			<div class="icon"></div>
+				<div class="icon"></div>
 
-			<div class="category">eBook</div>
+				<div class="category">Blog</div>
 
-			<div class="title">Leap of Reason</div>
+				<div class="title">5 Reentry Case Work Best Practices</div>
 
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
-		</div>
+			</div>
 
 		</div>
 		
 		<div class="library-summary last">
 
-			<div class="webinar">
+			<div class="event">
 
 				<div class="icon"></div>
 
-				<div class="category">Webinar</div>
+				<div class="category">Event</div>
 
-				<div class="title">Whole Brain Fundraising</div>
+				<div class="title">Impact Summit: Foundation and Nonprofit Panel</div>
 
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
 			</div>
 

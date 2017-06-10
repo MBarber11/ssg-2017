@@ -23,7 +23,7 @@ include('../../includes/header.php');
 
 	<div id="eto-hero-content">	
 
-		<h2>An Enterprise SaaS Solution for the Human Services Sector</h2>
+		<h1>An Enterprise SaaS Solution for the Human Services Sector</h1>
 			
 		<p>ETO is a comprehensive outcomes and case management tool for large nonprofits, government agencies, and community collaboratives. This powerful platform was built to handle  multiple partners, high volumes of programs, advanced security protocols, and multifaceted reporting and analytics.</p>
 	   
@@ -31,90 +31,9 @@ include('../../includes/header.php');
       
 </div>
 
-<div id="white-full-band">
-
-	<div id="white-full-band-content">	
-
-		<div id="white-full-band-image">
-			
-			<img alt="" src="<?=$url;?>/images/eto-image-1.jpg">
-			
-		</div>
-		
-		<div id="white-full-band-summary">
-
-			<h2>Understand Your Impact<br>with ETO from Social Solutions </h2>
-			
-			<p>ETO supports both compliance regulations as well as evidence based practices by offering out-of-the-box evidence based models as well as fully compliant HMIS and Workforce solutions. </p>	
-
-
-		</div>
-
-	   
-	</div> 
-	
-</div>  
-
-<div class="clear"></div>
-
-<div class="plain-headline">
-
-	<h2 class="zero-padding">Efficiencies Gained by ETO Users</h2>
-
-</div>
-
-<div id="stats-section">
-	
-	<div id="stat-boxes">
-	
-		<div class="stat-box green">
-			
-			<p class="solutions-stats">50% reduction in<br>time spent managing<br>data integrity</p>
-			
-			
-	
-		</div>
-		
-		<div class="stat-box yellow">
-		
-			<p class="solutions-stats">50% reduction in cost of system and process modifications</p>
-	
-		</div>
-		
-		<div class="stat-box blue">
-		
-			<p class="solutions-stats">50% reduction in "back office" time spent managing service delivery</p>
-	
-		</div>
-		
-		<div class="stat-box orange">
-		
-			<p class="solutions-stats">40% reduction in time spent on custom reports</p>
-	
-		</div>
-		
-		<div class="stat-box red">
-		
-			<p class="solutions-stats">75% reduction in time spent on standard reports</p>
-			
-		</div>
-		
-		<div class="stat-box green last">
-		
-			<p class="solutions-stats">5% increase in funding</p>
-			
-		</div>
-	
-	<div class="clear"></div>	
-	
-	</div>						
-
-</div>
-
-
 <div id="product-intro">
 
-	<div id="product-intro-content" class="adjust">
+	<div id="product-intro-content" >
 
 		<h2>Scalability and Security to Meet Complex Needs</h2>
 
@@ -147,28 +66,23 @@ include('../../includes/header.php');
 	
 </div>
 
-	
-<div id="red-full-band">
+<div id="gray-full-band">
 
-	<div id="red-full-band-content">	
+	<div id="white-full-band-content">	
 
-		<div id="red-full-band-summary">
-
-			<h2>Keep an Eye on Your Data with ETO Dashboards</h2>
+		<div id="white-full-band-image">
 			
-			<p>Drag and drop your way to a 360 view of your work and clients with customized dashboards. They give you more insight into your aggregate and individual progress by interpreting data, and to keeping it front and center when you log in. They are configurable by staff, user role, or program so that you control what is most important.</p>	 
+			<img alt="" src="<?=$url;?>/images/eto-image-1.jpg">
 			
-			<br>
-
-			<p>Making informed decisions has never been easier.</p>	
-
-
 		</div>
+		
+		<div id="white-full-band-summary">
 
-		<div id="red-full-band-image">
+			<h2>Understand Your Impact<br>with ETO from Social Solutions </h2>
 			
-			<img alt="" src="<?=$url;?>/images/eto-2.jpg">
-			
+			<p>ETO supports both compliance regulations as well as evidence based practices by offering out-of-the-box evidence based models as well as fully compliant HMIS and Workforce solutions. </p>	
+
+
 		</div>
 
 	   
@@ -177,60 +91,8 @@ include('../../includes/header.php');
 </div>  
 
 <div class="clear"></div>
-			
-<div class="plain-headline">
 
-	<h2>Understand and Demonstrate Your Impact<br>with Robust Reporting</h2>
-			
-			<p>ETO’s advanced reporting suite supports the needs of large and diverse organizations by ensuring that you not only meet all your compliance requirements, but also have the tools you need to truly understand the impact of your organizational efforts </p>
-		    
-
-</div>
-
-<div id="trio-feature-boxes">  
-
-       
-    
-    <div id="trio-feature-boxes-content">	
-    
-    
-		
-		<div class="box orange">
-			
-			<h3>ETO Results</h3>
-
-			<p>Build custom, sophisticated reports and analyze data with a built-in data intelligence platform</p>
-
-		</div>
-		
-		<div class="box yellow">
-			
-			<h3>ETO Insights</h3>
-
-			<p>User-friendly visual dashboard reporting ensures that key progress metrics are always top of mind</p>	
-			
-		</div>
-		
-		<div class="box blue">
-			
-			<h3>ETO Correlations Explorer</h3>
-
-			<p>Understand your impact by determining statistical significance of specific variables and your intended outcomes </p>	
-
-		</div>
-
-
-	 <div class="clear"></div><!--clear-->
-   
-   		
-	</div>
-    
-      
-</div>
-
-<div class="clear"></div>
-
-<div id="product-features">
+<div id="product-features" style="padding-top: 80px; padding-bottom: 0px !important;">
 
 	<div id="product-features-content">
 	
@@ -351,6 +213,142 @@ include('../../includes/header.php');
 	</div>
 
 </div>
+
+<div class="plain-headline">
+
+	<h2 class="zero-padding">Efficiencies Gained by ETO Users</h2>
+
+</div>
+
+<div id="stats-section">
+	
+	<div id="stat-boxes">
+	
+		<div class="stat-box green">
+			
+			<p class="solutions-stats">50% reduction in<br>time spent managing<br>data integrity</p>
+			
+		</div>
+		
+		<div class="stat-box yellow">
+		
+			<p class="solutions-stats">50% reduction in cost of system and process modifications</p>
+	
+		</div>
+		
+		<div class="stat-box blue">
+		
+			<p class="solutions-stats">50% reduction in "back office" time spent managing service delivery</p>
+	
+		</div>
+		
+		<div class="stat-box orange">
+		
+			<p class="solutions-stats">40% reduction in time spent on custom reports</p>
+	
+		</div>
+		
+		<div class="stat-box red">
+		
+			<p class="solutions-stats">75% reduction in time spent on standard reports</p>
+			
+		</div>
+		
+		<div class="stat-box green last">
+		
+			<p class="solutions-stats">5% increase in funding</p>
+			
+		</div>
+	
+	<div class="clear"></div>	
+	
+	</div>						
+
+</div>
+	
+<div id="red-full-band">
+
+	<div id="red-full-band-content">	
+
+		<div id="red-full-band-summary">
+
+			<h2>Keep an Eye on Your Data with ETO Dashboards</h2>
+			
+			<p>Drag and drop your way to a 360 view of your work and clients with customized dashboards. They give you more insight into your aggregate and individual progress by interpreting data, and to keeping it front and center when you log in. They are configurable by staff, user role, or program so that you control what is most important.</p>	 
+			
+			<br>
+
+			<p>Making informed decisions has never been easier.</p>	
+
+
+		</div>
+
+		<div id="red-full-band-image">
+			
+			<img alt="" src="<?=$url;?>/images/eto-2.png">
+			
+		</div>
+
+	   
+	</div> 
+	
+</div>  
+
+<div class="clear"></div>
+			
+<div class="plain-headline">
+
+	<h2>Understand and Demonstrate Your Impact<br>with Robust Reporting</h2>
+			
+			<p>ETO’s advanced reporting suite supports the needs of large and diverse organizations by ensuring that you not only meet all your compliance requirements, but also have the tools you need to truly understand the impact of your organizational efforts </p>
+		    
+
+</div>
+
+<div id="trio-feature-boxes">  
+
+       
+    
+    <div id="trio-feature-boxes-content">	
+    
+    
+		
+		<div class="box orange">
+			
+			<h3>ETO Results</h3>
+
+			<p>Build custom, sophisticated reports and analyze data with a built-in data intelligence platform</p>
+
+		</div>
+		
+		<div class="box yellow">
+			
+			<h3>ETO Insights</h3>
+
+			<p>User-friendly visual dashboard reporting ensures that key progress metrics are always top of mind</p>	
+			
+		</div>
+		
+		<div class="box blue">
+			
+			<h3>ETO Correlations Explorer</h3>
+
+			<p>Understand your impact by determining statistical significance of specific variables and your intended outcomes </p>	
+
+		</div>
+
+
+	 <div class="clear"></div><!--clear-->
+   
+   		
+	</div>
+    
+      
+</div>
+
+<div class="clear"></div>
+
+
 
 <div class="clear"></div>
 

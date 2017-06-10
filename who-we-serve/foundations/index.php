@@ -25,7 +25,7 @@ include('../../includes/header.php');
 
 	<div id="serve-hero-content">	
 
-			<h2>Managing Outcomes for Foundations and Funders</h2>
+			<h1>Managing Outcomes for Foundations and Funders</h1>
 			
 			<p>Take your foundation to the next level with impact funding. Track grant applications, approvals, and measure the impact of your investment. Work alongside your grantees to generate positive outcomes in the communities they serve so you can make smart funding decisions in the future. We can help you get there.</p>
 	   
@@ -131,6 +131,24 @@ include('../../includes/header.php');
 		
 		<div class="library-summary">
 
+			<div class="case-study">
+
+				<div class="icon"></div>
+
+				<div class="category">Case Study</div>
+
+				<div class="title">United Way of Metro Chicago </div>
+
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
+
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+
+			</div>
+
+		</div>
+		
+		<div class="library-summary">
+
 			<div class="guides">
 
 				<div class="icon"></div>
@@ -139,7 +157,7 @@ include('../../includes/header.php');
 
 				<div class="title">Nonprofit Close-Out Kit</div>
 
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
 
@@ -155,9 +173,9 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">ARCHS Case Study</div>
 
-				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
+				<div class="summary">Area Resource for Community and Human Services (ARCHS) is dedicated to making meaningful impact with the funds they distribute to local social services and nonprofits. Eager to see, and prove, exactly how data influenced their programs in a collaborative way, they turned to software.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
@@ -165,37 +183,19 @@ include('../../includes/header.php');
 
 		</div>
 
-		<div class="library-summary ">
-
-		<div class="ebook">
-
-			<div class="icon"></div>
-
-			<div class="category">eBook</div>
-
-			<div class="title">Leap of Reason</div>
-
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
-
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
-
-		</div>
-
-		</div>
-		
 		<div class="library-summary last">
 
-			<div class="webinar">
+			<div class="event">
 
 				<div class="icon"></div>
 
-				<div class="category">Webinar</div>
+				<div class="category">Event</div>
 
-				<div class="title">Whole Brain Fundraising</div>
+				<div class="title">Impact Summit: Foundation and Nonprofit Panel</div>
 
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
 			</div>
 

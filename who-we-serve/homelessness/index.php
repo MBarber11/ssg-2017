@@ -21,11 +21,11 @@ include('../../includes/header.php');
 
 <div id="breadcrumbs"></div>
 
-<div id="serve-hero">
+<div id="serve-hero" class="homelessness">
 
 	<div id="serve-hero-content">	
 
-			<h2>Social Solutions for Homeless Service Organizations </h2>
+			<h1>Social Solutions for Homeless Service Organizations </h1>
 			
 			<p>Our software was built to help you meet the regulatory requirements necessary in securing the critical funding your organization depends on. This includes agencies receiving funding that requires use of a Homeless Management Information System (HMIS). </p>
 	   
@@ -90,15 +90,15 @@ include('../../includes/header.php');
 
 		<div id="benefits-about-left">
 		
-			<h3 class="blue-headline">Intake Clients</h4>
+			<img src="<?=$url;?>/images/icon-no.1.png" alt=""><h3 class="blue-headline">Intake Clients</h4>
 			
 			<p>As individuals enter your shelter, data collection happens in real time. Easily record basic demographic information in a secure and organized system as soon as they walk in the door. With built-in forms such as the bed enrollment form, assign a bed to each individual right when they enter.</p>
 			
-			<h3 class="red-headline">Assess Needs</h4>
+			<img src="<?=$url;?>/images/icon-no.2.png" alt=""><h3 class="red-headline">Assess Needs</h4>
 			
 			<p>Whether you’re providing shelter and temporary or permanent housing, or helping secure stable jobs, ensure your clients are aligned with the correct services. </p>
 			
-			<h3 class="yellow-headline">Provide Services</h4>
+			<img src="<?=$url;?>/images/icon-no.3.png" alt=""><h3 class="yellow-headline">Provide Services</h4>
 			
 			<p>Manage all aspects of your services in a single, secure location, including individual and aggregate data as well as funder and outcomes reporting. </p> <br><br>
 			
@@ -107,15 +107,15 @@ include('../../includes/header.php');
 		
 		<div id="benefits-about-right">
 		
-			<h3 class="orange-headline">Collaborate</h4>
+			<img src="<?=$url;?>/images/icon-no.4.png" alt=""><h3 class="orange-headline">Collaborate</h4>
 			
 			<p>Collaborate across partner agencies, collect uniform data, share information, report on progress in the aggregate, and meet compliance needs and reporting requirements more efficiently.</p>
 			
-			<h3 class="green-headline">Report Results</h4>
+			<img src="<?=$url;?>/images/icon-no.5.png" alt=""><h3 class="green-headline">Report Results</h4>
 			
 			<p>Feel confident with a preconfigured solution designed to ensure accuracy and continuity in the data you report to the Department of Housing and Urban Development (HUD).</p>
 			
-			<h3 class="blue-headline">Manage to Outcomes</h4>
+			<img src="<?=$url;?>/images/icon-no.6.png" alt=""><h3 class="blue-headline">Manage to Outcomes</h4>
 			
 			<p>Assess the impact of your actions and adjust your processes over time so you can ensure you are providing the best services to your clients at every stage.</p>
 
@@ -139,7 +139,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>Alberta Housing Collaborative</h3>
+			<h2>Alberta Housing Collaborative</h2>
 
 			<p>The Alberta Housing Collaborative developed a unique initiative that shifted their efforts from simply managing homelessness to a Housing First approach, aimed at breaking the cycle for good. Clients are quickly placed into permanent housing with access to supportive services that move them toward stability and self-sufficiency. ETO makes it easy for them to track all aspects of their service delivery, across 26 homeless shelters. It all happens from one comprehensive system that helps them meet funder requirements and report on progress.</p>	
 
@@ -203,19 +203,19 @@ include('../../includes/header.php');
 	
 		<h2>Resources</h2>
 		
-		<div class="library-summary">
+		<div class="library-summary ">
 
-			<div class="guides">
+			<div class="blog">
 
 				<div class="icon"></div>
 
-				<div class="category">Guide</div>
+				<div class="category">Blog</div>
 
-				<div class="title">Nonprofit Close-Out Kit</div>
+				<div class="title">Special Challenges Among Homeless Veterans</div>
 
-				<div class="summary">Make the most of your fiscal-year close by sharing your organization’s impact with the world. In the kit, you’ll get free templates for your annual report, board presentation, a press release and more. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Download</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
 			</div>
 
@@ -229,9 +229,9 @@ include('../../includes/header.php');
 
 				<div class="category">Case Study</div>
 
-				<div class="title">Client Success: Love INC</div>
+				<div class="title">Alberta Housing</div>
 
-				<div class="summary">Discover how the dedicated staff at Love INC of Lancaster County uses Apricot Essentials to turn more than 200 hours of administrative work into time spent training volunteers, serving clients, and improving results. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
 				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
@@ -241,35 +241,35 @@ include('../../includes/header.php');
 
 		<div class="library-summary ">
 
-		<div class="ebook">
+			<div class="blog">
 
-			<div class="icon"></div>
+				<div class="icon"></div>
 
-			<div class="category">eBook</div>
+				<div class="category">Blog</div>
 
-			<div class="title">Leap of Reason</div>
+				<div class="title">Using HMIS for Coordinated Homeless Services</div>
 
-			<div class="summary">Be inspired to take bold action to create more meaningful, measurable good for the people, families and communities you serve. The eBook includes chapters and essays from more than a dozen experts and practitioners. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-			<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Read more</span></a></div>
 
-		</div>
+			</div>
 
 		</div>
 		
 		<div class="library-summary last">
 
-			<div class="webinar">
+			<div class="event">
 
 				<div class="icon"></div>
 
-				<div class="category">Webinar</div>
+				<div class="category">Event</div>
 
-				<div class="title">Whole Brain Fundraising</div>
+				<div class="title">Impact Summit: Best Practices in Homeless Services</div>
 
-				<div class="summary">Raise more money by appealing to the whole brain: the right side with stories and the left side with data. Fundraising experts share tips and tricks for doing both effectively including examples from one organization. </div>
+				<div class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor quam eu sem imperdiet, quis scelerisque nulla iaculis.</div>
 
-				<div class="library-button"><a href="#"><span class="library-read-more">Watch now</span></a></div>
+				<div class="library-button"><a href="#"><span class="library-read-more">Learn more</span></a></div>
 
 			</div>
 

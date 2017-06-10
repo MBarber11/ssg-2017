@@ -48,7 +48,7 @@ include('../includes/header.php');
 				
 			</div>
 			
-			<div class="suite-headline yellow-headline">
+			<div class="suite-headline">
 			
 				<h4>Apricot Essentials</h4>
 				
@@ -74,7 +74,7 @@ include('../includes/header.php');
 			<div class="suite-additional">
 				
 				
-				<p><a href="<?=$url;?>/solutions/apricot-essentials.php">Learn more</a></p>
+				<p><a href="<?=$url;?>/software/apricot-essentials/index.php">Learn more</a></p>
 
 				
 			</div>
@@ -125,7 +125,7 @@ include('../includes/header.php');
 				
 				<p> &bull;&nbsp;&nbsp;&nbsp;Full-Service Implementation<br>&bull;&nbsp;&nbsp;&nbsp;Phone Support</p>
 				
-				<p><a href="<?=$url;?>/solutions/apricot.php">Learn more</a></p>
+				<p><a href="<?=$url;?>/software/apricot/index.php">Learn more</a></p>
 
 				
 			</div>
@@ -176,7 +176,7 @@ include('../includes/header.php');
 				
 				<p>&bull;&nbsp;&nbsp;&nbsp;Premium/Dedicated Support</p>
 				
-				<p><a href="<?=$url;?>/solutions/eto.php">Learn more</a></p>
+				<p><a href="<?=$url;?>/software/eto/index.php">Learn more</a></p>
 				
 				
 			</div>
@@ -208,11 +208,11 @@ include('../includes/header.php');
  		
 			<p>Apricot Essentials is an ideal choice if your nonprofit is small but growing. It makes it easy to adopt a cloud-based case management system because it was designed for organizations with up to 10 users and an operating budget under $1M a year. </p>	
 
-			<div class="yellow-button"><a href="<?=$url;?>/solutions/apricot-essentials.php">Learn more</a></div>
+			<div class="yellow-button"><a href="<?=$url;?>/software/apricot-essentials/index.php">Learn more</a></div>
   		
 		</div>
 	   
-	   <div id="solutions-one-image"><img src="<?=$url;?>/images/solutions-1.jpg"></div>   
+	   <div id="solutions-one-image"><img alt="Apricot Essentials" src="<?=$url;?>/images/solutions-1.png"></div>   
 	
 	</div>
 
@@ -224,7 +224,7 @@ include('../includes/header.php');
     
     <div id="solutions-two-content">	
 		
-		<div id="solutions-two-image"><img src="<?=$url;?>/images/solutions-2.jpg"></div>
+		<div id="solutions-two-image"><img alt="Apricot" src="<?=$url;?>/images/solutions-2.png"></div>
 		
 		<div id="solutions-two-summary">
 
@@ -234,7 +234,7 @@ include('../includes/header.php');
 			
 			<p>Apricot is a secure and flexible case management system ideal for small to midsize nonprofits who want an easy to use platform to centralize client and volunteer data, track outcomes and measure performance. </p>	
 			
-			<div class="orange-button"><a href="'<?=$url;?>/solutions/apricot.php">Learn more</a></div>
+			<div class="orange-button"><a href="<?=$url;?>/software/apricot/index.php">Learn more</a></div>
 
 		</div>
 
@@ -248,7 +248,9 @@ include('../includes/header.php');
 <div id="solutions-three">
 
 	<div id="solutions-three-content">
-	
+		
+		<div id="solutions-three-image"><img alt="ETO" src="<?=$url;?>/images/solutions-3.png"></div>   
+		
   		<div id="solutions-three-summary">
   	
 			<h2>ETO</h2>
@@ -257,11 +259,11 @@ include('../includes/header.php');
  		
 			<p>ETO supports your efforts to transform the lives of children, adults, and families, especially when you’re operating at an enterprise level. It makes managing to outcomes better by helping you ensure that services are delivered as designed every day, by all staff, in all locations, to every client. </p>	
 
-			<div class="green-button"><a href="<?=$url;?>/solutions/eto.php">Learn more</a></div>
+			<div class="green-button"><a href="<?=$url;?>/software/eto/index.php">Learn more</a></div>
   		
 		</div>
 	   
-	   <div id="solutions-three-image"><img src="<?=$url;?>/images/solutions-3.jpg"></div>   
+	   
 	
 	</div>
 

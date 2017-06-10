@@ -23,12 +23,9 @@ include('../../includes/header.php');
 <div id="working-hero">
 
 	<div id="working-hero-content">	
+	
+		<h1>Working Here</h1>
 
-			<h1>Working Here</h1>
-					
-			<p>We believe in working hard and playing hard, while keeping our core values at the center of everything we do.</p>
-	   
-	   
 	</div> 
       
 </div>
@@ -51,6 +48,8 @@ include('../../includes/header.php');
 		<div id="careers-about-summary">
 			
 			<h3>Careers</h3>
+			
+			<p>We believe in working hard and playing hard, while keeping our core values at the center of everything we do.</p>
 			
 			<p>
 			We are passionate, we are mission-minded, and we are hiring! Check out our open roles and apply if you see something that really sparks your interest.
