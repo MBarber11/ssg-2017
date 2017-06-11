@@ -34,9 +34,9 @@ include('../../includes/header.php');
 		
 		<div id="basic-hero-summary">
 
-			<h2>Jon Bahl</h2>
+			<h1>Jon Bahl</h1>
 
-			<h3>Chief Revenue Officer</h3>	
+			<h2>Chief Revenue Officer</h2>	
 
 		</div>
 
@@ -52,13 +52,21 @@ include('../../includes/header.php');
 
 	<div id="basic-about-content">	
 
-		<div id="bio">
+		<div id="bio-one-column">
 		
 		<p>Jon is the Chief Revenue Officer at Social Solutions. As the head of the sales and marketing teams, Jon is responsible for generating revenue as well as actively streamlining and accelerating company expansion. Jon is a proven leader known to develop capable sales organizations that drive overall revenue growth.</p>
 		
+		<br>
+		
 		<p>With years of experience building high performance sales teams and driving improved results at technology companies, Jon has held executive sales leadership roles at Automatic Data Processing (ADP), MicroEdge LLC, and Relias Learning prior to joining Social Solutions.</p>
+		
+		<br>
 
 		<p>Jon graduated from the University of Texas at Austin with a bachelor of business administration degree.</p>
+		
+		<br>
+		
+		<br>
 
 		</div>
 		

@@ -34,9 +34,9 @@ include('../../includes/header.php');
 		
 		<div id="basic-hero-summary">
 
-			<h2>Matt Kraft</h2>
+			<h1>Matt Kraft</h1>
 
-			<h3>VP of Engineering</h3>	
+			<h2>VP of Engineering</h2>	
 
 		</div>
 

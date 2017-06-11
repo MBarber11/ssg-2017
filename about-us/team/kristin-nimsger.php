@@ -35,9 +35,9 @@ include('../../includes/header.php');
 		
 		<div id="basic-hero-summary">
 
-			<h2>Kristin Nimeger</h2>
+			<h1>Kristin Nimsger</h1>
 
-			<h3>Chief Executive Officer</h3>	
+			<h2>Chief Executive Officer</h2>	
 
 		</div>
 

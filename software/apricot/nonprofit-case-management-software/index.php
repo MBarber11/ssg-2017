@@ -45,7 +45,7 @@ include('../../../includes/header.php');
   		
 		</div>
 	   
-	   <div id="solutions-one-image"><img alt="" src="<?=$url;?>/images/case-management-1.jpg"></div>   
+	   <div id="solutions-one-image"><img alt="" src="<?=$url;?>/images/case-management-1.png"></div>   
 	
 	</div>
 

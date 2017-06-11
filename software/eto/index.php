@@ -102,7 +102,7 @@ include('../../includes/header.php');
 		
 			<ul>
 			
-				<li class="feature-database">
+				<li class="feature-case">
 				
 					<div class="features-item-copy">
 					
@@ -114,7 +114,7 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-tracking">
+				<li class="feature-outcomes">
 					
 					<div class="features-item-copy">
 					
@@ -126,23 +126,25 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-case">
+				<li class="feature-tracking">
 					
-					<div class="features-item-copy"><div class="features-title">Best in Class Reporting</div>
+					<div class="features-item-copy">
+					
+						<div class="features-title">System Integration</div>
 						
-						<p>Utilize the most comprehensive reporting suite in the market</p>
+						<p>Share data and integrate between systems with our open API and automated file transfers</p>
 						
 					</div>
 					
 				</li>
 				
-				<li class="feature-outcomes">
+				
+				
+				<li class="feature-reports">
 					
-					<div class="features-item-copy">
-					
-						<div class="features-title">Configurable Dashboards</div>
+					<div class="features-item-copy"><div class="features-title">Best in Class Reporting</div>
 						
-						<p>Gain 360 views through configurable dashboards</p>
+						<p>Utilize the most comprehensive reporting suite in the market</p>
 						
 					</div>
 					
@@ -156,8 +158,7 @@ include('../../includes/header.php');
 		
 			<ul>
 			
-				
-				<li class="feature-grants">
+				<li class="feature-tools">
 				
 					<div class="features-item-copy">
 					
@@ -169,7 +170,7 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-database">
+				<li class="feature-alerts">
 				
 					<div class="features-item-copy">
 					
@@ -181,13 +182,13 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-tracking">
+				<li class="feature-design">
 					
 					<div class="features-item-copy">
 					
-						<div class="features-title">System Integration</div>
+						<div class="features-title">Configurable Dashboards</div>
 						
-						<p>Share data and integrate between systems with our open API and automated file transfers</p>
+						<p>Gain 360 views through configurable dashboards</p>
 						
 					</div>
 					

@@ -72,7 +72,7 @@ include('../../includes/header.php');
 
 		<div id="client-summary">
 
-			<h3>United Way of Metro Chicago</h3>
+			<h2>United Way of Metro Chicago</h2>
 
 			<p>United Way of Metropolitan Chicago (UWMC) wanted to take their investment a step further, transitioning from funding the same programs and organizations year after year to focusing on impact investing to collectively and effectively make progress toward defined goals across community organizations. Using Apricot, UWMC is able to track the application and review process as well as report on the progress their grantees are making.</p>	
 

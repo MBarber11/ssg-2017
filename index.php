@@ -27,7 +27,7 @@ include('includes/header.php');
 		
 		<p>Social Solutions gives you easy-to-use tools to track data, manage cases, and measure outcomes. Whether you are a small team just starting to track data or a large multi-service organization, our tools meet you where you are, and grow with you as your needs evolve. </p>
 		
-		<div id="hero-learn-more-button"><a href="<?=$url;?>/solutions/">Learn More</a></div>
+		<div id="hero-learn-more-button"><a href="<?=$url;?>/software/">Learn More</a></div>
 		
 		<div id="hero-scroll-button"><a href="#about">learn more</a></div>
 		
@@ -85,7 +85,7 @@ include('includes/header.php');
 
 	<div id="featured-client-content">
 
-		<div id="client-image"><img alt="" src="images/clients/featured-client-friends-of-children.jpg"></div>
+		<div id="client-image"><img alt="" src="<?=$url;?>/images/clients/featured-client-friends-of-children.jpg"></div>
 
 		<div id="client-summary">
 
@@ -200,7 +200,7 @@ include('includes/header.php');
   		
 		</div>
 	   
-	   <div id="services-image"></div>
+	   <div id="services-image"><img alt="" src="<?=$url;?>/images/home-services.jpg"></div>
 
 	   <div class="clear"></div><!--clear-->
    

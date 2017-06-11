@@ -249,7 +249,7 @@ include('../includes/header.php');
 
 					<ul>
 
-						<li class="feature-database">
+						<li class="feature-email">
 
 							<div class="features-item-copy">
 
@@ -261,7 +261,7 @@ include('../includes/header.php');
 
 						</li>
 
-						<li class="feature-tracking">
+						<li class="feature-phone">
 
 							<div class="features-item-copy">
 
@@ -281,7 +281,7 @@ include('../includes/header.php');
 
 					<ul>
 
-						<li class="feature-grants">
+						<li class="feature-chat">
 
 							<div class="features-item-copy">
 
@@ -293,7 +293,7 @@ include('../includes/header.php');
 
 						</li>
 
-						<li class="feature-database">
+						<li class="feature-knowledge">
 
 							<div class="features-item-copy">
 

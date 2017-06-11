@@ -124,7 +124,7 @@ include('../includes/header.php');
 
 		<div id="team-summary">
 
-			<h2>Who We Are</h2>
+			<h2>Leadership</h2>
 			
 			<div id="team-row-one">
 			
@@ -172,7 +172,7 @@ include('../includes/header.php');
 
 				<div class="team-member last">
 
-					<a href="<?=$url;?>/about-us/team/tricia-benedrix.php">
+					<a href="<?=$url;?>/about-us/team/tricia-benedix.php">
 
 						<img alt="CFO Tricia Benedix" src="../images/team/team-tricia-benedix.png">
 
@@ -192,7 +192,7 @@ include('../includes/header.php');
 			
 				<div class="team-member">
 
-					<a href="<?=$url;?>/about-us/team/kristin-nimsger.php">
+					<a href="<?=$url;?>/about-us/team/nikhil-kumar.php">
 
 						<img alt="COO Nikhil Kumar" src="../images/team/team-nikhil-kumar.png">
 
@@ -234,7 +234,7 @@ include('../includes/header.php');
 
 				<div class="team-member last">
 
-					<a href="<?=$url;?>/about-us/team/tricia-benedrix.php">
+					<a href="<?=$url;?>/about-us/team/heather-smith.php">
 
 						<img alt="VP of Marketing Heather Smith" src="../images/team/team-heather-smith.png">
 

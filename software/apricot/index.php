@@ -171,7 +171,7 @@ include('../../includes/header.php');
 		
 			<ul>
 			
-				<li class="feature-database">
+				<li class="feature-secure">
 				
 					<div class="features-item-copy">
 					
@@ -195,7 +195,7 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-case">
+				<li class="feature-valid">
 					
 					<div class="features-item-copy"><div class="features-title">Data Validation</div>
 						
@@ -226,7 +226,7 @@ include('../../includes/header.php');
 			<ul>
 			
 				
-				<li class="feature-grants">
+				<li class="feature-volunteer">
 				
 					<div class="features-item-copy">
 					
@@ -238,7 +238,7 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-database">
+				<li class="feature-design">
 				
 					<div class="features-item-copy">
 					
@@ -250,7 +250,7 @@ include('../../includes/header.php');
 					
 				</li>
 				
-				<li class="feature-tracking">
+				<li class="feature-reports">
 					
 					<div class="features-item-copy">
 					

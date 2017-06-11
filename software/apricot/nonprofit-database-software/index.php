@@ -44,7 +44,7 @@ include('../../../includes/header.php');
   		
 		</div>
 	   
-	   <div id="solutions-one-image"><img alt="" src="<?=$url;?>/images/solutions-1.jpg"></div>   
+	   <div id="solutions-one-image"><img alt="" src="<?=$url;?>/images/database-management-1.jpg"></div>   
 	
 	</div>
 
@@ -104,7 +104,7 @@ include('../../../includes/header.php');
 
 	<div id="solutions-two-content">
 	
- 		<div id="solutions-two-image"><img alt="" src="<?=$url;?>/images/solutions-3.jpg"></div> 
+ 		<div id="solutions-two-image"><img alt="" src="<?=$url;?>/images/database-management-2.png"></div> 
  		
   		<div id="solutions-two-summary">
   	
@@ -136,7 +136,7 @@ include('../../../includes/header.php');
   		
 		</div>
 	   
-	   <div id="solutions-three-image"><img alt="" src="<?=$url;?>/images/solutions-3.jpg"></div>   
+	   <div id="solutions-three-image"><img alt="" src="<?=$url;?>/images/database-management-3.png"></div>   
 	   
 	   <div class="clear"></div><!--clear-->
 	

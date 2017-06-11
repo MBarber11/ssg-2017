@@ -34,10 +34,9 @@ include('../../includes/header.php');
 		
 		<div id="basic-hero-summary">
 
-			<h2>Nikhil Kumar</h2>
+			<h1>Nikhil Kumar</h1>
 
-			<h3>Chief Operating Officer
-</h3>	
+			<h2>Chief Operating Officer</h2>	
 
 		</div>
 

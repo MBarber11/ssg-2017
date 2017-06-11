@@ -33,9 +33,9 @@ include('../../includes/header.php');
 		
 		<div id="basic-hero-summary">
 
-			<h2>Matt Van Itallie</h2>
+			<h1>Matt Van Itallie</h1>
 
-			<h3>VP of Customer Support and Customer Operations</h3>	
+			<h2>VP of Customer Support and Customer Operations</h2>	
 
 		</div>
 
@@ -51,14 +51,16 @@ include('../../includes/header.php');
 
 	<div id="basic-about-content">	
 
-		<div id="bio">
+		<div id="bio-one-column">
 		
-		<p>Matt is the VP of Customer Support and Customer Operations at Social Solutions. In that role, Matt leads our customer support functions for all product lines.</p>
+		<p>Matt is the VP of Customer Support and Customer Operations at Social Solutions. In that role, Matt leads our customer support functions for all product lines.</p><br>
 		
-		<p>Matt brings over 20 years of experience working with mission-driven institutions to Social Solutions. He has served as the chief research and evaluation officer of a $1.1BN school district and advised state, local and national government agencies as a consultant at McKinsey & Company.</p>
+		<p>Matt brings over 20 years of experience working with mission-driven institutions to Social Solutions. He has served as the chief research and evaluation officer of a $1.1BN school district and advised state, local and national government agencies as a consultant at McKinsey & Company.</p><br>
   
 		<p>Matt graduated from Swarthmore College with a Bachelor of Arts in History and earned his J.D. at Harvard Law School.</p>
-
+		
+		<br>
+		<br>
 
 		</div>
 		

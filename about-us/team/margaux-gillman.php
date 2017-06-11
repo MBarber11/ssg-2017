@@ -35,9 +35,9 @@ include('../../includes/header.php');
 		
 		<div id="basic-hero-summary">
 
-			<h2>Margaux Gillman</h2>
+			<h1>Margaux Gillman</h1>
 
-			<h3>VP of People</h3>	
+			<h2>VP of People</h2>	
 
 		</div>
 
